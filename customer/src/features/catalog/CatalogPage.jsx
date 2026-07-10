@@ -9,7 +9,7 @@ import {
   RefreshCw, Headphones, Heart, Star, ShoppingBag, Search as SearchIcon
 } from 'lucide-react';
 
-const API = 'http://localhost:5000/api';
+const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 // Icon map for categories
 const categoryIcons = {

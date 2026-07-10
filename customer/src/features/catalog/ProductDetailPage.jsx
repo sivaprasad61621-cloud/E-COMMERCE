@@ -161,7 +161,8 @@ export const ProductDetailPage = () => {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch(`http://localhost:5000/api/products/${id}`);
+        const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+        const response = await fetch(`${API}/products/${id}`);
         if (!response.ok) {
           throw new Error('Object not found in ledger archives.');
         }

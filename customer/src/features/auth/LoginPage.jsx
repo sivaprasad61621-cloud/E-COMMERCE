@@ -47,7 +47,8 @@ export const LoginPage = () => {
     dispatch(loginStart());
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+      const response = await fetch(`${API}/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -131,7 +132,8 @@ export const LoginPage = () => {
     setShowOauthModal(false);
     dispatch(loginStart());
     try {
-      const response = await fetch('http://localhost:5000/api/auth/oauth', {
+      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+      const response = await fetch(`${API}/auth/oauth`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

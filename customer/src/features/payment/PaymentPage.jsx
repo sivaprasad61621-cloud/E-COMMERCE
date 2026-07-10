@@ -91,7 +91,8 @@ export const PaymentPage = () => {
         };
       });
 
-      const response = await fetch('http://localhost:5000/api/orders', {
+      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+      const response = await fetch(`${API}/orders`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

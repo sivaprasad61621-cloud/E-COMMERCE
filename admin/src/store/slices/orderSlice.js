@@ -1,7 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const ORDERS_API = 'http://localhost:5000/api/orders';
-const CUSTOMERS_API = 'http://localhost:5000/api/customers';
+const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const ORDERS_API = `${API}/orders`;
+const CUSTOMERS_API = `${API}/customers`;
 
 export const fetchOrders = createAsyncThunk(
   'orders/fetchOrders',

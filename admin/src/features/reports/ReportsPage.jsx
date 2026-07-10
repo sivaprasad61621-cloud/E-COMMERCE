@@ -26,18 +26,19 @@ export const ReportsPage = () => {
     const fetchData = async () => {
       setLoading(true);
       try {
+        const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
         // Fetch summary
-        const sumResp = await fetch('http://localhost:5000/api/reports/summary');
+        const sumResp = await fetch(`${API}/reports/summary`);
         const sumData = await sumResp.json();
         setSummary(sumData);
 
         // Fetch chart data
-        const chartResp = await fetch(`http://localhost:5000/api/reports/sales-chart?range=${range}`);
+        const chartResp = await fetch(`${API}/reports/sales-chart?range=${range}`);
         const chartVals = await chartResp.json();
         setChartData(chartVals);
 
         // Fetch low stock items
-        const stockResp = await fetch('http://localhost:5000/api/reports/low-stock');
+        const stockResp = await fetch(`${API}/reports/low-stock`);
         const stockVals = await stockResp.json();
         setLowStockList(stockVals);
       } catch (err) {

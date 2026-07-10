@@ -50,7 +50,8 @@ export const RegisterPage = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/register', {
+      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+      const response = await fetch(`${API}/auth/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -108,7 +109,8 @@ export const RegisterPage = () => {
     setShowOauthModal(false);
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:5000/api/auth/oauth', {
+      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+      const response = await fetch(`${API}/auth/oauth`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

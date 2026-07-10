@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const API_URL = 'http://localhost:5000/api/categories';
+const API_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:5000/api'}/categories`;
 
 export const fetchCategories = createAsyncThunk(
   'categories/fetchCategories',
