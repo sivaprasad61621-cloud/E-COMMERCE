@@ -111,7 +111,7 @@ export const Header = () => {
   return (
     <header className="bg-[#FAF8F3] text-[#2F2F2F] select-none flex flex-col z-20 sticky top-0 border-b border-[#2F2F2F]/15">
       {/* 1. Top Bar */}
-      <div className="bg-[#F5F1E8] border-b border-[#2F2F2F]/10 py-2.5 px-6">
+      <div className="hidden md:block bg-[#F5F1E8] border-b border-[#2F2F2F]/10 py-2.5 px-6">
         <div className="max-w-screen-2xl mx-auto flex justify-between items-center text-[10px] uppercase tracking-widest font-medium text-[#7A756B]">
           <div>Welcome to Velora</div>
           <div>Simple. Smart. Shopping.</div>

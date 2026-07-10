@@ -265,10 +265,10 @@ export const CatalogPage = () => {
       )}
 
       {/* 1. Category Sidebar and Hero Banner Row */}
-      <div className="flex gap-8 items-stretch">
-        {/* Left category list sidebar */}
-        <div className="w-[240px] shrink-0 bg-[#FAF8F3] border border-[#2F2F2F]/15 flex flex-col justify-between p-2 rounded-sm select-none">
-          <div className="divide-y divide-[#2F2F2F]/10">
+      <div className="flex flex-col lg:flex-row gap-8 items-stretch">
+        {/* Left category list sidebar (Desktop only) */}
+        <div className="hidden lg:flex w-[240px] shrink-0 bg-[#FAF8F3] border border-[#2F2F2F]/15 flex-col justify-between p-2 rounded-sm select-none">
+          <div className="divide-y divide-[#2F2F2F]/10 w-full">
             {categories.map((cat) => {
               const Icon = getCategoryIcon(cat.name);
               const isSelected = categoryFilter && (cat.slug === categoryFilter || cat.name.toLowerCase() === categoryFilter.toLowerCase());
@@ -289,7 +289,7 @@ export const CatalogPage = () => {
           </div>
           <div
             onClick={() => navigate('/shop')}
-            className="border-t border-[#2F2F2F]/15 p-3 flex items-center justify-between text-xs font-bold text-[#8B5E3C] hover:text-[#2F2F2F] cursor-pointer transition-colors"
+            className="border-t border-[#2F2F2F]/15 p-3 flex items-center justify-between text-xs font-bold text-[#8B5E3C] hover:text-[#2F2F2F] cursor-pointer transition-colors w-full"
           >
             <span>View All Categories</span>
             <ChevronRight size={13} />
