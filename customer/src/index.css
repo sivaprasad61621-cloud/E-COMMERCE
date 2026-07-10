@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  --shadow-vintage-flat: 4px 4px 0px 0px #2F2F2F;
+}
+
+@layer base {
+  body {
+    background-color: #F5F1E8;
+    color: #2F2F2F;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F1E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #8B5E3C;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2F2F2F;
+}
+
+/* Custom Border Utilities for Editorial Aesthetic */
+.border-editorial {
+  border: 1px solid #2F2F2F;
+}
+
+.border-editorial-t {
+  border-top: 1px solid #2F2F2F;
+}
+
+.border-editorial-b {
+  border-bottom: 1px solid #2F2F2F;
+}
+
+.border-editorial-r {
+  border-right: 1px solid #2F2F2F;
+}
+
+.border-editorial-l {
+  border-left: 1px solid #2F2F2F;
+}
+
+/* Micro Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
