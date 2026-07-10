@@ -272,8 +272,8 @@ export const ProfilePage = () => {
             </div>
           </div>
 
-          {/* Menu Items List */}
-          <div className="py-2 bg-white">
+          {/* Menu Items List (Vertical on Desktop, Hidden on Mobile) */}
+          <div className="hidden lg:block py-2 bg-white">
             {sidebarMenuItems.map((item) => {
               const Icon = item.icon;
               const isActive = activeTab === item.id;
@@ -301,6 +301,31 @@ export const ProfilePage = () => {
                     <p className="text-[10px] text-[#7A756B] leading-tight mt-0.5 truncate">{item.desc}</p>
                   </div>
                   <ChevronRight size={13} className={`transition-colors shrink-0 ${isActive ? 'text-[#8B5E3C]' : 'text-[#2F2F2F]/20 group-hover:text-[#8B5E3C]'}`} />
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Menu Items Horizontal Scroll (Visible only on mobile/tablet) */}
+          <div className="lg:hidden flex overflow-x-auto whitespace-nowrap p-3 gap-2 bg-[#FAF8F3]/50 border-t border-[#2F2F2F]/10 scrollbar-none">
+            {sidebarMenuItems.map((item) => {
+              const Icon = item.icon;
+              const isActive = activeTab === item.id;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => {
+                    setActiveTab(item.id);
+                    setSelectedOrder(null);
+                  }}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 cursor-pointer ${
+                    isActive 
+                      ? 'bg-[#8B5E3C] text-white shadow-sm' 
+                      : 'bg-white border border-[#2F2F2F]/15 text-[#2F2F2F] hover:bg-[#2F2F2F]/5'
+                  }`}
+                >
+                  <Icon size={14} style={{ color: isActive ? '#FFFFFF' : item.accent }} />
+                  <span>{item.label}</span>
                 </button>
               );
             })}

@@ -128,34 +128,83 @@ export const Header = () => {
       </div>
 
       {/* 2. Main Header Bar */}
-      <div className="py-5 px-6 border-b border-[#2F2F2F]/10">
-        <div className="max-w-screen-2xl mx-auto flex justify-between items-center gap-6">
+      <div className="py-4 px-4 md:px-6 border-b border-[#2F2F2F]/10">
+        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
 
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group shrink-0">
-            <svg viewBox="0 0 100 100" className="w-12 h-12">
-              <circle cx="50" cy="50" r="45" fill="none" stroke="#2F2F2F" strokeWidth="1.2" />
-              <circle cx="50" cy="50" r="41" fill="none" stroke="#2F2F2F" strokeWidth="0.6" strokeDasharray="2 1.5" />
-              <path id="headerLogoPathTop" d="M 22 50 A 28 28 0 0 1 78 50" fill="none" />
-              <text className="font-serif text-[10px] tracking-[0.25em] fill-[#2F2F2F] font-bold" textAnchor="middle">
-                <textPath href="#headerLogoPathTop" startOffset="50%">VELORA</textPath>
-              </text>
-              <path id="headerLogoPathBottom" d="M 78 50 A 28 28 0 0 1 22 50" fill="none" />
-              <text className="font-sans text-[4.5px] tracking-[0.12em] fill-[#7A756B] font-bold" textAnchor="middle">
-                <textPath href="#headerLogoPathBottom" startOffset="50%">SIMPLE • SMART • SHOPPING</textPath>
-              </text>
-              <text x="49" y="58" className="font-serif text-2xl font-black fill-[#2F2F2F]" textAnchor="middle">V</text>
-              <path d="M 57 58 C 57 54 54 50 55 46 M 55 46 C 57 44 60 44 61 46 M 55 49 C 53 48 52 46 53 45 M 56 53 C 58 52 60 50 59 49 M 57 56 C 55 54 54 52 56 51"
-                    fill="none" stroke="#8B5E3C" strokeWidth="0.8" strokeLinecap="round" />
-            </svg>
-            <div className="flex flex-col text-left">
-              <span className="font-serif text-lg font-bold uppercase tracking-wider leading-none">VELORA</span>
-              <span className="text-[9px] uppercase tracking-widest font-semibold text-[#8B5E3C] mt-1.5">Simple. Smart. Shopping.</span>
+          {/* Logo & Mobile Actions Wrapper */}
+          <div className="w-full md:w-auto flex justify-between items-center gap-4">
+            {/* Logo */}
+            <Link to="/" className="flex items-center gap-2 group shrink-0">
+              <svg viewBox="0 0 100 100" className="w-10 h-10 md:w-12 md:h-12">
+                <circle cx="50" cy="50" r="45" fill="none" stroke="#2F2F2F" strokeWidth="1.2" />
+                <circle cx="50" cy="50" r="41" fill="none" stroke="#2F2F2F" strokeWidth="0.6" strokeDasharray="2 1.5" />
+                <path id="headerLogoPathTop" d="M 22 50 A 28 28 0 0 1 78 50" fill="none" />
+                <text className="font-serif text-[10px] tracking-[0.25em] fill-[#2F2F2F] font-bold" textAnchor="middle">
+                  <textPath href="#headerLogoPathTop" startOffset="50%">VELORA</textPath>
+                </text>
+                <path id="headerLogoPathBottom" d="M 78 50 A 28 28 0 0 1 22 50" fill="none" />
+                <text className="font-sans text-[4.5px] tracking-[0.12em] fill-[#7A756B] font-bold" textAnchor="middle">
+                  <textPath href="#headerLogoPathBottom" startOffset="50%">SIMPLE • SMART • SHOPPING</textPath>
+                </text>
+                <text x="49" y="58" className="font-serif text-2xl font-black fill-[#2F2F2F]" textAnchor="middle">V</text>
+                <path d="M 57 58 C 57 54 54 50 55 46 M 55 46 C 57 44 60 44 61 46 M 55 49 C 53 48 52 46 53 45 M 56 53 C 58 52 60 50 59 49 M 57 56 C 55 54 54 52 56 51"
+                      fill="none" stroke="#8B5E3C" strokeWidth="0.8" strokeLinecap="round" />
+              </svg>
+              <div className="flex flex-col text-left">
+                <span className="font-serif text-base md:text-lg font-bold uppercase tracking-wider leading-none">VELORA</span>
+                <span className="text-[8px] md:text-[9px] uppercase tracking-widest font-semibold text-[#8B5E3C] mt-1 md:mt-1.5">Simple. Smart. Shopping.</span>
+              </div>
+            </Link>
+
+            {/* Mobile Touch Action Icons (Visible only on mobile/tablet screens) */}
+            <div className="flex items-center gap-4 md:hidden">
+              {/* Wishlist */}
+              <button
+                onClick={() => navigate('/wishlist')}
+                className="relative p-1.5 text-[#2F2F2F] hover:text-[#8B5E3C] transition-colors"
+              >
+                <Heart size={20} />
+                {wishlistItems.length > 0 && (
+                  <span className="absolute top-0 right-0 bg-red-500 text-white w-4 h-4 rounded-full flex items-center justify-center text-[8px] font-bold">
+                    {wishlistItems.length}
+                  </span>
+                )}
+              </button>
+
+              {/* Cart */}
+              <button
+                onClick={() => navigate('/checkout')}
+                className="relative p-1.5 text-[#2F2F2F] hover:text-[#8B5E3C] transition-colors"
+              >
+                <ShoppingBag size={20} />
+                {totalItemsCount > 0 && (
+                  <span className="absolute top-0 right-0 bg-[#8B5E3C] text-white w-4 h-4 rounded-full flex items-center justify-center text-[8px] font-bold">
+                    {totalItemsCount > 99 ? '99+' : totalItemsCount}
+                  </span>
+                )}
+              </button>
+
+              {/* Profile Avatar / Login */}
+              {isAuthenticated ? (
+                <button
+                  onClick={() => navigate('/profile')}
+                  className="w-7 h-7 rounded-full flex items-center justify-center text-white font-bold text-xs bg-[#6C4E31]"
+                >
+                  {(user?.fullName?.split(' ')[0] || user?.email?.split('@')[0] || 'U')[0].toUpperCase()}
+                </button>
+              ) : (
+                <button
+                  onClick={() => navigate('/login')}
+                  className="p-1.5 text-[#2F2F2F] hover:text-[#8B5E3C] transition-colors"
+                >
+                  <User size={20} />
+                </button>
+              )}
             </div>
-          </Link>
+          </div>
 
           {/* Search Bar */}
-          <form onSubmit={handleSearchSubmit} className="relative max-w-xl w-full">
+          <form onSubmit={handleSearchSubmit} className="relative w-full md:max-w-md lg:max-w-xl">
             <input
               type="text"
               value={searchQuery}
@@ -168,9 +217,8 @@ export const Header = () => {
             </button>
           </form>
 
-          {/* Action Icons */}
-          <div className="flex items-center gap-8 shrink-0">
-
+          {/* Desktop Action Icons (Hidden on mobile/tablet) */}
+          <div className="hidden md:flex items-center gap-6 lg:gap-8 shrink-0">
             {/* Live Header Clock */}
             <div className="hidden lg:flex flex-col items-end border-r border-[#2F2F2F]/15 pr-4 mr-2">
               <span className="font-mono text-[11px] font-bold text-[#2F2F2F] tracking-wide leading-none">{currentTime}</span>
@@ -232,6 +280,7 @@ export const Header = () => {
               )}
             </button>
           </div>
+
         </div>
       </div>
 
