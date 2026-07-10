@@ -285,7 +285,7 @@ export const Header = () => {
       </div>
 
       {/* 3. Sub Navigation */}
-      <div className="bg-[#FAF8F3]">
+      <div className="hidden lg:block bg-[#FAF8F3]">
         <div className="max-w-screen-2xl mx-auto flex items-center">
           <div className="w-[240px] shrink-0 border-r border-[#2F2F2F]/10">
             <Link to="/shop" className="w-full flex items-center gap-3 bg-[#6C4E31] hover:bg-[#8B5E3C] text-[#FAF8F3] px-6 py-3.5 text-xs uppercase tracking-widest font-semibold font-sans transition-colors cursor-pointer">
