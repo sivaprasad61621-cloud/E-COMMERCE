@@ -147,10 +147,36 @@ export const ProfilePage = () => {
 
   const handleSaveAddress = (e) => {
     e.preventDefault();
-    if (!addressForm.first_name || !addressForm.city || !addressForm.address_line1 || !addressForm.postal_code) {
-      alert('Please fill in the required fields: Name, Address, City, and Pincode.');
+    
+    // Required fields check
+    if (!addressForm.first_name || !addressForm.first_name.trim() ||
+        !addressForm.city || !addressForm.city.trim() ||
+        !addressForm.address_line1 || !addressForm.address_line1.trim() ||
+        !addressForm.postal_code || !addressForm.postal_code.trim()) {
+      alert('Please fill in all required fields: Name, Address, City, and Pincode.');
       return;
     }
+
+    // Phone Validation
+    const cleanPhone = (addressForm.phone || '').replace(/[^0-9]/g, '');
+    if (!addressForm.phone || !addressForm.phone.trim()) {
+      alert('Phone number is required.');
+      return;
+    } else if (cleanPhone.length !== 10) {
+      alert('Phone number must contain exactly 10 digits.');
+      return;
+    }
+
+    // Pincode Validation
+    const cleanPostal = addressForm.postal_code.replace(/[^0-9]/g, '');
+    if (addressForm.country && addressForm.country.toLowerCase() === 'india' && cleanPostal.length !== 6) {
+      alert('Pincode in India must contain exactly 6 digits.');
+      return;
+    } else if (addressForm.postal_code.trim().length < 3) {
+      alert('Please enter a valid pincode/postal code.');
+      return;
+    }
+
     dispatch(saveProfile(addressForm));
     setEditingAddress(false);
     setAddressSaved(true);
@@ -778,7 +804,7 @@ export const ProfilePage = () => {
                   </div>
 
                   <div>
-                    <label className="block text-[9px] uppercase tracking-wider font-bold text-[#7A756B] mb-1">Phone Number</label>
+                    <label className="block text-[9px] uppercase tracking-wider font-bold text-[#7A756B] mb-1">Phone Number *</label>
                     <div className="relative">
                       <Phone size={12} className="absolute left-3 top-2.5 text-[#7A756B]" />
                       <input
@@ -786,6 +812,7 @@ export const ProfilePage = () => {
                         value={addressForm.phone || ''}
                         onChange={handleAddressChange}
                         placeholder="9876543210"
+                        required
                         className="w-full bg-white border border-[#2F2F2F]/20 pl-8 pr-3 py-2 text-xs focus:outline-none focus:border-[#8B5E3C] rounded-sm text-[#2F2F2F]"
                       />
                     </div>

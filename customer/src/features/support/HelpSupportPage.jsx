@@ -55,6 +55,11 @@ export const HelpSupportPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!form.email || !emailRegex.test(form.email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
     setSubmitted(true);
     setForm({ name: '', email: '', message: '' });
     setTimeout(() => setSubmitted(false), 4000);

@@ -75,15 +75,40 @@ export const ProductModal = ({ isOpen, onClose, product = null }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!name || !sku || price === undefined) return;
+    if (!name || !name.trim()) {
+      alert("Product name is required.");
+      return;
+    }
+    if (!sku || !sku.trim()) {
+      alert("SKU is required.");
+      return;
+    }
+    
+    const parsedPrice = parseFloat(price);
+    if (isNaN(parsedPrice) || parsedPrice < 0) {
+      alert("Price must be a valid non-negative number.");
+      return;
+    }
+
+    const parsedDiscount = parseFloat(discount || 0);
+    if (isNaN(parsedDiscount) || parsedDiscount < 0 || parsedDiscount > 100) {
+      alert("Discount must be a number between 0 and 100.");
+      return;
+    }
+
+    const parsedStock = parseInt(stock || 0);
+    if (isNaN(parsedStock) || parsedStock < 0) {
+      alert("Stock must be a valid non-negative integer.");
+      return;
+    }
 
     const payload = {
       name,
       sku,
       category_id: categoryId || null,
-      price: parseFloat(price),
-      discount: parseFloat(discount || 0),
-      stock: parseInt(stock || 0),
+      price: parsedPrice,
+      discount: parsedDiscount,
+      stock: parsedStock,
       status,
       description,
       images,

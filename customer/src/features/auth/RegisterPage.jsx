@@ -42,6 +42,31 @@ export const RegisterPage = () => {
       return;
     }
 
+    // Email format validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email || !email.trim()) {
+      setErrorMsg("Email address is required.");
+      return;
+    } else if (!emailRegex.test(email)) {
+      setErrorMsg("Please enter a valid email address (e.g., name@example.com).");
+      return;
+    }
+
+    // Full name validation
+    if (!fullName || !fullName.trim()) {
+      setErrorMsg("Full name is required.");
+      return;
+    }
+
+    // Password validation
+    if (!password) {
+      setErrorMsg("Password is required.");
+      return;
+    } else if (password.length < 6) {
+      setErrorMsg("Password must be at least 6 characters long.");
+      return;
+    }
+
     if (password !== confirmPassword) {
       setErrorMsg("Passwords do not match.");
       return;

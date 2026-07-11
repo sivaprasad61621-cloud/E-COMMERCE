@@ -37,6 +37,8 @@ export const CheckoutPage = () => {
     country: savedAddress.country || 'India',
   });
 
+  const [errors, setErrors] = useState({});
+
 
 
   const handleQtyChange = (id, quantity) => {
@@ -50,6 +52,9 @@ export const CheckoutPage = () => {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setCustomer(prev => ({ ...prev, [name]: value }));
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: '' }));
+    }
   };
 
   // Calculations — price after discount (discount is stored as a percentage)
@@ -71,6 +76,55 @@ export const CheckoutPage = () => {
       alert('No items to order. Please add products to your cart or use Buy Now.');
       return;
     }
+
+    const tempErrors = {};
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // First Name
+    if (!customer.first_name || !customer.first_name.trim()) {
+      tempErrors.first_name = "First name is required";
+    }
+
+    // Email
+    if (!customer.email || !customer.email.trim()) {
+      tempErrors.email = "Email address is required";
+    } else if (!emailRegex.test(customer.email)) {
+      tempErrors.email = "Please enter a valid email address (e.g., name@example.com)";
+    }
+
+    // Phone
+    const cleanPhone = customer.phone.replace(/[^0-9]/g, '');
+    if (!customer.phone || !customer.phone.trim()) {
+      tempErrors.phone = "Phone number is required";
+    } else if (cleanPhone.length !== 10) {
+      tempErrors.phone = "Phone number must contain exactly 10 digits";
+    }
+
+    // Address Line 1
+    if (!customer.address_line1 || !customer.address_line1.trim()) {
+      tempErrors.address_line1 = "Address line 1 is required";
+    }
+
+    // City
+    if (!customer.city || !customer.city.trim()) {
+      tempErrors.city = "City is required";
+    }
+
+    // Pincode
+    const cleanPostal = customer.postal_code.replace(/[^0-9]/g, '');
+    if (!customer.postal_code || !customer.postal_code.trim()) {
+      tempErrors.postal_code = "Pincode/Postal code is required";
+    } else if (customer.country.toLowerCase() === 'india' && cleanPostal.length !== 6) {
+      tempErrors.postal_code = "Pincode in India must contain exactly 6 digits";
+    } else if (customer.postal_code.trim().length < 3) {
+      tempErrors.postal_code = "Please enter a valid postal code";
+    }
+
+    if (Object.keys(tempErrors).length > 0) {
+      setErrors(tempErrors);
+      return;
+    }
+
     // Proceed to secure Payment page
     navigate('/payment', {
       state: {
@@ -223,8 +277,9 @@ export const CheckoutPage = () => {
                       onChange={handleInputChange}
                       required
                       placeholder="Priya"
-                      className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                      className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.first_name ? 'border-red-500 border-opacity-100' : ''}`}
                     />
+                    {errors.first_name && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.first_name}</span>}
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Last Name</label>
@@ -247,20 +302,24 @@ export const CheckoutPage = () => {
                     value={customer.email}
                     onChange={handleInputChange}
                     required
-                    className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                    placeholder="name@example.com"
+                    className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.email ? 'border-red-500 border-opacity-100' : ''}`}
                   />
+                  {errors.email && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.email}</span>}
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Phone Number</label>
+                  <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Phone Number *</label>
                   <input
                     type="tel"
                     name="phone"
                     value={customer.phone}
                     onChange={handleInputChange}
+                    required
                     placeholder="9876543210"
-                    className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                    className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.phone ? 'border-red-500 border-opacity-100' : ''}`}
                   />
+                  {errors.phone && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.phone}</span>}
                 </div>
 
                 <div className="flex flex-col gap-1.5">
@@ -272,8 +331,9 @@ export const CheckoutPage = () => {
                     onChange={handleInputChange}
                     required
                     placeholder="House No., Street, Area"
-                    className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                    className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.address_line1 ? 'border-red-500 border-opacity-100' : ''}`}
                   />
+                  {errors.address_line1 && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.address_line1}</span>}
                 </div>
 
                 <div className="flex flex-col gap-1.5">
@@ -298,8 +358,9 @@ export const CheckoutPage = () => {
                       onChange={handleInputChange}
                       required
                       placeholder="Mumbai"
-                      className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                      className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.city ? 'border-red-500 border-opacity-100' : ''}`}
                     />
+                    {errors.city && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.city}</span>}
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">State</label>
@@ -325,8 +386,9 @@ export const CheckoutPage = () => {
                       required
                       placeholder="400001"
                       maxLength={6}
-                      className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                      className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.postal_code ? 'border-red-500 border-opacity-100' : ''}`}
                     />
+                    {errors.postal_code && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.postal_code}</span>}
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Country</label>
