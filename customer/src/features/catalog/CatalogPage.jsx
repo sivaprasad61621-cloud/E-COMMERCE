@@ -39,6 +39,7 @@ export const CatalogPage = () => {
   const dispatch = useDispatch();
   const [searchParams] = useSearchParams();
 
+  const isAuthenticated = useSelector(state => state.auth.isAuthenticated);
   const wishlistItems = useSelector(state => state.wishlist.items);
   const isWishlisted = (id) => wishlistItems.some(item => item.id === id);
 
@@ -229,6 +230,10 @@ export const CatalogPage = () => {
 
   const handleAddToCart = (e, item) => {
     e.stopPropagation();
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
     if (item.rawProduct) {
       dispatch(addToCart(item.rawProduct));
     } else {
@@ -464,6 +469,10 @@ export const CatalogPage = () => {
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
+                      if (!isAuthenticated) {
+                        navigate('/login');
+                        return;
+                      }
                       dispatch(toggleWishlist(item.rawProduct || {
                         id: item.id,
                         name: item.name,

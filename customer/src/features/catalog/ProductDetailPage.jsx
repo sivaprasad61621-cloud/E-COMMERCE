@@ -130,7 +130,7 @@ export const ProductDetailPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const dispatch = useDispatch();
-
+  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
   const currentUser = useSelector((state) => state.auth.user);
   
   const [product, setProduct] = useState(null);
@@ -179,6 +179,10 @@ export const ProductDetailPage = () => {
   }, [id]);
 
   const handleAddToCart = () => {
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
     if (product) {
       dispatch(addToCart(product));
       setAdded(true);
@@ -187,6 +191,10 @@ export const ProductDetailPage = () => {
   };
 
   const handleBuyNow = () => {
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
     if (!product || product.stock === 0) return;
     navigate('/checkout', {
       state: {

@@ -36,6 +36,7 @@ export const ShopPage = () => {
   const dispatch = useDispatch();
   const [searchParams, setSearchParams] = useSearchParams();
 
+  const isAuthenticated = useSelector(state => state.auth.isAuthenticated);
   const wishlistItems = useSelector(state => state.wishlist.items);
   const isWishlisted = (id) => wishlistItems.some(item => item.id === id);
 
@@ -134,6 +135,10 @@ export const ShopPage = () => {
 
   const handleAddToCart = (e, p) => {
     e.stopPropagation();
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
     dispatch(addToCart(p));
     setAddedIds(prev => ({ ...prev, [p.id]: true }));
     setTimeout(() => setAddedIds(prev => ({ ...prev, [p.id]: false })), 1500);
@@ -141,6 +146,10 @@ export const ShopPage = () => {
 
   const handleBuyNow = (e, p) => {
     e.stopPropagation();
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
     // Navigate to checkout with just this product — bypasses cart
     navigate('/checkout', {
       state: {
@@ -337,7 +346,14 @@ export const ShopPage = () => {
                   className="bg-[#FAF8F3] border border-[#2F2F2F]/15 rounded-sm p-4 relative flex flex-col group hover:shadow-md hover:border-[#8B5E3C]/30 transition-all duration-300 cursor-pointer"
                 >
                   <button
-                    onClick={e => { e.stopPropagation(); dispatch(toggleWishlist(p)); }}
+                    onClick={e => {
+                      e.stopPropagation();
+                      if (!isAuthenticated) {
+                        navigate('/login');
+                        return;
+                      }
+                      dispatch(toggleWishlist(p));
+                    }}
                     className="absolute top-3 right-3 text-[#7A756B] hover:text-red-500 transition-colors z-10 cursor-pointer"
                   >
                     <Heart size={14} fill={isWishlisted(p.id) ? "#EF4444" : "none"} className={isWishlisted(p.id) ? "text-red-500" : "text-[#7A756B]"} />

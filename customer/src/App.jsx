@@ -71,15 +71,15 @@ function AppContent() {
       
       <main className={`flex-1 ${isAuthPage ? '' : 'max-w-screen-2xl w-full mx-auto px-6 py-12'}`}>
         <Routes>
-          <Route path="/" element={<ProtectedRoute><CatalogPage /></ProtectedRoute>} />
-          <Route path="/product/:id" element={<ProtectedRoute><ProductDetailPage /></ProtectedRoute>} />
+          <Route path="/" element={<CatalogPage />} />
+          <Route path="/product/:id" element={<ProductDetailPage />} />
           <Route path="/checkout" element={<ProtectedRoute><CheckoutPage /></ProtectedRoute>} />
           <Route path="/orders" element={<ProtectedRoute><OrdersPage /></ProtectedRoute>} />
           <Route path="/track" element={<Navigate to="/orders" replace />} />
           <Route path="/wishlist" element={<ProtectedRoute><WishlistPage /></ProtectedRoute>} />
-          <Route path="/help" element={<ProtectedRoute><HelpSupportPage /></ProtectedRoute>} />
-          <Route path="/shop" element={<ProtectedRoute><ShopPage /></ProtectedRoute>} />
-          <Route path="/info/:slug" element={<ProtectedRoute><StaticInfoPage /></ProtectedRoute>} />
+          <Route path="/help" element={<HelpSupportPage />} />
+          <Route path="/shop" element={<ShopPage />} />
+          <Route path="/info/:slug" element={<StaticInfoPage />} />
           <Route path="/profile" element={<ProtectedRoute><ProfilePage /></ProtectedRoute>} />
           <Route path="/payment" element={<ProtectedRoute><PaymentPage /></ProtectedRoute>} />
           <Route path="/login" element={<LoginPage />} />
