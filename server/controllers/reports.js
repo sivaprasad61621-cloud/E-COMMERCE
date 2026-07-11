@@ -4,7 +4,7 @@ import { mockOrders } from './orders.js';
 
 export const getSummary = async (req, res) => {
   if (!supabase) {
-    // Mock Mode
+    // Mock Mode — compute totals from actual mock data
     const totalProducts = mockProducts.length;
     const totalOrders = mockOrders.length;
     const revenue = mockOrders.reduce((sum, o) => sum + parseFloat(o.total_amount), 0);

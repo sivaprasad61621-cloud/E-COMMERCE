@@ -25,10 +25,10 @@ export const DashboardPage = () => {
 
   // States for live data
   const [summary, setSummary] = useState({
-    total_products: 248,
-    total_orders: 1420,
-    revenue: 184500.50,
-    low_stock_count: 8
+    total_products: 0,
+    total_orders: 0,
+    revenue: 0,
+    low_stock_count: 0
   });
   const [salesData, setSalesData] = useState([
     { date: 'Mon', revenue: 2400 },
