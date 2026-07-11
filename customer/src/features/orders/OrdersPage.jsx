@@ -5,7 +5,7 @@ import Card from '../../components/Card';
 import Table from '../../components/Table';
 import Button from '../../components/Button';
 import { 
-  Search, CheckCircle, Package, Truck, Award, 
+  Search, CheckCircle, Package, Truck, Award, MapPin,
   ArrowLeft, Calendar, ChevronRight, ShoppingBag, Eye 
 } from 'lucide-react';
 
@@ -84,11 +84,12 @@ export const OrdersPage = () => {
   const getStatusStepClass = (stepName) => {
     if (!selectedOrder) return 'text-[#7A756B] opacity-40';
     const statusMap = {
-      'pending': 0,
-      'packed': 1,
-      'shipped': 2,
-      'delivered': 3,
-      'cancelled': -1,
+      'pending':          0,
+      'packed':           1,
+      'shipped':          2,
+      'out_for_delivery': 3,
+      'delivered':        4,
+      'cancelled':        -1,
     };
     const currentStep = statusMap[selectedOrder.status];
     const targetStep = statusMap[stepName];
@@ -108,16 +109,12 @@ export const OrdersPage = () => {
 
   const getStatusBadgeClass = (status) => {
     switch (status) {
-      case 'delivered':
-        return 'bg-green-100 text-green-800 border-green-200';
-      case 'shipped':
-        return 'bg-blue-100 text-blue-800 border-blue-200';
-      case 'packed':
-        return 'bg-amber-100 text-amber-800 border-amber-200';
-      case 'cancelled':
-        return 'bg-red-100 text-red-800 border-red-200';
-      default:
-        return 'bg-[#F5F1E8] text-[#7A756B] border-[#2F2F2F]/10';
+      case 'delivered':        return 'bg-green-100 text-green-800 border-green-200';
+      case 'out_for_delivery': return 'bg-orange-100 text-orange-800 border-orange-200';
+      case 'shipped':          return 'bg-blue-100 text-blue-800 border-blue-200';
+      case 'packed':           return 'bg-amber-100 text-amber-800 border-amber-200';
+      case 'cancelled':        return 'bg-red-100 text-red-800 border-red-200';
+      default:                 return 'bg-[#F5F1E8] text-[#7A756B] border-[#2F2F2F]/10';
     }
   };
 
@@ -161,7 +158,7 @@ export const OrdersPage = () => {
                     <span className="text-xs">This order dispatch has been cancelled and voided.</span>
                   </div>
                 ) : (
-                  <div className="grid grid-cols-4 gap-4 py-8 relative">
+                  <div className="grid grid-cols-5 gap-2 py-8 relative">
                     {/* Placed */}
                     <div className={`flex flex-col items-center gap-2 text-center ${getStatusStepClass('pending')}`}>
                       <CheckCircle size={24} />
@@ -189,11 +186,20 @@ export const OrdersPage = () => {
                       </div>
                     </div>
 
+                    {/* Out for Delivery */}
+                    <div className={`flex flex-col items-center gap-2 text-center ${getStatusStepClass('out_for_delivery')}`}>
+                      <MapPin size={24} />
+                      <div>
+                        <span className="text-xs font-semibold uppercase tracking-wider block">4. Out for Delivery</span>
+                        <span className="text-[9px] text-[#7A756B] block">On the way to you</span>
+                      </div>
+                    </div>
+
                     {/* Delivered */}
                     <div className={`flex flex-col items-center gap-2 text-center ${getStatusStepClass('delivered')}`}>
                       <Award size={24} />
                       <div>
-                        <span className="text-xs font-semibold uppercase tracking-wider block">4. Delivered</span>
+                        <span className="text-xs font-semibold uppercase tracking-wider block">5. Delivered</span>
                         <span className="text-[9px] text-[#7A756B] block">Signed for delivery</span>
                       </div>
                     </div>

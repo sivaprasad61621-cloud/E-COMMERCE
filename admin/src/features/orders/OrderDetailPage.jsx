@@ -80,13 +80,14 @@ export const OrderDetailPage = () => {
             <div className="flex flex-col md:items-end gap-1.5">
               <h1 className="text-2xl font-serif uppercase tracking-widest text-[#2F2F2F]">Invoice</h1>
               <span className={`px-2 py-0.5 border-[0.5px] rounded-full text-[10px] uppercase font-semibold tracking-wider ${
-                currentOrderDetail.status === 'pending' ? 'border-amber-300 text-amber-800 bg-amber-50' :
-                currentOrderDetail.status === 'packed' ? 'border-blue-300 text-blue-800 bg-blue-50' :
-                currentOrderDetail.status === 'shipped' ? 'border-indigo-300 text-indigo-800 bg-indigo-50' :
-                currentOrderDetail.status === 'delivered' ? 'border-green-300 text-green-800 bg-green-50' :
+                currentOrderDetail.status === 'pending'          ? 'border-amber-300 text-amber-800 bg-amber-50' :
+                currentOrderDetail.status === 'packed'           ? 'border-blue-300 text-blue-800 bg-blue-50' :
+                currentOrderDetail.status === 'shipped'          ? 'border-indigo-300 text-indigo-800 bg-indigo-50' :
+                currentOrderDetail.status === 'out_for_delivery' ? 'border-orange-300 text-orange-800 bg-orange-50' :
+                currentOrderDetail.status === 'delivered'        ? 'border-green-300 text-green-800 bg-green-50' :
                 'border-red-300 text-red-800 bg-red-50'
               }`}>
-                {currentOrderDetail.status}
+                {currentOrderDetail.status === 'out_for_delivery' ? 'Out for Delivery' : currentOrderDetail.status}
               </span>
             </div>
             <p className="font-mono text-xs font-semibold text-[#7A756B] mt-2">No. {currentOrderDetail.id}</p>
@@ -197,6 +198,7 @@ export const OrderDetailPage = () => {
               <option value="pending">Pending</option>
               <option value="packed">Packed</option>
               <option value="shipped">Shipped</option>
+              <option value="out_for_delivery">Out for Delivery</option>
               <option value="delivered">Delivered</option>
               <option value="cancelled">Cancelled</option>
             </select>
