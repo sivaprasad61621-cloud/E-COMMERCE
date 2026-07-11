@@ -38,6 +38,41 @@ export const CheckoutPage = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const [useDefaultAddress, setUseDefaultAddress] = useState(hasAddress);
+
+  const handleAddressModeChange = (mode) => {
+    if (mode === 'default') {
+      setUseDefaultAddress(true);
+      setCustomer({
+        first_name: savedAddress.first_name || '',
+        last_name: savedAddress.last_name || '',
+        email: user?.email || '',
+        phone: savedAddress.phone || '',
+        address_line1: savedAddress.address_line1 || '',
+        address_line2: savedAddress.address_line2 || '',
+        city: savedAddress.city || '',
+        state: savedAddress.state || '',
+        postal_code: savedAddress.postal_code || '',
+        country: savedAddress.country || 'India',
+      });
+      setErrors({});
+    } else {
+      setUseDefaultAddress(false);
+      setCustomer({
+        first_name: '',
+        last_name: '',
+        email: user?.email || '',
+        phone: '',
+        address_line1: '',
+        address_line2: '',
+        city: '',
+        state: '',
+        postal_code: '',
+        country: 'India',
+      });
+      setErrors({});
+    }
+  };
 
 
 
@@ -249,158 +284,197 @@ export const CheckoutPage = () => {
           {/* Form Side Widget */}
           <div className="space-y-8">
             <Card title="Shipping & Delivery Details" className="shadow-sm">
-              {/* Pre-filled address notice */}
               {hasAddress && (
-                <div className="flex items-center justify-between bg-green-50 border border-green-200 rounded-sm px-4 py-3 mb-5 -mt-1">
-                  <div className="flex items-center gap-2 text-xs text-green-800">
-                    <CheckCircle size={13} className="text-green-600 shrink-0" />
-                    <span className="font-semibold">Address pre-filled from your saved profile.</span>
-                    <span className="text-green-700">You can edit it below if needed.</span>
-                  </div>
-                  <Link
-                    to="/profile"
-                    className="flex items-center gap-1 text-[10px] uppercase tracking-widest font-bold text-[#8B5E3C] hover:underline cursor-pointer"
-                  >
-                    <Edit3 size={10} /> Edit in Profile
-                  </Link>
+                <div className="flex gap-6 pb-4 border-b border-[#2F2F2F]/10 mb-6">
+                  <label className="flex items-center gap-2 text-xs font-semibold cursor-pointer">
+                    <input
+                      type="radio"
+                      name="addressMode"
+                      checked={useDefaultAddress}
+                      onChange={() => handleAddressModeChange('default')}
+                      className="accent-[#8B5E3C]"
+                    />
+                    Use Default Address
+                  </label>
+                  <label className="flex items-center gap-2 text-xs font-semibold cursor-pointer">
+                    <input
+                      type="radio"
+                      name="addressMode"
+                      checked={!useDefaultAddress}
+                      onChange={() => handleAddressModeChange('new')}
+                      className="accent-[#8B5E3C]"
+                    />
+                    Ship to Different Address
+                  </label>
                 </div>
               )}
 
               <form onSubmit={handleSubmitOrder} className="space-y-6">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">First Name *</label>
-                    <input
-                      type="text"
-                      name="first_name"
-                      value={customer.first_name}
-                      onChange={handleInputChange}
-                      required
-                      placeholder="Priya"
-                      className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.first_name ? 'border-red-500 border-opacity-100' : ''}`}
-                    />
-                    {errors.first_name && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.first_name}</span>}
+                {useDefaultAddress ? (
+                  <div className="bg-[#FAF8F3]/80 border border-[#8B5E3C]/20 rounded-sm p-4 space-y-3">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Default Recipient</span>
+                      <Link
+                        to="/profile"
+                        className="flex items-center gap-1 text-[10px] uppercase tracking-widest font-bold text-[#8B5E3C] hover:underline cursor-pointer"
+                      >
+                        <Edit3 size={10} /> Edit in Profile
+                      </Link>
+                    </div>
+                    <div className="space-y-1 text-xs">
+                      <p className="font-serif font-bold text-[#2F2F2F] text-sm">
+                        {customer.first_name} {customer.last_name}
+                      </p>
+                      <p className="text-[#7A756B]">{customer.address_line1}</p>
+                      {customer.address_line2 && <p className="text-[#7A756B]">{customer.address_line2}</p>}
+                      <p className="text-[#7A756B]">
+                        {customer.city}, {customer.state} - {customer.postal_code}
+                      </p>
+                      <p className="text-[#7A756B] font-semibold">{customer.country}</p>
+                      <div className="pt-2 border-t border-[#2F2F2F]/5 space-y-0.5 text-[#7A756B] font-mono text-[10px]">
+                        <p>PHONE: {customer.phone}</p>
+                        <p>EMAIL: {customer.email}</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Last Name</label>
-                    <input
-                      type="text"
-                      name="last_name"
-                      value={customer.last_name}
-                      onChange={handleInputChange}
-                      placeholder="Sharma"
-                      className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
-                    />
+                ) : (
+                  <div className="space-y-6">
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="flex flex-col gap-1.5">
+                        <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">First Name *</label>
+                        <input
+                          type="text"
+                          name="first_name"
+                          value={customer.first_name}
+                          onChange={handleInputChange}
+                          required
+                          placeholder="Priya"
+                          className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.first_name ? 'border-red-500 border-opacity-100' : ''}`}
+                        />
+                        {errors.first_name && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.first_name}</span>}
+                      </div>
+                      <div className="flex flex-col gap-1.5">
+                        <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Last Name</label>
+                        <input
+                          type="text"
+                          name="last_name"
+                          value={customer.last_name}
+                          onChange={handleInputChange}
+                          placeholder="Sharma"
+                          className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-1.5">
+                      <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Email Address *</label>
+                      <input
+                        type="email"
+                        name="email"
+                        value={customer.email}
+                        onChange={handleInputChange}
+                        required
+                        placeholder="name@example.com"
+                        className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.email ? 'border-red-500 border-opacity-100' : ''}`}
+                      />
+                      {errors.email && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.email}</span>}
+                    </div>
+
+                    <div className="flex flex-col gap-1.5">
+                      <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Phone Number *</label>
+                      <input
+                        type="tel"
+                        name="phone"
+                        value={customer.phone}
+                        onChange={handleInputChange}
+                        required
+                        placeholder="9876543210"
+                        className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.phone ? 'border-red-500 border-opacity-100' : ''}`}
+                      />
+                      {errors.phone && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.phone}</span>}
+                    </div>
+
+                    <div className="flex flex-col gap-1.5">
+                      <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Address Line 1 *</label>
+                      <input
+                        type="text"
+                        name="address_line1"
+                        value={customer.address_line1}
+                        onChange={handleInputChange}
+                        required
+                        placeholder="House No., Street, Area"
+                        className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.address_line1 ? 'border-red-500 border-opacity-100' : ''}`}
+                      />
+                      {errors.address_line1 && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.address_line1}</span>}
+                    </div>
+
+                    <div className="flex flex-col gap-1.5">
+                      <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Address Line 2 <span className="normal-case font-normal">(optional)</span></label>
+                      <input
+                        type="text"
+                        name="address_line2"
+                        value={customer.address_line2}
+                        onChange={handleInputChange}
+                        placeholder="Landmark, Colony, Flat No."
+                        className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                      />
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="flex flex-col gap-1.5">
+                        <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">City *</label>
+                        <input
+                          type="text"
+                          name="city"
+                          value={customer.city}
+                          onChange={handleInputChange}
+                          required
+                          placeholder="Mumbai"
+                          className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.city ? 'border-red-500 border-opacity-100' : ''}`}
+                        />
+                        {errors.city && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.city}</span>}
+                      </div>
+                      <div className="flex flex-col gap-1.5">
+                        <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">State</label>
+                        <input
+                          type="text"
+                          name="state"
+                          value={customer.state}
+                          onChange={handleInputChange}
+                          placeholder="Maharashtra"
+                          className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="flex flex-col gap-1.5">
+                        <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Pincode *</label>
+                        <input
+                          type="text"
+                          name="postal_code"
+                          value={customer.postal_code}
+                          onChange={handleInputChange}
+                          required
+                          placeholder="400001"
+                          maxLength={6}
+                          className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.postal_code ? 'border-red-500 border-opacity-100' : ''}`}
+                        />
+                        {errors.postal_code && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.postal_code}</span>}
+                      </div>
+                      <div className="flex flex-col gap-1.5">
+                        <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Country</label>
+                        <input
+                          type="text"
+                          name="country"
+                          value={customer.country}
+                          onChange={handleInputChange}
+                          className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
+                        />
+                      </div>
+                    </div>
                   </div>
-                </div>
-
-                <div className="flex flex-col gap-1.5">
-                  <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Email Address *</label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={customer.email}
-                    onChange={handleInputChange}
-                    required
-                    placeholder="name@example.com"
-                    className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.email ? 'border-red-500 border-opacity-100' : ''}`}
-                  />
-                  {errors.email && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.email}</span>}
-                </div>
-
-                <div className="flex flex-col gap-1.5">
-                  <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Phone Number *</label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={customer.phone}
-                    onChange={handleInputChange}
-                    required
-                    placeholder="9876543210"
-                    className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.phone ? 'border-red-500 border-opacity-100' : ''}`}
-                  />
-                  {errors.phone && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.phone}</span>}
-                </div>
-
-                <div className="flex flex-col gap-1.5">
-                  <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Address Line 1 *</label>
-                  <input
-                    type="text"
-                    name="address_line1"
-                    value={customer.address_line1}
-                    onChange={handleInputChange}
-                    required
-                    placeholder="House No., Street, Area"
-                    className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.address_line1 ? 'border-red-500 border-opacity-100' : ''}`}
-                  />
-                  {errors.address_line1 && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.address_line1}</span>}
-                </div>
-
-                <div className="flex flex-col gap-1.5">
-                  <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Address Line 2 <span className="normal-case font-normal">(optional)</span></label>
-                  <input
-                    type="text"
-                    name="address_line2"
-                    value={customer.address_line2}
-                    onChange={handleInputChange}
-                    placeholder="Landmark, Colony, Flat No."
-                    className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
-                  />
-                </div>
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">City *</label>
-                    <input
-                      type="text"
-                      name="city"
-                      value={customer.city}
-                      onChange={handleInputChange}
-                      required
-                      placeholder="Mumbai"
-                      className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.city ? 'border-red-500 border-opacity-100' : ''}`}
-                    />
-                    {errors.city && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.city}</span>}
-                  </div>
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">State</label>
-                    <input
-                      type="text"
-                      name="state"
-                      value={customer.state}
-                      onChange={handleInputChange}
-                      placeholder="Maharashtra"
-                      className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Pincode *</label>
-                    <input
-                      type="text"
-                      name="postal_code"
-                      value={customer.postal_code}
-                      onChange={handleInputChange}
-                      required
-                      placeholder="400001"
-                      maxLength={6}
-                      className={`bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C] ${errors.postal_code ? 'border-red-500 border-opacity-100' : ''}`}
-                    />
-                    {errors.postal_code && <span className="text-[10px] text-red-600 font-sans mt-0.5">{errors.postal_code}</span>}
-                  </div>
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] uppercase font-mono tracking-widest text-[#7A756B]">Country</label>
-                    <input
-                      type="text"
-                      name="country"
-                      value={customer.country}
-                      onChange={handleInputChange}
-                      className="bg-transparent border-editorial border-opacity-40 p-2 text-xs focus:outline-none focus:border-[#8B5E3C]"
-                    />
-                  </div>
-                 </div>
+                )}
 
 
                 {/* Ledger calculation invoice summary */}
