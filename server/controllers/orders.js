@@ -1,5 +1,6 @@
 import supabase from '../config/supabase.js';
 import { mockProducts } from './products.js';
+import { sendOrderStatusEmail } from '../services/emailService.js';
 
 // Preloaded mock customers state
 export let mockCustomers = [
@@ -190,9 +191,12 @@ export const updateOrderStatus = async (req, res) => {
     return res.status(400).json({ error: 'Status is required.' });
   }
 
-  if (!['pending', 'packed', 'shipped', 'delivered', 'cancelled'].includes(status)) {
+  if (!['pending', 'packed', 'shipped', 'out_for_delivery', 'delivered', 'cancelled'].includes(status)) {
     return res.status(400).json({ error: 'Invalid status workflow code.' });
   }
+
+  // Statuses that trigger customer email notifications
+  const EMAIL_TRIGGER_STATUSES = ['pending', 'packed', 'shipped', 'out_for_delivery', 'delivered'];
 
   if (!supabase) {
     // Mock Mode
@@ -207,6 +211,22 @@ export const updateOrderStatus = async (req, res) => {
       updated_at: new Date().toISOString()
     };
 
+    // Send email in mock mode using stored customer info
+    if (EMAIL_TRIGGER_STATUSES.includes(status)) {
+      const order = mockOrders[ordIdx];
+      const customer = mockCustomers.find(c => c.id === order.customer_id);
+      if (customer) {
+        sendOrderStatusEmail({
+          orderId: order.id,
+          customerEmail: customer.email,
+          customerName: `${customer.first_name} ${customer.last_name}`,
+          status,
+          trackingNumber: order.tracking_number,
+          totalAmount: order.total_amount,
+        }).catch(err => console.error('[Email] Background send error:', err.message));
+      }
+    }
+
     return res.json(mockOrders[ordIdx]);
   }
 
@@ -220,10 +240,25 @@ export const updateOrderStatus = async (req, res) => {
       .from('orders')
       .update(updateData)
       .eq('id', id)
-      .select()
+      .select('*, customer:customers(first_name, last_name, email), order_items(product_name, quantity, unit_price, total_price)')
       .single();
 
     if (error) return res.status(400).json({ error: error.message });
+
+    // Fire email notification for meaningful status changes
+    if (EMAIL_TRIGGER_STATUSES.includes(status) && data.customer?.email) {
+      const customer = data.customer;
+      sendOrderStatusEmail({
+        orderId: data.id,
+        customerEmail: customer.email,
+        customerName: `${customer.first_name || ''} ${customer.last_name || ''}`.trim() || customer.email,
+        status,
+        trackingNumber: data.tracking_number || null,
+        items: data.order_items || [],
+        totalAmount: data.total_amount,
+      }).catch(err => console.error('[Email] Background send error:', err.message));
+    }
+
     return res.json(data);
   } catch (err) {
     console.error('Error updating order status:', err);
@@ -311,6 +346,16 @@ export const createOrder = async (req, res) => {
       it.order_id = newOrder.id;
       mockOrderItems.push(it);
     });
+
+    // Send order placement email (mock mode)
+    sendOrderStatusEmail({
+      orderId: newOrder.id,
+      customerEmail: existingCust.email,
+      customerName: `${existingCust.first_name} ${existingCust.last_name}`,
+      status: 'pending',
+      items: itemsToSave,
+      totalAmount: newOrder.total_amount,
+    }).catch(err => console.error('[Email] Background send error:', err.message));
 
     return res.status(201).json({
       ...newOrder,
@@ -460,6 +505,16 @@ export const createOrder = async (req, res) => {
         // Last resort: just log, order still succeeds
       }
     }
+
+    // Send order placement confirmation email
+    sendOrderStatusEmail({
+      orderId: newOrder.id,
+      customerEmail: dbCustomer.email,
+      customerName: `${dbCustomer.first_name || ''} ${dbCustomer.last_name || ''}`.trim() || dbCustomer.email,
+      status: 'pending',
+      items: dbOrderItems,
+      totalAmount: newOrder.total_amount,
+    }).catch(err => console.error('[Email] Background send error:', err.message));
 
     return res.status(201).json({
       ...newOrder,
