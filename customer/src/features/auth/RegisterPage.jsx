@@ -384,12 +384,12 @@ export const RegisterPage = () => {
               </div>
 
               {/* Social OAuth Buttons */}
-              <div className="grid grid-cols-2 gap-4">
+              <div className="flex flex-col gap-4">
                 <button 
                   type="button" 
                   onClick={() => handleSocialRegisterClick('google')}
                   disabled={loading}
-                  className="flex items-center justify-center gap-2 border border-[#2F2F2F]/20 hover:border-[#8B5E3C] px-4 py-2.5 rounded-sm bg-white hover:bg-[#2F2F2F]/5 transition-all text-xs font-semibold cursor-pointer disabled:opacity-50"
+                  className="flex items-center justify-center gap-2 border border-[#2F2F2F]/20 hover:border-[#8B5E3C] px-4 py-2.5 rounded-sm bg-white hover:bg-[#2F2F2F]/5 transition-all text-xs font-semibold cursor-pointer disabled:opacity-50 w-full"
                 >
                   <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
@@ -398,17 +398,6 @@ export const RegisterPage = () => {
                     <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
                   </svg>
                   <span>Google</span>
-                </button>
-                <button 
-                  type="button" 
-                  onClick={() => handleSocialRegisterClick('apple')}
-                  disabled={loading}
-                  className="flex items-center justify-center gap-2 border border-[#2F2F2F]/20 hover:border-[#8B5E3C] px-4 py-2.5 rounded-sm bg-white hover:bg-[#2F2F2F]/5 transition-all text-xs font-semibold cursor-pointer disabled:opacity-50"
-                >
-                  <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
-                    <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.89C10.1 6.86 11.3 7.71 12.07 7.71C12.83 7.71 14.24 6.64 15.75 6.77C16.39 6.79 18.21 7.02 19.4 8.75C19.3 8.81 17.06 10.15 17.06 12.85C17.06 15.34 19.26 16.27 19.34 16.32C19.29 16.48 18.89 17.98 18.71 19.5ZM14.37 4.79C15.01 4.02 15.44 2.93 15.32 1.83C14.37 1.87 13.25 2.47 12.57 3.27C11.97 3.97 11.47 5.07 11.62 6.14C12.67 6.22 13.72 5.56 14.37 4.79Z"/>
-                  </svg>
-                  <span>Apple</span>
                 </button>
               </div>
 
