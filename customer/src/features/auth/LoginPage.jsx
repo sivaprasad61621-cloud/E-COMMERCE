@@ -173,12 +173,12 @@ export const LoginPage = () => {
   };
 
   return (
-    <div className="h-screen w-screen flex bg-[#FAF8F3] text-[#2F2F2F] font-sans overflow-hidden select-none animate-fadeIn">
-      {/* Left Panel: Slogan Typography + Leafy Vase Graphics (45% width) */}
-      <div className="w-[45%] bg-[#F5F1E8] border-r border-[#2F2F2F]/10 flex flex-col justify-between py-16 px-12 items-center text-center">
+    <div className="min-h-screen w-screen flex flex-col lg:flex-row bg-[#FAF8F3] text-[#2F2F2F] font-sans lg:overflow-hidden select-none animate-fadeIn">
+      {/* Left Panel: Slogan Typography + Leafy Vase Graphics */}
+      <div className="w-full lg:w-[45%] bg-[#F5F1E8] border-b lg:border-b-0 lg:border-r border-[#2F2F2F]/10 flex flex-col justify-between py-8 lg:py-16 px-6 lg:px-12 items-center text-center shrink-0">
         {/* Brand Logo & Slogan Header */}
-        <div className="flex flex-col items-center mt-6 gap-3">
-          <svg viewBox="0 0 100 100" className="w-24 h-24">
+        <div className="flex flex-col items-center mt-2 lg:mt-6 gap-3 animate-fadeIn">
+          <svg viewBox="0 0 100 100" className="w-16 h-16 lg:w-24 lg:h-24">
             <circle cx="50" cy="50" r="45" fill="none" stroke="#2F2F2F" strokeWidth="1.2" />
             <circle cx="50" cy="50" r="41" fill="none" stroke="#2F2F2F" strokeWidth="0.6" strokeDasharray="2 1.5" />
             <path id="authLogoPathTop" d="M 22 50 A 28 28 0 0 1 78 50" fill="none" />
@@ -189,16 +189,16 @@ export const LoginPage = () => {
             <text className="font-sans text-[4.5px] tracking-[0.12em] fill-[#7A756B] font-bold" textAnchor="middle">
               <textPath href="#authLogoPathBottom" startOffset="50%">SIMPLE • SMART • SHOPPING</textPath>
             </text>
-            <text x="49" y="58" className="font-serif text-2xl font-black fill-[#2F2F2F]" textAnchor="middle">V</text>
+            <text x="49" y="58" className="font-serif text-xl lg:text-2xl font-black fill-[#2F2F2F]" textAnchor="middle">V</text>
             <path d="M 57 58 C 57 54 54 50 55 46 M 55 46 C 57 44 60 44 61 46 M 55 49 C 53 48 52 46 53 45 M 56 53 C 58 52 60 50 59 49 M 57 56 C 55 54 54 52 56 51" 
                   fill="none" stroke="#8B5E3C" strokeWidth="0.8" strokeLinecap="round" />
           </svg>
-          <h1 className="font-serif text-3xl font-bold uppercase tracking-widest text-[#2F2F2F] mt-1">VELORA</h1>
-          <p className="text-[10px] uppercase tracking-[0.25em] font-semibold text-[#8B5E3C] mt-0.5">Simple. Smart. Shopping.</p>
+          <h1 className="font-serif text-2xl lg:text-3xl font-bold uppercase tracking-widest text-[#2F2F2F] mt-1">VELORA</h1>
+          <p className="text-[9px] lg:text-[10px] uppercase tracking-[0.25em] font-semibold text-[#8B5E3C] mt-0.5">Simple. Smart. Shopping.</p>
         </div>
 
         {/* Leafy vase branch photo decor */}
-        <div className="w-full flex justify-center max-w-[280px]">
+        <div className="w-full flex justify-center max-w-[130px] lg:max-w-[280px] my-3 lg:my-0">
           <img 
             src="/login_left_decor.png" 
             alt="Leafy Vase Decor" 
@@ -207,13 +207,13 @@ export const LoginPage = () => {
         </div>
 
         {/* Muted placeholder text at the bottom */}
-        <div className="text-[9px] uppercase tracking-widest text-[#7A756B]/60">
+        <div className="text-[9px] uppercase tracking-widest text-[#7A756B]/60 hidden lg:block">
           Camelot E-commerce Archives © 2024
         </div>
       </div>
 
-      {/* Right Panel: Clean form block centered (55% width) */}
-      <div className="w-[55%] flex-1 flex items-center justify-center p-8 bg-[#FAF8F3] overflow-y-auto">
+      {/* Right Panel: Clean form block centered */}
+      <div className="w-full lg:w-[55%] flex-1 flex items-center justify-center p-6 lg:p-8 bg-[#FAF8F3] overflow-y-auto">
         <div className="max-w-md w-full px-6 space-y-6">
           {forgotPasswordMode ? (
             <>
