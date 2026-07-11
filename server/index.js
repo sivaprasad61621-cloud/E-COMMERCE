@@ -25,7 +25,25 @@ app.use('/api/orders', orderRoutes);
 app.use('/api/customers', customerRoutes);
 app.use('/api/reports', reportRoutes);
 
-// Health check / welcome route
+// Root route
+app.get('/', (req, res) => {
+  res.json({
+    status: 'ok',
+    name: 'VELORA E-Commerce API',
+    version: '1.0.0',
+    endpoints: {
+      health:     '/api/health',
+      auth:       '/api/auth',
+      categories: '/api/categories',
+      products:   '/api/products',
+      orders:     '/api/orders',
+      customers:  '/api/customers',
+      reports:    '/api/reports',
+    }
+  });
+});
+
+// Health check route
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'VELORA Admin API running smoothly' });
 });
