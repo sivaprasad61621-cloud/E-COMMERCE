@@ -61,7 +61,27 @@ export const Header = () => {
     navigate(path);
   };
 
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path, searchKey = null, searchValue = null) => {
+    if (path === '/') {
+      return location.pathname === '/';
+    }
+    if (location.pathname !== '/shop') {
+      return location.pathname === path;
+    }
+    const params = new URLSearchParams(location.search);
+    if (searchKey && searchValue) {
+      return params.get(searchKey) === searchValue;
+    }
+    if (path === '/shop') {
+      const hasOtherActiveTabs = 
+        params.get('sort') === 'best_sellers' ||
+        params.get('sort') === 'new' ||
+        params.get('filter') === 'deals' ||
+        params.get('filter') === 'offers';
+      return !hasOtherActiveTabs;
+    }
+    return false;
+  };
 
   const accountMenuItems = [
     {
@@ -296,10 +316,10 @@ export const Header = () => {
           <nav className="flex gap-6 items-center text-[11px] uppercase tracking-widest font-bold font-sans pl-8 py-3.5">
             <Link to="/" className={`hover:text-[#8B5E3C] transition-colors pb-0.5 border-b-2 ${isActive('/') ? 'border-[#8B5E3C] text-[#8B5E3C]' : 'border-transparent text-[#2F2F2F]'}`}>Home</Link>
             <Link to="/shop" className={`hover:text-[#8B5E3C] transition-colors pb-0.5 border-b-2 ${isActive('/shop') ? 'border-[#8B5E3C] text-[#8B5E3C]' : 'border-transparent text-[#2F2F2F]'}`}>Shop</Link>
-            <Link to="/shop?sort=best_sellers" className="hover:text-[#8B5E3C] transition-colors text-[#2F2F2F]">Best Sellers</Link>
-            <Link to="/shop?sort=new" className="hover:text-[#8B5E3C] transition-colors text-[#2F2F2F]">New Arrivals</Link>
-            <Link to="/shop?filter=deals" className="hover:text-[#8B5E3C] transition-colors text-[#2F2F2F]">Today's Deals</Link>
-            <Link to="/shop?filter=offers" className="hover:text-[#8B5E3C] transition-colors text-[#2F2F2F]">Offers</Link>
+            <Link to="/shop?sort=best_sellers" className={`hover:text-[#8B5E3C] transition-colors pb-0.5 border-b-2 ${isActive('/shop', 'sort', 'best_sellers') ? 'border-[#8B5E3C] text-[#8B5E3C]' : 'border-transparent text-[#2F2F2F]'}`}>Best Sellers</Link>
+            <Link to="/shop?sort=new" className={`hover:text-[#8B5E3C] transition-colors pb-0.5 border-b-2 ${isActive('/shop', 'sort', 'new') ? 'border-[#8B5E3C] text-[#8B5E3C]' : 'border-transparent text-[#2F2F2F]'}`}>New Arrivals</Link>
+            <Link to="/shop?filter=deals" className={`hover:text-[#8B5E3C] transition-colors pb-0.5 border-b-2 ${isActive('/shop', 'filter', 'deals') ? 'border-[#8B5E3C] text-[#8B5E3C]' : 'border-transparent text-[#2F2F2F]'}`}>Today's Deals</Link>
+            <Link to="/shop?filter=offers" className={`hover:text-[#8B5E3C] transition-colors pb-0.5 border-b-2 ${isActive('/shop', 'filter', 'offers') ? 'border-[#8B5E3C] text-[#8B5E3C]' : 'border-transparent text-[#2F2F2F]'}`}>Offers</Link>
           </nav>
         </div>
       </div>
