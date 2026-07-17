@@ -240,7 +240,7 @@ export const updateOrderStatus = async (req, res) => {
       .from('orders')
       .update(updateData)
       .eq('id', id)
-      .select('*, customer:customers(first_name, last_name, email), order_items(product_name, quantity, unit_price, total_price)')
+      .select('*, customer:customers(first_name, last_name, email), order_items(product_name, quantity, unit_price, discount, line_total, sku)')
       .single();
 
     if (error) return res.status(400).json({ error: error.message });
@@ -248,13 +248,19 @@ export const updateOrderStatus = async (req, res) => {
     // Fire email notification for meaningful status changes
     if (EMAIL_TRIGGER_STATUSES.includes(status) && data.customer?.email) {
       const customer = data.customer;
+      const emailItems = (data.order_items || []).map(item => ({
+        ...item,
+        total_price: item.line_total,
+        discount_amount: item.discount
+      }));
+
       sendOrderStatusEmail({
         orderId: data.id,
         customerEmail: customer.email,
         customerName: `${customer.first_name || ''} ${customer.last_name || ''}`.trim() || customer.email,
         status,
         trackingNumber: data.tracking_number || null,
-        items: data.order_items || [],
+        items: emailItems,
         totalAmount: data.total_amount,
       }).catch(err => console.error('[Email] Background send error:', err.message));
     }
@@ -414,18 +420,21 @@ export const createOrder = async (req, res) => {
       const qty = parseInt(item.quantity || 1);
       itemsTotal += (unitPrice - discountAmount) * qty;
 
-      // Update product stock on Supabase
+      // Update product stock on Supabase, and get SKU
       const { data: prodData } = await supabase
         .from('products')
-        .select('stock')
+        .select('stock, sku')
         .eq('id', item.product_id)
         .single();
 
-      if (prodData && prodData.stock >= qty) {
-        await supabase
-          .from('products')
-          .update({ stock: prodData.stock - qty })
-          .eq('id', item.product_id);
+      if (prodData) {
+        item.sku = prodData.sku;
+        if (prodData.stock >= qty) {
+          await supabase
+            .from('products')
+            .update({ stock: prodData.stock - qty })
+            .eq('id', item.product_id);
+        }
       }
     }
 
@@ -478,10 +487,11 @@ export const createOrder = async (req, res) => {
         order_id: newOrder.id,
         product_id: validProductId,
         product_name: item.product_name || item.name || `Product ${item.product_id}`,
+        sku: item.sku || 'N/A',
         quantity: qty,
         unit_price: unitPrice,
-        discount_amount: discountAmt,
-        total_price: (unitPrice - discountAmt) * qty
+        discount: discountAmt,
+        line_total: parseFloat(((unitPrice - discountAmt) * qty).toFixed(2))
       };
     });
 
@@ -496,8 +506,11 @@ export const createOrder = async (req, res) => {
         order_id: item.order_id,
         product_id: item.product_id,
         product_name: item.product_name,
+        sku: item.sku || 'N/A',
         quantity: item.quantity,
-        unit_price: item.unit_price
+        unit_price: item.unit_price,
+        discount: item.discount,
+        line_total: item.line_total
       }));
       const { error: minItemsErr } = await supabase.from('order_items').insert(minItems);
       if (minItemsErr) {
@@ -507,12 +520,18 @@ export const createOrder = async (req, res) => {
     }
 
     // Send order placement confirmation email
+    const emailItems = dbOrderItems.map(it => ({
+      ...it,
+      total_price: it.line_total,
+      discount_amount: it.discount
+    }));
+
     sendOrderStatusEmail({
       orderId: newOrder.id,
       customerEmail: dbCustomer.email,
       customerName: `${dbCustomer.first_name || ''} ${dbCustomer.last_name || ''}`.trim() || dbCustomer.email,
       status: 'pending',
-      items: dbOrderItems,
+      items: emailItems,
       totalAmount: newOrder.total_amount,
     }).catch(err => console.error('[Email] Background send error:', err.message));
 
