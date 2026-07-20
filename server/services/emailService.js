@@ -215,3 +215,29 @@ export async function sendOrderStatusEmail({ orderId, customerEmail, customerNam
     console.error('[Email] Failed to send email:', err.message);
   }
 }
+
+/**
+ * Send Low Stock Warning Email to Admin/Seller
+ */
+export async function sendLowStockAlertEmail({ productName, stock, sku, recipientEmail }) {
+  console.log(`[Email Alert] LOW STOCK ALERT for "${productName}" (SKU: ${sku}, Current Stock: ${stock}). Notifying ${recipientEmail || 'admin'}`);
+  if (!resend || !recipientEmail) return;
+
+  try {
+    await resend.emails.send({
+      from: EMAIL_FROM,
+      to: [recipientEmail],
+      subject: `⚠️ Low Stock Warning: ${productName} (Qty: ${stock})`,
+      html: `
+        <div style="font-family:sans-serif;padding:20px;background:#FFFBEB;border:1px solid #FCD34D;border-radius:8px;">
+          <h3 style="color:#B45309;margin-top:0;">⚠️ Inventory Alert</h3>
+          <p>Product <strong>${productName}</strong> (SKU: ${sku}) has dropped to <strong>${stock}</strong> remaining units.</p>
+          <p>Please restock soon to avoid stockouts.</p>
+        </div>
+      `,
+    });
+  } catch (err) {
+    console.error('[Email] Low stock alert error:', err.message);
+  }
+}
+

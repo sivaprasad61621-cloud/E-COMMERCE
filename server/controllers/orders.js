@@ -1,6 +1,9 @@
 import supabase from '../config/supabase.js';
 import { mockProducts } from './products.js';
-import { sendOrderStatusEmail } from '../services/emailService.js';
+import { sendOrderStatusEmail, sendLowStockAlertEmail } from '../services/emailService.js';
+import PaymentService from '../services/paymentService.js';
+import cacheService from '../services/cacheService.js';
+
 
 // Preloaded mock customers state
 export let mockCustomers = [
@@ -545,3 +548,97 @@ export const createOrder = async (req, res) => {
     return res.status(500).json({ error: 'Server error' });
   }
 };
+
+/**
+ * Integrated Checkout Payment Endpoint (Test Mode Gateway + Inventory Auto-Deduction)
+ */
+export const checkoutPayment = async (req, res) => {
+  try {
+    const { customer, items, paymentDetails } = req.body;
+
+    if (!items || items.length === 0) {
+      return res.status(400).json({ error: 'Cart is empty' });
+    }
+
+    const subtotal = items.reduce((sum, item) => sum + (parseFloat(item.price || item.unit_price || 0) * parseInt(item.quantity || 1)), 0);
+    const tax = subtotal * 0.05;
+    const shipping = subtotal > 100 ? 0 : 15;
+    const totalAmount = subtotal + tax + shipping;
+
+    // Step 1: Process Test Payment Charge
+    const paymentResult = await PaymentService.processPayment({
+      amount: totalAmount,
+      cardNumber: paymentDetails?.cardNumber,
+      expMonth: paymentDetails?.expMonth,
+      expYear: paymentDetails?.expYear,
+      cvc: paymentDetails?.cvc,
+      customerEmail: customer?.email,
+    });
+
+    if (!paymentResult.success) {
+      return res.status(402).json({ error: paymentResult.error || 'Payment processing failed' });
+    }
+
+    // Step 2: Auto-deduct inventory stock & check low stock warnings
+    items.forEach(item => {
+      const pId = item.id || item.product_id;
+      const targetP = mockProducts.find(p => String(p.id) === String(pId));
+      if (targetP) {
+        targetP.stock = Math.max(0, parseInt(targetP.stock || 0) - parseInt(item.quantity || 1));
+        if (targetP.stock <= 5) {
+          sendLowStockAlertEmail({
+            productName: targetP.name,
+            stock: targetP.stock,
+            sku: targetP.sku || 'SKU-GEN',
+            recipientEmail: 'admin@sshopping.com',
+          });
+        }
+      }
+    });
+
+    // Invalidate product caches
+    await cacheService.flush();
+
+    // Step 3: Create Order Record
+    const orderId = `ORD-${Math.floor(1000 + Math.random() * 9000)}`;
+    const newOrder = {
+      id: orderId,
+      customer_id: customer?.id || `cust-${Date.now()}`,
+      status: 'pending',
+      total_amount: totalAmount,
+      tax_amount: tax,
+      shipping_amount: shipping,
+      transaction_id: paymentResult.transactionId,
+      receipt_number: paymentResult.receiptNumber,
+      payment_status: 'paid',
+      tracking_number: `TRK-VEL-${Math.floor(100000 + Math.random() * 900000)}`,
+      items,
+      customer,
+      created_at: new Date().toISOString(),
+    };
+
+    mockOrders.unshift(newOrder);
+
+    // Step 4: Dispatch Email Receipt Notification
+    sendOrderStatusEmail({
+      orderId: newOrder.id,
+      customerEmail: customer?.email || 'customer@sshopping.com',
+      customerName: customer?.name || customer?.email || 'Valued Customer',
+      status: 'pending',
+      trackingNumber: newOrder.tracking_number,
+      items,
+      totalAmount,
+    }).catch(err => console.error('[Email] Checkout receipt dispatch error:', err.message));
+
+    return res.status(201).json({
+      success: true,
+      message: 'Payment verified and order created successfully',
+      payment: paymentResult,
+      order: newOrder,
+    });
+  } catch (err) {
+    console.error('Checkout error:', err);
+    return res.status(500).json({ error: 'Checkout processing failed: ' + err.message });
+  }
+};
+

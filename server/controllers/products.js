@@ -1,5 +1,10 @@
 import supabase from '../config/supabase.js';
 import { mockCategories } from './categories.js';
+import SearchEngine from '../services/searchService.js';
+import RecommendationEngine from '../services/recommendationService.js';
+import cacheService from '../services/cacheService.js';
+import { mockOrders } from './orders.js';
+
 
 // Shared mock database state for products
 export let mockProducts = [
@@ -370,3 +375,103 @@ export const deleteProduct = async (req, res) => {
     return res.status(500).json({ error: 'Server error' });
   }
 };
+
+/**
+ * Advanced Elasticsearch-style Search Endpoint with Caching & Facets
+ */
+export const searchProducts = async (req, res) => {
+  try {
+    const { q, category, minPrice, maxPrice, minRating, inStock, sortBy, page, limit } = req.query;
+    const cacheKey = `search:${JSON.stringify(req.query)}`;
+
+    // Try cache first
+    const cachedResult = await cacheService.get(cacheKey);
+    if (cachedResult) {
+      return res.json({ ...cachedResult, _cached: true });
+    }
+
+    let allProducts = [...mockProducts];
+    if (supabase) {
+      const { data } = await supabase.from('products').select('*');
+      if (data && data.length > 0) allProducts = data;
+    }
+
+    const searchResult = SearchEngine.search(allProducts, {
+      q,
+      category,
+      minPrice,
+      maxPrice,
+      minRating,
+      inStock: inStock === 'true',
+      sortBy,
+      page,
+      limit,
+    });
+
+    // Cache results for 2 minutes
+    await cacheService.set(cacheKey, searchResult, 120);
+    return res.json(searchResult);
+  } catch (err) {
+    console.error('Error in searchProducts controller:', err);
+    return res.status(500).json({ error: 'Search failed' });
+  }
+};
+
+/**
+ * Real-time Auto-Suggest Endpoint
+ */
+export const suggestProducts = async (req, res) => {
+  try {
+    const { q } = req.query;
+    let allProducts = [...mockProducts];
+    if (supabase) {
+      const { data } = await supabase.from('products').select('id, name, category, price, images');
+      if (data && data.length > 0) allProducts = data;
+    }
+
+    const suggestions = SearchEngine.suggest(allProducts, q, 6);
+    return res.json(suggestions);
+  } catch (err) {
+    return res.status(500).json({ error: 'Suggest failed' });
+  }
+};
+
+/**
+ * Personalized Product Recommendation Endpoint
+ */
+export const getRecommendations = async (req, res) => {
+  try {
+    const { productId, category, limit } = req.query;
+    const cacheKey = `recommendations:${productId || 'trending'}:${category || 'all'}:${limit || 6}`;
+
+    const cached = await cacheService.get(cacheKey);
+    if (cached) {
+      return res.json(cached);
+    }
+
+    let allProducts = [...mockProducts];
+    let allOrders = [...(mockOrders || [])];
+
+    if (supabase) {
+      const { data: prods } = await supabase.from('products').select('*');
+      if (prods && prods.length > 0) allProducts = prods;
+      const { data: ords } = await supabase.from('orders').select('*, order_items(*)');
+      if (ords && ords.length > 0) allOrders = ords;
+    }
+
+    const recs = RecommendationEngine.getRecommendations({
+      productId,
+      products: allProducts,
+      orders: allOrders,
+      category,
+      limit: parseInt(limit || 6, 10),
+    });
+
+    await cacheService.set(cacheKey, recs, 300);
+    return res.json(recs);
+  } catch (err) {
+    console.error('Error in getRecommendations controller:', err);
+    return res.status(500).json({ error: 'Failed to retrieve recommendations' });
+  }
+};
+

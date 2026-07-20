@@ -29,9 +29,17 @@ export const login = async (req, res) => {
       email: email,
       role: 'customer',
     };
+  if (email === 'seller@sshopping.com' && password === 'password123') {
+    const user = {
+      id: 'mock-seller-uuid-5555-6666',
+      email: email,
+      role: 'seller',
+      fullName: 'Master Seller'
+    };
     const token = jwt.sign(user, JWT_SECRET, { expiresIn: '24h' });
     return res.json({ token, user });
   }
+
 
   // 2. If Supabase is not configured, deny other credentials
   if (!supabase) {

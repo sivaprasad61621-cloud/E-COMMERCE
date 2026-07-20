@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: velora-redis
+    ports:
+      - "6379:6379"
+    restart: always
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: velora-server
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: always
+
+  customer:
+    build:
+      context: ./customer
+      dockerfile: Dockerfile
+    container_name: velora-customer
+    ports:
+      - "5173:80"
+    depends_on:
+      - server
+    restart: always
+
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    container_name: velora-admin
+    ports:
+      - "5174:80"
+    depends_on:
+      - server
+    restart: always
+
+networks:
+  default:
+    name: velora-network
