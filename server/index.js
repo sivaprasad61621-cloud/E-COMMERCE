@@ -1,3 +1,8 @@
+// Polyfill DOMMatrix for pdf-parse/pdfjs-dist in serverless environments
+if (typeof global.DOMMatrix === 'undefined') {
+  global.DOMMatrix = class DOMMatrix {};
+}
+
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
