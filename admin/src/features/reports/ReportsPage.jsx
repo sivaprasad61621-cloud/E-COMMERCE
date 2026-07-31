@@ -26,7 +26,7 @@ export const ReportsPage = () => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+        const API = import.meta.env.VITE_API_URL || 'https://server-tau-taupe-45.vercel.app/api';
         // Fetch summary
         const sumResp = await fetch(`${API}/reports/summary`);
         const sumData = await sumResp.json();

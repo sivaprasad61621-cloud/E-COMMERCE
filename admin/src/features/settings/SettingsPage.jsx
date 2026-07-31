@@ -8,7 +8,7 @@ import {
   Bell, Lock, RefreshCw, Wifi, WifiOff, Eye, EyeOff, AlertCircle
 } from 'lucide-react';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API = import.meta.env.VITE_API_URL || 'https://server-tau-taupe-45.vercel.app/api';
 
 export const SettingsPage = () => {
   const dispatch = useDispatch();

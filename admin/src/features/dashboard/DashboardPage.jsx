@@ -18,7 +18,7 @@ import {
   Tooltip 
 } from 'recharts';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API = import.meta.env.VITE_API_URL || 'https://server-tau-taupe-45.vercel.app/api';
 
 export const DashboardPage = () => {
   const user = useSelector((state) => state.auth.user);

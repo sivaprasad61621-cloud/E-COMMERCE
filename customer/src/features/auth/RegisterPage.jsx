@@ -75,7 +75,7 @@ export const RegisterPage = () => {
     setLoading(true);
 
     try {
-      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+      const API = import.meta.env.VITE_API_URL || 'https://server-tau-taupe-45.vercel.app/api';
       const response = await fetch(`${API}/auth/register`, {
         method: 'POST',
         headers: {
@@ -137,7 +137,7 @@ export const RegisterPage = () => {
     setShowOauthModal(false);
     setLoading(true);
     try {
-      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+      const API = import.meta.env.VITE_API_URL || 'https://server-tau-taupe-45.vercel.app/api';
       const response = await fetch(`${API}/auth/oauth`, {
         method: 'POST',
         headers: {

@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API = import.meta.env.VITE_API_URL || 'https://server-tau-taupe-45.vercel.app/api';
 const ORDERS_API = `${API}/orders`;
 const CUSTOMERS_API = `${API}/customers`;
 

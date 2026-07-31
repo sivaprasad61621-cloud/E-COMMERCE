@@ -91,7 +91,7 @@ export const PaymentPage = () => {
         };
       });
 
-      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+      const API = import.meta.env.VITE_API_URL || 'https://server-tau-taupe-45.vercel.app/api';
       const response = await fetch(`${API}/orders`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

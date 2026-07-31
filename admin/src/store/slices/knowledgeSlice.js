@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const API_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:5000/api'}/admin/knowledge`;
+const API_URL = `${import.meta.env.VITE_API_URL || 'https://server-tau-taupe-45.vercel.app/api'}/admin/knowledge`;
 
 // Fetch all ingested documents
 export const fetchDocuments = createAsyncThunk(
