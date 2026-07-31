@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, Link, useLocation } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import Header from './components/Header';
+import ChatWidget from './components/ChatWidget';
 import CatalogPage from './features/catalog/CatalogPage';
 import ProductDetailPage from './features/catalog/ProductDetailPage';
 import CheckoutPage from './features/checkout/CheckoutPage';
@@ -68,6 +69,7 @@ function AppContent() {
   return (
     <div className="min-h-screen bg-[#F5F1E8] flex flex-col font-sans">
       {!isAuthPage && <Header />}
+      {!isAuthPage && <ChatWidget />}
       
       <main className={`flex-1 ${isAuthPage ? '' : 'max-w-screen-2xl w-full mx-auto px-6 py-12'}`}>
         <Routes>

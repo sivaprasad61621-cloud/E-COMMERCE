@@ -1,0 +1,603 @@
+Velora E-Commerce Product Catalog: Category: Electronics
+==========================================
+
+Product Name: Apple MacBook Air M2
+Price: ₹99,900
+Description: Incredibly thin design, Apple M2 chip, 13.6-inch Liquid Retina display, 8GB Unified Memory, 256GB SSD, silent fanless operation.
+Product ID: 66880957-2bad-44f2-a75d-d22003d62a89
+------------------------------------------
+
+Product Name: Apple MacBook Pro M3
+Price: ₹1,69,900
+Description: Powerful Apple M3 chip, 14.2-inch Liquid Retina XDR display, up to 22 hours of battery life, 16GB Unified Memory, 512GB SSD.
+Product ID: 15494f07-7b7a-4c3e-adcd-d2cde2096dad
+------------------------------------------
+
+Product Name: Dell XPS 15 9530
+Price: ₹1,84,990
+Description: Intel Core i7-13700H, 15.6-inch FHD+ InfinityEdge display, 16GB DDR5 RAM, 512GB SSD, Intel Arc A370M graphics, CNC aluminum chassis.
+Product ID: 5e4413e6-c5f6-4deb-be53-688ff4374a82
+------------------------------------------
+
+Product Name: HP Spectre x360 14
+Price: ₹1,49,990
+Description: Convertible 2-in-1 laptop, 14-inch OLED touchscreen, Intel Core Ultra 7 processor, 16GB LPDDR5X RAM, 1TB SSD, tilt pen included.
+Product ID: a2a0b0d7-0b0f-44eb-88a6-05e24ad4f444
+------------------------------------------
+
+Product Name: Lenovo ThinkPad X1 Carbon Gen 11
+Price: ₹1,98,900
+Description: Legendary business ultrabook, carbon fiber weave lid, 14-inch WUXGA display, Intel Core i7 vPro, 32GB LPDDR5 RAM, 1TB SSD, military grade durable.
+Product ID: ab1f9a2a-0926-4ccc-87c7-7ed5f4d08c4c
+------------------------------------------
+
+Product Name: ASUS Zenbook 14 OLED
+Price: ₹92,990
+Description: Thin and light laptop, 14-inch 3K OLED 120Hz display, Intel Core Ultra 5, 16GB LPDDR5X RAM, 1TB SSD, premium ponder blue finish.
+Product ID: c0628975-2de6-400d-a5f7-a45dd760d15a
+------------------------------------------
+
+Product Name: Razer Blade 16
+Price: ₹2,89,990
+Description: Ultimate gaming laptop, Intel Core i9-14900HX, 16-inch QHD+ 240Hz OLED display, NVIDIA GeForce RTX 4070, 32GB RAM, 1TB SSD.
+Product ID: bc931274-6ccb-4387-b553-7dfbab08b7f7
+------------------------------------------
+
+Product Name: Lenovo Yoga 9i Gen 8
+Price: ₹1,54,990
+Description: 2-in-1 convertible laptop, 14-inch 4K OLED touchscreen, Intel Core i7-1360P, 16GB RAM, 1TB SSD, Bowers & Wilkins rotating soundbar.
+Product ID: ac6e7650-dcb1-4458-81fe-9f969024381f
+------------------------------------------
+
+Product Name: Microsoft Surface Laptop Studio 2
+Price: ₹2,39,990
+Description: Dynamic 14.4-inch PixelSense Flow touchscreen, Intel Core i7-13700H, NVIDIA RTX 4050, 16GB RAM, 512GB SSD, matching pen support.
+Product ID: 42dbd085-8f40-4be1-a160-25caf3c7045f
+------------------------------------------
+
+Product Name: Samsung Galaxy Book4 Ultra
+Price: ₹2,19,990
+Description: 16-inch Dynamic AMOLED 2X touchscreen, Intel Core Ultra 9, NVIDIA RTX 4070, 32GB RAM, 1TB SSD, seamless Galaxy ecosystem integration.
+Product ID: bba0e69b-7a32-4eb0-b0e7-3a54395357a2
+------------------------------------------
+
+Product Name: Apple iPhone 15 Pro
+Price: ₹1,34,900
+Description: Aerospace-grade titanium design, A17 Pro chip, customizable Action button, 48MP main camera with advanced portraits, USB-C support.
+Product ID: a83692e2-261b-4b90-9ee5-493b20adc703
+------------------------------------------
+
+Product Name: Samsung Galaxy S24 Ultra
+Price: ₹1,29,999
+Description: Titanium frame, built-in S Pen, Snapdragon 8 Gen 3, 200MP main camera, 100x Space Zoom, Galaxy AI translation and photo editing.
+Product ID: 7792e59c-b093-422a-87cd-2b10a9436932
+------------------------------------------
+
+Product Name: Google Pixel 8 Pro
+Price: ₹1,06,999
+Description: Google Tensor G3 chip, 6.7-inch Super Actua display, pro-level triple camera, Magic Eraser, Best Take, Real Tone, 7 years of updates.
+Product ID: d3bd2db9-c942-4234-9bc4-b8a1abb441a5
+------------------------------------------
+
+Product Name: OnePlus 12 5G
+Price: ₹64,999
+Description: Snapdragon 8 Gen 3, 4th Gen Hasselblad Camera, 100W SUPERVOOC charging, 5400mAh battery, 2K 120Hz ProXDR display, flowy emerald back.
+Product ID: 8757be19-bbdd-4e93-bd79-c6905ff5ccbc
+------------------------------------------
+
+Product Name: Xiaomi 14 Ultra
+Price: ₹99,999
+Description: Leica Quad Camera System, 1-inch sensor, Snapdragon 8 Gen 3, WQHD+ AMOLED display, 90W HyperCharge, premium vegan leather back.
+Product ID: 0a204d41-255e-46de-bffa-09f56f9c6604
+------------------------------------------
+
+Product Name: Sony Xperia 1 VI
+Price: ₹1,14,900
+Description: Pro photographer smartphone, true optical zoom lens (85-170mm), Exmor T mobile sensor, 6.5-inch OLED display, high-resolution audio jack.
+Product ID: 69f82366-ca7c-4ab1-8e07-d3d8f3920cab
+------------------------------------------
+
+Product Name: Apple iPhone 15 Plus
+Price: ₹89,900
+Description: 6.7-inch durable color-infused glass design, Dynamic Island, A16 Bionic chip, 48MP main camera, all-day battery life, Type-C port.
+Product ID: 9076050e-acc6-4e4f-8458-61664f8aad68
+------------------------------------------
+
+Product Name: Samsung Galaxy Z Fold5
+Price: ₹1,54,999
+Description: Folding smartphone, 7.6-inch main QXGA+ AMOLED screen, Snapdragon 8 Gen 2, triple rear camera, Flex Mode folding engineering.
+Product ID: a01a7b5e-2315-497c-83cd-87dc89387669
+------------------------------------------
+
+Product Name: Motorola Edge 50 Ultra
+Price: ₹59,999
+Description: Pantone-validated displays and cameras, real wood back finish, Snapdragon 8s Gen 3, 64MP telephoto camera, 125W TurboPower charging.
+Product ID: d4f44766-5cf9-4f1f-9651-1ab58c48994f
+------------------------------------------
+
+Product Name: Nothing Phone (2)
+Price: ₹44,999
+Description: Unique Glyph interface back lights, Nothing OS 2.0, Snapdragon 8+ Gen 1, dual 50MP rear cameras, LTPO OLED display.
+Product ID: 189554b0-6f41-49cf-8afd-689aba580109
+------------------------------------------
+
+Product Name: Sony WH-1000XM5 Headphones
+Price: ₹29,990
+Description: Industry-leading active noise cancelling with 8 microphones, Auto NC Optimiser, crystal clear hands-free calling, 30 hours of battery.
+Product ID: 11197b2a-846c-4f24-82d5-f10195d95f07
+------------------------------------------
+
+Product Name: Bose QuietComfort Ultra Headphones
+Price: ₹35,900
+Description: Breakthrough spatial audio, CustomTune acoustic calibration, world-class noise cancellation, ultra-soft protein leather ear cushions.
+Product ID: 317a62d6-878d-4c6c-ac19-6014105b5041
+------------------------------------------
+
+Product Name: Sennheiser Momentum 4 Wireless
+Price: ₹29,990
+Description: Audiophile-inspired 42mm transducer system, exceptional 60-hour battery life, Adaptive Active Noise Cancellation, smart control app.
+Product ID: 840c1019-e17e-466c-88da-4bebad0ed826
+------------------------------------------
+
+Product Name: Apple AirPods Max
+Price: ₹59,900
+Description: Apple-designed dynamic driver, Active Noise Cancellation, Transparency mode, personalized spatial audio, knit mesh canopy headband.
+Product ID: ad327e79-1f79-4e6f-b4c4-d4628e4ebcd9
+------------------------------------------
+
+Product Name: Bowers & Wilkins Px7 S2e
+Price: ₹38,900
+Description: High-performance 40mm custom drive units, 24-bit high-resolution digital audio streaming, memory foam ear cups with fine leather.
+Product ID: 4d52cd70-c1cd-439e-a4fa-7faeed863d2b
+------------------------------------------
+
+Product Name: Audio-Technica ATH-M50xBT2
+Price: ₹18,500
+Description: Wireless studio monitor headphones, proprietary 45mm large-aperture drivers, 50 hours of battery, low latency mode for gaming.
+Product ID: aebb5ac7-f1b7-4bbf-836e-2266bc18081c
+------------------------------------------
+
+Product Name: Beats Studio Pro
+Price: ₹29,900
+Description: Custom acoustic platform, personalized spatial audio, dynamic head tracking, active noise cancelling, USB-C lossless audio input.
+Product ID: 899ce322-5fe3-494e-a769-40af99da27e0
+------------------------------------------
+
+Product Name: Sony WH-CH720N
+Price: ₹9,990
+Description: Lightweight wireless noise-cancelling headphones, V1 processor, up to 35 hours of battery, multi-point connection, DSEE sound engine.
+Product ID: 1e24796e-1425-4fed-997b-5a571270f0c0
+------------------------------------------
+
+Product Name: JBL Tour One M2
+Price: ₹19,990
+Description: True Adaptive Noise Cancelling, Hi-Res certified JBL Pro Sound, 4-mic superior calls, up to 50 hours playtime, smart ambient sound.
+Product ID: 4f19effb-0455-4eec-89cb-ff00e9755ef9
+------------------------------------------
+
+Product Name: Shure AONIC 50 Gen 2
+Price: ₹34,990
+Description: Premium studio-quality wireless headphones, adjustable active noise cancelling, spatial audio mode, customizable EQ presets via ShurePlus.
+Product ID: 45c5cb88-99b8-4e31-a2ff-cb16cba25dc9
+------------------------------------------
+
+Product Name: Apple AirPods Pro (2nd Gen)
+Price: ₹24,900
+Description: H2 chip, double the Active Noise Cancellation of original, Adaptive Audio, Conversation Awareness, MagSafe charging case (USB-C).
+Product ID: dc2e4195-8699-410f-a3ad-3b97b2d77c25
+------------------------------------------
+
+Product Name: Sony WF-1000XM5 Earbuds
+Price: ₹23,990
+Description: The best noise cancelling earbuds, Dynamic Driver X for rich sound, AI-based noise reduction for calls, sleek glossy finish.
+Product ID: 0293d2df-d27c-4dc4-a87a-70cd5c22591e
+------------------------------------------
+
+Product Name: Bose QC Ultra Earbuds
+Price: ₹25,900
+Description: World-class active noise cancelling, Immersive Audio spatial sound, cozy custom fit with stability bands, touch control swipe.
+Product ID: 58e699d2-1fee-4d85-9126-f39780bb86a9
+------------------------------------------
+
+Product Name: Sennheiser Momentum TW 4
+Price: ₹22,990
+Description: TrueResponse transducer system, Lossless audio support, Auracast-ready LE audio, Adaptive ANC, up to 30h battery with charging case.
+Product ID: 794c5d1c-8043-43a5-99f1-7e27a028a430
+------------------------------------------
+
+Product Name: Samsung Galaxy Buds2 Pro
+Price: ₹14,999
+Description: 24-bit Hi-Fi audio, Intelligent 360 Audio, enhanced Active Noise Cancelling, comfortable ergonomic vent design, IPX7 water resistance.
+Product ID: 7d8b4035-4c7f-4299-b593-c491fd7c48b6
+------------------------------------------
+
+Product Name: Jabra Elite 10 Earbuds
+Price: ₹19,999
+Description: Comfortable semi-open fit, Dolby Atmos spatial sound with head tracking, Jabra Advanced ANC, 6-microphone call technology.
+Product ID: da8dc32a-8e02-4658-b878-16281c5743f9
+------------------------------------------
+
+Product Name: Beats Fit Pro
+Price: ₹16,900
+Description: Secure-fit wingtips, Apple H1 chip, active noise cancelling, spatial audio, compatible with Apple and Android via Beats app.
+Product ID: 46b24d9c-c4d9-42bf-8ce5-ebbab6ccffe7
+------------------------------------------
+
+Product Name: Anker Soundcore Liberty 4 NC
+Price: ₹7,999
+Description: Reduce noise by up to 98.5%, Adaptive ANC 2.0, 11mm custom drivers, Hi-Res wireless audio, up to 50 hours total battery.
+Product ID: 255e3adc-a847-4fb8-9ce3-552d60088b81
+------------------------------------------
+
+Product Name: Sony LinkBuds S
+Price: ₹13,990
+Description: Ultra-small and lightweight design, high-quality noise cancelling, high-resolution audio wireless, natural ambient sound mode.
+Product ID: 624bd675-a6a0-4b44-886f-75c3de41729d
+------------------------------------------
+
+Product Name: Nothing Ear (2)
+Price: ₹9,999
+Description: Hi-Res Audio certified, custom 11.6mm driver, personalized active noise cancellation, clear voice technology, iconic transparent casing.
+Product ID: b130e6f6-cc94-44ef-a5dd-93c1a35dc8ce
+------------------------------------------
+
+Product Name: Apple Watch Series 9
+Price: ₹41,900
+Description: S9 SiP chip, double tap gesture control, brighter Always-On Retina display, blood oxygen and ECG tracker, carbon neutral band options.
+Product ID: ba43475c-c2ea-46b9-8e82-009e65ac07a5
+------------------------------------------
+
+Product Name: Samsung Galaxy Watch 6
+Price: ₹29,999
+Description: Sleek aluminum frame, personalized heart rate zones, advanced sleep coaching, BIA body composition sensor, larger AMOLED screen.
+Product ID: aaef9e8a-ed3f-448c-9f49-dd7145670ecb
+------------------------------------------
+
+Product Name: Garmin Fenix 7 Pro Sapphire Solar
+Price: ₹93,990
+Description: Ultimate multisport GPS watch, scratch-resistant sapphire solar charging lens, built-in LED flashlight, preloaded TopoActive maps.
+Product ID: 09347b7d-f893-4e96-8bff-ae41a7b4425f
+------------------------------------------
+
+Product Name: Fitbit Charge 6 Tracker
+Price: ₹14,999
+Description: Advanced fitness and health tracker, built-in GPS, Google Maps and Wallet integration, heart rate tracking on exercise machines.
+Product ID: 0028f363-0d50-40a9-8c84-228677894d58
+------------------------------------------
+
+Product Name: Apple Watch Ultra 2
+Price: ₹89,900
+Description: Most rugged Apple Watch, 49mm titanium case, dual-frequency GPS, up to 72 hours in Low Power Mode, custom customizable Action button.
+Product ID: a32495e5-556e-435f-b140-d684f1d5e295
+------------------------------------------
+
+Product Name: Google Pixel Watch 2
+Price: ₹39,900
+Description: Stress detection sensor, accurate Fitbit heart rate sensor, safety check features, polished aluminum case, Google Assistant integration.
+Product ID: a8d1ec69-a11c-4334-a8a3-356d4af3457c
+------------------------------------------
+
+Product Name: Garmin Venu 3 Smartwatch
+Price: ₹44,990
+Description: Bright AMOLED touchscreen, wheelchair mode, customized fitness coaching, body battery energy monitoring, call and text from wrist.
+Product ID: 08a510df-5178-410e-9fea-f3a1cd96b4fe
+------------------------------------------
+
+Product Name: Amazfit GTR 4
+Price: ₹16,999
+Description: Dual-band circular-polarized GPS antenna, 150+ sports modes, 14-day battery life, offline music storage, retro classic round look.
+Product ID: 84bfd51c-2151-4431-8c3f-af63c47c3e4f
+------------------------------------------
+
+Product Name: Withings ScanWatch 2
+Price: ₹34,990
+Description: Hybrid smartwatch, medical-grade ECG, body temperature tracking, blood oxygen levels, up to 30 days battery life, classic watch hand face.
+Product ID: 062aaba9-369c-44f8-a0db-04889b7451aa
+------------------------------------------
+
+Product Name: COROS Pace 3 Sport Watch
+Price: ₹24,990
+Description: Super lightweight GPS watch, dual-frequency tracking, 17 days standard use, touch display, advanced training analysis software.
+Product ID: ecb95c0c-9701-4748-8595-a441a1e1c2ef
+------------------------------------------
+
+Product Name: Sonos Era 100 Speaker
+Price: ₹29,900
+Description: Compact premium smart speaker, rich acoustics, Bluetooth and WiFi line-in streaming, Apple AirPlay 2, Trueplay room tuning.
+Product ID: 13c28e7f-952b-4783-a9a3-6921efe9b3b9
+------------------------------------------
+
+Product Name: Apple HomePod (2nd Gen)
+Price: ₹32,900
+Description: High-excursion woofer, beamforming array of five tweeters, room sensing, spatial audio, Siri voice assistant built-in, smart home hub.
+Product ID: e17f330b-b026-4183-9d57-57d5ca915a31
+------------------------------------------
+
+Product Name: JBL Flip 6 Speaker
+Price: ₹11,999
+Description: Portable waterproof speaker, two-way speaker system, IP67 dustproof and waterproof, PartyBoost link, 12 hours of playtime.
+Product ID: ef78fb93-01d6-40b7-b3e8-9b624ef94bbb
+------------------------------------------
+
+Product Name: Ultimate Ears Megaboom 3
+Price: ₹16,999
+Description: Loud 360-degree sound, deep thundering bass, IP67 waterproof and floatable, one-touch Magic Button for playlists, durable fabric wrap.
+Product ID: fe19858d-b2d6-4b53-a713-7ef909b19751
+------------------------------------------
+
+Product Name: Sony SRS-XB100 Wireless Speaker
+Price: ₹4,990
+Description: Super compact portable speaker, extra bass booster, IP67 dust and water protection, multi-way strap, up to 16 hours of battery.
+Product ID: 087d96a7-9a10-4603-a995-9db50b420a20
+------------------------------------------
+
+Product Name: Bose SoundLink Flex
+Price: ₹15,900
+Description: Outdoor portable speaker, PositionIQ technology automatically optimizes sound orientation, waterproof, powder-coated steel grille.
+Product ID: 8405fe1d-3a38-4c18-b03f-ebf6a616d44a
+------------------------------------------
+
+Product Name: Sonos Move 2 Speaker
+Price: ₹44,900
+Description: Premium portable outdoor speaker, stereo sound, up to 24 hours playback, durable weather-resistant drop-resistant construction.
+Product ID: 53726720-719d-487e-a7a5-33c5df5ba189
+------------------------------------------
+
+Product Name: Marshall Acton III Bluetooth
+Price: ₹28,999
+Description: Home speaker with vintage retro design, classic Marshall script logo, dynamic loudness adjustment, analog control knobs for bass/treble.
+Product ID: a317f05d-859c-45ae-a5f9-6a9ab8aab94b
+------------------------------------------
+
+Product Name: Audio-Technica AT-LP60X Turntable
+Price: ₹16,500
+Description: Fully automatic belt-drive turntable, two speeds (33-1/3 and 45 RPM), anti-resonance die-cast aluminum platter, built-in switchable phono preamp.
+Product ID: 0adaaf3c-b34b-4b44-8dc4-48456bc83c6b
+------------------------------------------
+
+Product Name: Marshall Woburn III Speaker
+Price: ₹59,999
+Description: Most powerful Marshall home speaker, wide three-way acoustic system, HDMI input for TV connection, premium vintage textured cabinet.
+Product ID: 274dc3ae-a8d7-47d0-91bb-1db875ecb50f
+------------------------------------------
+
+Product Name: Dell UltraSharp U2723QE Monitor
+Price: ₹58,900
+Description: 27-inch 4K USB-C Hub Monitor, IPS Black technology for 2000:1 contrast, 98% DCI-P3 color, daisy chain support, comfortview plus.
+Product ID: 9e457aa0-8d8a-424e-8f2e-3232df3f2780
+------------------------------------------
+
+Product Name: LG UltraFine 32UN880-B Ergo
+Price: ₹48,500
+Description: 32-inch 4K UHD IPS display, ergonomic desk C-clamp arm, HDR10 support, AMD FreeSync, USB-C one-cable clean desk connectivity.
+Product ID: c198d608-e039-4038-81be-3f529bbd8958
+------------------------------------------
+
+Product Name: ASUS ProArt PA279CV Monitor
+Price: ₹36,900
+Description: 27-inch 4K UHD display, Calman verified factory pre-calibrated color accuracy Delta E < 2, 100% sRGB, USB-C power delivery.
+Product ID: d52966d0-f922-4dfb-bc78-547ad4499f8c
+------------------------------------------
+
+Product Name: Samsung Odyssey Neo G9
+Price: ₹1,65,000
+Description: 49-inch curved dual QHD display, mini-LED backlights, 240Hz refresh rate, 1ms response time, quantum HDR 2000, futuristic design.
+Product ID: 2d9e1cc3-1c5f-4216-9322-74bd7d29ddef
+------------------------------------------
+
+Product Name: BenQ PD2700U Designer Monitor
+Price: ₹31,900
+Description: 27-inch 4K IPS monitor, AQCOLOR technology for accurate sRGB/Rec. 709, CAD/CAM and Animation display mode presets, DualView function.
+Product ID: 075be533-06bb-4e67-aa14-34da43994dd4
+------------------------------------------
+
+Product Name: LG C3 42-inch OLED TV/Monitor
+Price: ₹89,990
+Description: 42-inch self-lit OLED pixels, perfect black levels, a9 AI Processor Gen6, 120Hz refresh, G-Sync and FreeSync gaming certifications.
+Product ID: 2165c194-44be-4927-bfbc-4fe3b90ba016
+------------------------------------------
+
+Product Name: Samsung M8 Smart Monitor
+Price: ₹42,900
+Description: 32-inch 4K UHD monitor, smart TV platform apps built-in, slim fit webcam included, smart IoT hub, sleek minimalist pastel frame.
+Product ID: 438de041-706a-44f3-8eae-4600664fe8e6
+------------------------------------------
+
+Product Name: MSI Optix MAG274QRF-QD
+Price: ₹29,990
+Description: 27-inch WQHD gaming monitor, Rapid IPS panel, quantum dot color technology, 165Hz refresh rate, G-Sync compatible.
+Product ID: 733e6597-d0e2-46ec-9b4b-44bf5eeece8a
+------------------------------------------
+
+Product Name: Gigabyte M27Q Gaming Monitor
+Price: ₹24,900
+Description: 27-inch QHD IPS display, 170Hz refresh, built-in KVM switch to control two systems with one set of keyboard/mouse.
+Product ID: dc8f0971-fb8e-42a8-b4fc-aa93791a27e5
+------------------------------------------
+
+Product Name: Dell Gaming S2721DGF
+Price: ₹27,900
+Description: 27-inch QHD fast IPS gaming monitor, 165Hz refresh rate, 1ms response time, NVIDIA G-Sync and AMD FreeSync Premium Pro.
+Product ID: d3320e60-d2cf-4e72-94e4-086b6d6ce93a
+------------------------------------------
+
+Product Name: Fujifilm X-T5 Mirrorless Camera
+Price: ₹1,69,990
+Description: Retro dials design, 40.2MP X-Trans CMOS 5 HR sensor, 5-axis in-body image stabilization, classic Fujifilm film simulations, 6.2K video.
+Product ID: 1a6b0a01-86d8-4077-95d1-602fa313105f
+------------------------------------------
+
+Product Name: Sony Alpha 7 IV Camera
+Price: ₹2,19,990
+Description: Pro hybrid mirrorless camera, 33MP full-frame Exmor R sensor, BIONZ XR image processor, real-time autofocus tracking, 4K 60p video.
+Product ID: 17f14c0c-aefe-4bb0-b6fd-a3e8955b5563
+------------------------------------------
+
+Product Name: Canon EOS R6 Mark II Camera
+Price: ₹2,29,990
+Description: 24.2MP full-frame CMOS, dual pixel CMOS AF II, up to 40 fps electronic shutter, 4K 60p oversampled from 6K, robust weather sealing.
+Product ID: 834b7308-0778-40e7-84ac-829bf761a871
+------------------------------------------
+
+Product Name: Nikon Z6 II Mirrorless Camera
+Price: ₹1,54,990
+Description: 24.5MP full-frame sensor, dual EXPEED 6 image processors, dual memory card slots, 14 fps continuous shooting, UHD 4K video.
+Product ID: 8c064668-fb0d-40e0-a720-d3d50d12544e
+------------------------------------------
+
+Product Name: Panasonic Lumix S5 II Camera
+Price: ₹1,84,990
+Description: 24.2MP full-frame sensor, phase hybrid autofocus, active IS stabilization, unlimited 4K recording, real-time LUT loading.
+Product ID: 322fbe48-1def-4cca-be57-4a095fe57789
+------------------------------------------
+
+Product Name: Ricoh GR IIIx Digital Camera
+Price: ₹92,900
+Description: Pocket sized street photographer camera, 24.2MP APS-C sensor, fixed 40mm equivalent F2.8 lens, shake reduction, custom image styles.
+Product ID: d0834008-bcbc-420e-8d4b-91af18f91c95
+------------------------------------------
+
+Product Name: GoPro Hero 12 Black Camera
+Price: ₹37,900
+Description: Rugged action camera, 5.3K video, HyperSmooth 6.0 video stabilization, vertical capture support, dual LCD screens, waterproof to 33ft.
+Product ID: 40d71552-b8a4-42ff-8ce1-8b1fa640b53d
+------------------------------------------
+
+Product Name: DJI Osmo Pocket 3 Gimbal
+Price: ₹54,900
+Description: Handheld 3-axis gimbal camera, 1-inch CMOS sensor, rotatable 2-inch touchscreen, active track 6.0, fast charging battery.
+Product ID: 8e40867c-e2c6-4412-ab72-6dd137dd4ec1
+------------------------------------------
+
+Product Name: Sony ZV-E10 Vlog Camera
+Price: ₹61,990
+Description: 24.2MP APS-C sensor vlogging camera, directional 3-capsule mic with wind screen, product showcase autofocus setting, interchangeable lens.
+Product ID: 9f3a184f-096c-4f2b-883c-11cd448119e8
+------------------------------------------
+
+Product Name: Instax Mini Evo Hybrid Camera
+Price: ₹18,999
+Description: Hybrid analog-digital instant camera, 10 lens effects and 10 film effects, print directly from smartphone via Bluetooth app link.
+Product ID: f041c7dd-8a1c-479a-a659-328fc2f0fb25
+------------------------------------------
+
+Product Name: Sony PlayStation 5 Console
+Price: ₹54,990
+Description: Ultra-high speed SSD, ray tracing graphics, dualsense haptic feedback wireless controller, 3D audio tech, 4K gaming.
+Product ID: f4f1bba3-972b-42f3-8ac5-a7b6dcba09fd
+------------------------------------------
+
+Product Name: Xbox Series X Console
+Price: ₹54,990
+Description: Most powerful Xbox ever, 12 teraflops processing power, true 4K gaming, up to 120 FPS, quick resume feature for seamless switching.
+Product ID: d771933a-bf97-42f6-8ff3-02167aab7d5d
+------------------------------------------
+
+Product Name: Nintendo Switch OLED Model
+Price: ₹32,900
+Description: 7-inch vibrant OLED screen, wide adjustable stand, wired LAN port dock, 64GB internal storage, detachable Joy-Con controllers.
+Product ID: f6c7dd3b-0412-4cd6-82d4-5768ee4fc43c
+------------------------------------------
+
+Product Name: Valve Steam Deck OLED 512GB
+Price: ₹58,900
+Description: Handheld gaming PC, 7.4-inch HDR OLED display, custom AMD APU, built-in trackpads, console-grade analog control thumbsticks.
+Product ID: f701c1b9-d9c8-4ce9-ab0a-64877a74db1d
+------------------------------------------
+
+Product Name: ASUS ROG Ally Handheld
+Price: ₹64,990
+Description: Windows 11 gaming handheld, AMD Ryzen Z1 Extreme processor, 7-inch 120Hz FHD display, 16GB LPDDR5 RAM, ROG intelligent cooling.
+Product ID: 0ed10b72-a19b-438e-874c-42be7cfd5700
+------------------------------------------
+
+Product Name: Sony DualSense Edge Controller
+Price: ₹18,990
+Description: Ultra-customizable PS5 pro controller, swappable stick modules, mapped back paddles, adjustable trigger travel locks.
+Product ID: 8db3bf54-8ebb-44ce-b054-5f5d9075fe66
+------------------------------------------
+
+Product Name: Xbox Elite Wireless Controller Series 2
+Price: ₹15,990
+Description: Professional wireless controller, adjustable-tension thumbsticks, wrap-around rubberized grip, shorter hair trigger locks.
+Product ID: 60f8f0d5-d7a1-45fb-a8f9-5310a7de856e
+------------------------------------------
+
+Product Name: Razer DeathAdder V3 Pro Mouse
+Price: ₹13,990
+Description: Ultra-lightweight gaming mouse (63g), Razer Focus Pro 30K optical sensor, optical mouse switches gen 3, 90 hours wireless battery.
+Product ID: aa9744b2-7285-4bce-b863-c586c00016f4
+------------------------------------------
+
+Product Name: SteelSeries Apex Pro Keyboard
+Price: ₹19,990
+Description: Mechanical keyboard, OmniPoint adjustable actuation switches, smart OLED display, aircraft grade aluminum alloy frame.
+Product ID: 714a45b3-abc5-4b05-ad1e-efa148282e9d
+------------------------------------------
+
+Product Name: Logitech G Pro X 2 Lightspeed
+Price: ₹22,990
+Description: Wireless pro headset, 50mm Graphene drivers, premium comfortable leatherette ear pads, clear blue voice mic tech.
+Product ID: 730ec415-c93e-40c0-8a9b-f0b0d28d9925
+------------------------------------------
+
+Product Name: Samsung T7 Shield Portable SSD 2TB
+Price: ₹16,500
+Description: Rugged external SSD, USB 3.2 Gen 2, reads up to 1050 MB/s, IP65 water and dust resistant, elastomer drop-resistant casing.
+Product ID: bd5a9f56-1f3d-4237-82ae-966ab64f927a
+------------------------------------------
+
+Product Name: SanDisk Extreme Portable SSD 1TB
+Price: ₹9,500
+Description: External SSD, read speeds up to 1050MB/s, IP55 rating, handy carabiner loop, durable silicone shell.
+Product ID: 31ecc0be-f34a-4470-8998-5d5ed98d1fea
+------------------------------------------
+
+Product Name: WD Black SN850X NVMe SSD 2TB
+Price: ₹17,900
+Description: Internal gaming SSD, PCIe Gen4, speeds up to 7300 MB/s, built-in heatsink model for desktop and PS5 compatibility.
+Product ID: a0d724e1-d1b3-4749-ab45-07fb040aa6ab
+------------------------------------------
+
+Product Name: Logitech MX Master 3S Mouse
+Price: ₹9,495
+Description: Ergonomic office mouse, 8000 DPI track-on-glass sensor, quiet click switches, MagSpeed electromagnetic scroll wheel.
+Product ID: 65ce1687-d18b-440c-a9ec-c519dd8525bb
+------------------------------------------
+
+Product Name: Apple Magic Keyboard with Touch ID
+Price: ₹14,500
+Description: Sleek wireless keyboard, built-in rechargeable battery, scissor mechanism, secure Touch ID login for Apple silicon Mac.
+Product ID: a3a44689-87b2-4610-b133-542f1d88b8c5
+------------------------------------------
+
+Product Name: Keychron K2 Mechanical Keyboard
+Price: ₹7,999
+Description: Compact 75% layout, wireless/wired connection, Gateron G Pro mechanical switches, RGB backlit, aluminum frame panel.
+Product ID: 0cd00472-22ae-45f0-978d-8da51f92bb16
+------------------------------------------
+
+Product Name: Seagate Backup Plus Hub 8TB
+Price: ₹15,900
+Description: External desktop hard drive, built-in 2-port USB 3.0 hub to charge devices, cross-compatible with Mac and Windows.
+Product ID: 7a6476cd-e058-44bf-b1e3-f56811b3c736
+------------------------------------------
+
+Product Name: Anker PowerExpand 7-in-1 Hub
+Price: ₹3,499
+Description: USB-C adapter hub, HDMI 4K, Power Delivery charging port, SD and MicroSD card slots, dual USB 3.0 data transfer.
+Product ID: 816dba27-ee07-4868-a9e3-7ddb47565395
+------------------------------------------
+
+Product Name: Elgato Stream Deck MK.2
+Price: ₹14,990
+Description: Studio controller console, 15 customizable LCD keys, drag-and-drop actions, customizable faceplates, USB-C connection.
+Product ID: 7f7913fc-2f0f-4895-9db4-4fa9012bdfea
+------------------------------------------
+
+Product Name: Corsair K70 RGB PRO Keyboard
+Price: ₹16,990
+Description: Full-size mechanical gaming keyboard, Cherry MX Speed switches, AXON hyper-processing technology, durable double-shot keycaps.
+Product ID: 174d17f0-f9b8-4430-b675-4115a235375b
+------------------------------------------
+

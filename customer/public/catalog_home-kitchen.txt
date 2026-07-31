@@ -1,0 +1,903 @@
+Velora E-Commerce Product Catalog: Category: Home & Kitchen
+==========================================
+
+Product Name: Anglepoise Type 75 Desk Lamp
+Price: ₹19,900
+Description: Iconic constant-tension spring mechanism lamp, adjustable shade and arms, matte paint finish with aluminum fittings.
+Product ID: 6a7f0135-386f-4e74-a3f2-0527a56b48de
+------------------------------------------
+
+Product Name: Artemide Tolomeo Tavolo Lamp
+Price: ₹29,500
+Description: Fully cantilevered polished aluminum arm table lamp, tilt adjustable diffuser, joints and tension control knobs.
+Product ID: c9f97bd8-a0fc-45f1-875f-5d74606b5d22
+------------------------------------------
+
+Product Name: Philips Hue Signe Smart Lamp
+Price: ₹18,990
+Description: Slim minimalist LED table lamp, millions of colors, syncs with music/movies, Hue app and smart assistant control.
+Product ID: 0c7fc378-55cb-418e-9c5b-980fa8cacc20
+------------------------------------------
+
+Product Name: Kaiser Idell Kaiser Lux Desk Lamp
+Price: ₹49,900
+Description: Original Bauhaus design desk lamp, asymmetric swiveling dome shade, chrome-plated steel ball joints, vintage editorial look.
+Product ID: 4a677ad8-8df2-4699-aab8-593969cdd36c
+------------------------------------------
+
+Product Name: Louis Poulsen Panthella Portable
+Price: ₹16,500
+Description: Battery-powered portable lamp, hemisphere acrylic dome diffuser, glare-free soft downward ambient light glow.
+Product ID: 9c426b2d-2c14-4e2f-a2c9-ae43db944198
+------------------------------------------
+
+Product Name: Menu Carrie LED Portable Lamp
+Price: ₹11,500
+Description: Decorative brass handle portable light, opal glass sphere diffuser, USB rechargeable, three step dimmer control.
+Product ID: f6f6d95a-77c8-4543-9f8d-ccdf223cd40f
+------------------------------------------
+
+Product Name: Gubi Cobra Table Lamp
+Price: ₹34,500
+Description: Retro classic task light, tubular flexible brass neck, swiveling oval steel shade resembling a cobra head.
+Product ID: fb1d06df-0e22-46d5-997d-e17fc65b11ea
+------------------------------------------
+
+Product Name: Hay PC Portable Lamp
+Price: ₹7,990
+Description: Molded plastic portable light, scratch-resistant matte finish, integrated LED light source, rechargeable USB base.
+Product ID: 4fbc9f31-347e-45af-9798-9a2e876e249a
+------------------------------------------
+
+Product Name: Flos Bellhop Portable LED
+Price: ₹19,900
+Description: Modern mushroom-like rechargeable lamp, colored polycarbonate dome body, 24 hours battery life, micro-USB port.
+Product ID: ae2c058d-3686-4e58-872c-6915004efd59
+------------------------------------------
+
+Product Name: Muuto Control Table Lamp
+Price: ₹14,500
+Description: Playful minimalist light socket plate, industrial metal tray base, analog rotary control dimmer dial knob.
+Product ID: 84321edf-63b1-4f77-a4a4-11246d2ee968
+------------------------------------------
+
+Product Name: Flos Arco Floor Lamp
+Price: ₹1,49,000
+Description: Luxury floor lamp, solid white Carrara marble base rectangular block, satin-finish stainless steel adjustable arc arm.
+Product ID: 047d124f-2f46-42ac-a9a7-dfb70360f2b2
+------------------------------------------
+
+Product Name: AJ Floor Lamp (Louis Poulsen)
+Price: ₹68,900
+Description: Designed by Arne Jacobsen, tilted cylinder shade, zinc base with opening for cable, matte wet-painted steel.
+Product ID: 68e60791-e24d-4cc4-9e60-eb9eb052ff5e
+------------------------------------------
+
+Product Name: Vitra Akari 10A Floor Lamp
+Price: ₹29,500
+Description: Isamu Noguchi classic paper lamp, handmade washi paper shade, bamboo ribs, wire frame structure tripod legs.
+Product ID: d00279fd-e914-449e-a28c-b848e2d38471
+------------------------------------------
+
+Product Name: Hay Nelson Bubble Pendant
+Price: ₹24,500
+Description: Classic saucer shape bubble lamp, steel wire frame coated in plastic polymer spray, soft ambient diffused glow.
+Product ID: 4e7cbcb4-a0b5-47b8-b510-3bd691435b94
+------------------------------------------
+
+Product Name: Muuto Ambit Pendant Light
+Price: ₹18,900
+Description: Spun aluminum pendant shade, hand-painted interior white for maximal reflection, matching rubber cord wire.
+Product ID: 70cf9185-9786-449c-ba35-7e20b61ae582
+------------------------------------------
+
+Product Name: Tom Dixon Beat Fat Pendant
+Price: ₹38,900
+Description: Hand-beaten brass pendant lamp, black patinated exterior, warm golden hand-hammered inner reflecting surface.
+Product ID: 05f127ed-0b73-4389-8eb0-c094e9b728b4
+------------------------------------------
+
+Product Name: West Elm Haven Velvet Sofa
+Price: ₹89,000
+Description: Deep-seated 3-seater sofa, premium performance velvet upholstery, down-filled cushions, solid wood legs.
+Product ID: 8b80ae90-7a55-49eb-bbe2-2295f54b4e1a
+------------------------------------------
+
+Product Name: Article Sven Tan Leather Sofa
+Price: ₹1,49,000
+Description: Mid-century modern tan leather sofa, full-grain aniline dyed leather, tufted bench seat, bolster pillows.
+Product ID: 02c8211f-4219-4f86-97fd-a562214103c1
+------------------------------------------
+
+Product Name: IKEA Landskrona Loveseat
+Price: ₹45,000
+Description: Compact 2-seater loveseat, durable Tufted coated fabric, metal steel legs, supportive pocket spring cushions.
+Product ID: 72f5b520-d040-4aa7-af9a-1b79a78e9c09
+------------------------------------------
+
+Product Name: Floyd The Sectional Sofa
+Price: ₹1,89,000
+Description: Modular configuration sectional sofa, stain-resistant blend fabric, dense foam cushions, powder-coated steel brackets.
+Product ID: 8ea31ad6-3482-40a2-a392-2890b0d86a2f
+------------------------------------------
+
+Product Name: Burrow Nomad Fabric Sofa
+Price: ₹79,000
+Description: Tight-weave scratch-resistant fabric sofa, built-in USB charger port, reversible back cushions, solid oak wood frame.
+Product ID: 2c40c585-f900-4eb3-9bf3-17703eb1e1c1
+------------------------------------------
+
+Product Name: Castlery Jonathan Chesterfield Sofa
+Price: ₹1,10,000
+Description: Traditional Chesterfield deep button-tufted sofa, roll arms design, solid wood turned legs, gray linen weave.
+Product ID: e8e14367-49dc-4e52-a9ba-dcff6feb3369
+------------------------------------------
+
+Product Name: Joybird Briar Sleep Sofa
+Price: ₹1,25,000
+Description: Convertible sleeper sofa bed, pull-out memory foam mattress, high-density foam cushions, tapered oak wood feet.
+Product ID: a758ee8e-af5a-455d-b012-d064e8e58d15
+------------------------------------------
+
+Product Name: Pottery Barn Pearce Sectional
+Price: ₹2,19,000
+Description: L-shaped roll-arm down-blend cushion sectional sofa, heavy-duty performance canvas fabric, kiln-dried hardwood frame.
+Product ID: 1e519b5d-19ca-4e86-8fce-50aef2cd4a1c
+------------------------------------------
+
+Product Name: Article Nord Velvet Daybed
+Price: ₹69,000
+Description: Minimalist daybed sofa, tufted velvet cushion, single bolster, solid oak legs, perfect for reading nooks.
+Product ID: b03e6e5c-1105-444b-aab2-a72b5e345634
+------------------------------------------
+
+Product Name: IKEA Vimle 3-Seat Sofa with Chaise
+Price: ₹59,000
+Description: Family-friendly modular sofa with chaise, removable washable cotton cover, under-chaise storage compartment.
+Product ID: 9d1d9141-a9c7-40c5-a51a-89a226338237
+------------------------------------------
+
+Product Name: Sleepyhead Original Orthopedic Mattress
+Price: ₹14,900
+Description: 3-zone orthopedic memory foam mattress, high-density base foam, breathable top cover, pressure relief.
+Product ID: 4e6ee492-0ec5-45a1-9cc2-99ad8c1d56f4
+------------------------------------------
+
+Product Name: The Sleep Company SmartGRID Mattress
+Price: ₹24,900
+Description: Patented SmartGRID technology mattress, motion isolation, breathable cooling channels, luxury medium firm support.
+Product ID: 0c7d4458-8669-42f6-b6dc-914f279326c2
+------------------------------------------
+
+Product Name: Flo Solid Sheesham Wood Queen Bed
+Price: ₹34,900
+Description: Premium Sheesham wood queen-size bed frame, natural grain finish, slatted support system, minimalist headboard.
+Product ID: bd6fd702-8cb3-4969-9c6d-e0f0be4041de
+------------------------------------------
+
+Product Name: Wakefit Taurus Engineered Wood Bed
+Price: ₹12,900
+Description: Queen-size bed with spacious hydraulic under-bed storage, premium walnut wood-grain finish.
+Product ID: 5c36beaa-cead-4f79-ad0c-718a84f1d86e
+------------------------------------------
+
+Product Name: Emma Original Memory Foam Mattress
+Price: ₹18,900
+Description: German engineered 3-layer foam mattress, climate regulating top cover, adaptive body contouring.
+Product ID: 74f8b33a-bb25-46a9-b482-7f6a61f4510e
+------------------------------------------
+
+Product Name: Sleepwell Cocoon Dual Comfort Mattress
+Price: ₹9,900
+Description: Dual-sided reversible mattress, firm support on one side, soft cushioning on the other, breathable fabric.
+Product ID: c6f2d0f3-c794-49ed-aaf8-8f6492287196
+------------------------------------------
+
+Product Name: Urban Ladder Solid Wood Storage Bed
+Price: ₹42,900
+Description: King-size solid teak wood bed frame, four drawers under-bed storage, tufted headboard backing.
+Product ID: 7f039756-ca3a-49fa-816e-145f8f6e946a
+------------------------------------------
+
+Product Name: Duroflex LiveIn Memory Foam Mattress
+Price: ₹11,900
+Description: DIY roll-pack mattress in a box, contouring memory foam, anti-microbial fabric cover, supportive base.
+Product ID: e75fe12a-932b-4467-ac54-5e821ca69c8e
+------------------------------------------
+
+Product Name: Menu Hashira Pendant Lamp
+Price: ₹19,500
+Description: Cylindrical fabric pendant, linen shade wrapped over steel frame panel, floating look, warm home lighting.
+Product ID: 0162b9c3-c39a-483e-94b8-4e4ecea8b63e
+------------------------------------------
+
+Product Name: Gubi Multi-Lite Floor Lamp
+Price: ₹54,900
+Description: Rotatable half-spheres shades, direct light upwards/downwards/asymmetrically, chrome metal ring frame.
+Product ID: d57a28c1-c4b6-4786-994c-735264f3d1b0
+------------------------------------------
+
+Product Name: Foscarini Caboche Pendant
+Price: ₹92,500
+Description: Stunning modern pendant lamp, concentric rows of transparent polymethylmethacrylate spheres, frosted glass inner diffuser.
+Product ID: f9bcd1e8-3d4b-4840-ae70-ea751f06d122
+------------------------------------------
+
+Product Name: Serge Mouille 3-Arm Ceiling Lamp
+Price: ₹1,25,000
+Description: Classic mid-century ceiling light, 3 rotating steel arms, swivel joints, aluminum shades with white painted interiors.
+Product ID: cc68622f-a39a-4067-b6f2-871ef2d1f004
+------------------------------------------
+
+Product Name: Hario V60 Ceramic Dripper
+Price: ₹1,999
+Description: Signature pour-over coffee dripper, spiral rib grooves, large single exit hole, heat-retaining ceramic body.
+Product ID: 57925610-3ab0-46e7-aff1-571d074a7e63
+------------------------------------------
+
+Product Name: Chemex 8-Cup Classic Maker
+Price: ₹4,999
+Description: Hourglass non-porous borosilicate glass coffee maker, polished wood collar with leather tie string wrap.
+Product ID: 6e1ded62-4c30-46c8-8bfc-bb51bbb85c9a
+------------------------------------------
+
+Product Name: Bialetti Moka Express 6-Cup
+Price: ₹3,499
+Description: Original stovetop espresso maker, octagonal aluminum design, safety valve, cool-touch handle and knob.
+Product ID: 97c175a7-2515-4e58-94cc-b8ef8b280f5a
+------------------------------------------
+
+Product Name: Aeropress Clear Coffee Maker
+Price: ₹3,999
+Description: Patented rapid immersion brewing system, crystal clear tritan plastic cylinder, chamber plunger filter cap.
+Product ID: 66db5c03-9151-4fc8-83f6-d5c39e649cb4
+------------------------------------------
+
+Product Name: French Press Bodum Chambord
+Price: ₹2,999
+Description: Classic French press coffee maker, heat-resistant borosilicate glass, chrome-plated steel frame casing, 3-part steel filter.
+Product ID: ed0f3082-48b1-498b-a6c0-cfc3de57f7da
+------------------------------------------
+
+Product Name: Fellow Stagg EKG Kettle
+Price: ₹16,900
+Description: Electric gooseneck kettle, precision pour spout, temperature hold dial control, sleek matte black finish, base display.
+Product ID: 22277310-064e-4d02-b32c-bfd319673bde
+------------------------------------------
+
+Product Name: Breville Barista Express Machine
+Price: ₹68,900
+Description: All-in-one home espresso machine, integrated conical burr grinder, dose control, 15 bar Italian pump pressure, steam wand.
+Product ID: d0b18840-19fd-4a84-9f5d-9c7b9195843d
+------------------------------------------
+
+Product Name: DeLonghi Dedica Maestro
+Price: ₹24,900
+Description: Compact pump espresso machine, metal body panels, flow stop, milk frothing wand, fits small counter spaces.
+Product ID: 460349c6-f021-4a36-9708-53247b33552c
+------------------------------------------
+
+Product Name: Rancilio Silvia Espresso Machine
+Price: ₹79,900
+Description: Professional grade home espresso machine, marine grade brass boiler, 3-way solenoid valve, commercial filter holder.
+Product ID: 5dcd58aa-414e-470e-b5ec-28298284f312
+------------------------------------------
+
+Product Name: Gaggia Classic Pro Espresso
+Price: ₹49,900
+Description: Commercial style chrome brass group head portafilter, traditional milk frother, rocker switch interface control.
+Product ID: 075f7b75-dbf5-4579-821b-82a22d09e9a7
+------------------------------------------
+
+Product Name: Baratza Encore Coffee Grinder
+Price: ₹14,500
+Description: Conical burr coffee grinder, 40 grind settings, DC motor keeps beans cool, pulse button front, commercial grade.
+Product ID: ad04e267-eb6e-47bf-9953-64267ffeb3c8
+------------------------------------------
+
+Product Name: Fellow Ode Gen 2 Grinder
+Price: ₹34,500
+Description: Precision home brew grinder, 64mm professional flat burrs, anti-static technology, auto-stop sensor.
+Product ID: 3b337122-6bc5-4abc-ade6-cee8d3fa7219
+------------------------------------------
+
+Product Name: Hario Skerton Pro Manual Grinder
+Price: ₹3,990
+Description: Hand coffee grinder, ceramic burr core, adjustable grind click, heat-proof glass jar container, sturdy handle.
+Product ID: 6af01962-c923-467f-a8b9-16011156def3
+------------------------------------------
+
+Product Name: Comandante C40 MK4 Nitro Blade
+Price: ₹29,500
+Description: Ultimate hand coffee grinder, high-alloy nitrogen steel burr, clicks adjustment, real wood veneer wrap.
+Product ID: 00f17d6a-b790-4120-8161-d6077fa22c5b
+------------------------------------------
+
+Product Name: Acaia Pearl Brewing Scale
+Price: ₹16,900
+Description: Professional smart coffee brewing scale, real-time flow rate indicator, Bluetooth app integration, touch controls.
+Product ID: 3e0e1493-c722-4fb9-a87a-41d121f0a5de
+------------------------------------------
+
+Product Name: Timemore Black Mirror Basic Scale
+Price: ₹4,999
+Description: Sleek digital drip scale, invisible LED screen displays when on, USB rechargeable battery, auto timer.
+Product ID: 404cdb21-bca5-4ab6-add1-2468ccc974bc
+------------------------------------------
+
+Product Name: Fellow Tally Pro Scale
+Price: ₹18,900
+Description: Assist mode scale for perfect pour-overs, OLED screen display, fast response load sensor, premium metal plate.
+Product ID: 559608d5-2b1e-43f1-86ed-afc27702bbef
+------------------------------------------
+
+Product Name: Hario Drip Scale & Timer
+Price: ₹3,499
+Description: Classic digital coffee scale, measures weight and extraction time simultaneously, simple push button design.
+Product ID: 4f16fe32-d498-48cd-835f-f220aba11907
+------------------------------------------
+
+Product Name: Oxo Brew Conical Burr Grinder
+Price: ₹9,999
+Description: Conical burr grinder, integrated scale measures dosage by weight, 38 grind settings, UV-blocking bean hopper.
+Product ID: cc2e26ee-5ab1-4343-86e6-539ab629c76c
+------------------------------------------
+
+Product Name: Capresso Infinity Burr Grinder
+Price: ₹8,900
+Description: Commercial grade steel conical burrs, safety lock mechanism, slow grinding speed preserves aroma oils.
+Product ID: fba9c2dd-c0da-491a-bd76-2b51e8d74c6a
+------------------------------------------
+
+Product Name: Le Creuset Enameled Dutch Oven
+Price: ₹28,900
+Description: 5.5-Qt round cast iron dutch oven, durable vitreous enamel coating, secure lid fit, iconic signature colors.
+Product ID: d93fdafd-c81c-4758-ba66-d4d4870a60ca
+------------------------------------------
+
+Product Name: Lodge Cast Iron Skillet 12"
+Price: ₹2,999
+Description: Pre-seasoned cast iron pan, dual pour spouts, loop helper handle, retains heat exceptionally well, made in USA.
+Product ID: bc8a62ff-f56e-4ad2-8461-e01a24cb8a7d
+------------------------------------------
+
+Product Name: Wusthof Classic 8" Chef Knife
+Price: ₹14,500
+Description: Precision forged high-carbon steel chef knife, triple riveted full tang handle, hand polished edge sharpness.
+Product ID: 9fc520e3-6f8b-4349-8e44-5870bd6ddfcb
+------------------------------------------
+
+Product Name: Shun Classic 8" Kiritsuke Knife
+Price: ₹18,900
+Description: Artisanal Japanese chef knife, VG-MAX steel cutting core wrapped in 68 layers of Damascus steel, D-shaped ebony handle.
+Product ID: 38cba397-3ea4-4ffc-b14e-e3b5981cd2d0
+------------------------------------------
+
+Product Name: All-Clad d5 Stainless Fry Pan 10"
+Price: ₹13,900
+Description: Patented 5-ply bonded construction, stainless steel exterior, aluminum core, warp-resistant, helper handle.
+Product ID: f3ce9e9d-7d20-4066-92b1-52b7b5b1d19f
+------------------------------------------
+
+Product Name: Staub Cocotte 5.5-Qt Round
+Price: ₹26,900
+Description: Enameled cast iron cocotte, matte black enameled interior, flat self-basting spike lid, nickel steel knob.
+Product ID: 2d12b960-5602-4654-b9d0-3261147ac58a
+------------------------------------------
+
+Product Name: Global G-2 Chef Knife 8"
+Price: ₹9,800
+Description: Unique hollow stainless steel handle filled with sand for balance, CROMOVA 18 steel blade, razor sharp edge.
+Product ID: 96648fce-7e9f-442b-aef2-b51a07d7ad99
+------------------------------------------
+
+Product Name: Victorinox Fibrox Chef Knife 8"
+Price: ₹3,499
+Description: Lightweight professional chef knife, high-carbon stainless steel blade, non-slip textured Fibrox handle.
+Product ID: 179141dd-93c6-41d8-b8f7-1edf0bb08fd1
+------------------------------------------
+
+Product Name: Caraway Ceramic Cookware Set
+Price: ₹39,500
+Description: Non-toxic ceramic nonstick set (12-piece), aluminum core, stainless steel handles, canvas organizers and lid holder.
+Product ID: e13969e8-f205-4186-9eea-15fa685c0c30
+------------------------------------------
+
+Product Name: Lodge Enameled Dutch Oven 6-Qt
+Price: ₹8,900
+Description: Double enameled cast iron pot, porcelain enamel finish, self-basting lid, stainless steel loop knob.
+Product ID: e2fb805e-4b05-4b11-9ce4-3e1fc8f345e6
+------------------------------------------
+
+Product Name: Furi Hand-Glazed Dinner Plates Set
+Price: ₹3,999
+Description: Set of 4 hand-glazed stoneware plates, organic uneven rims, earth-toned matte borders, dishwasher and microwave safe.
+Product ID: ec323f50-ac77-4b27-be29-5a8471047c99
+------------------------------------------
+
+Product Name: Royal Doulton 16-Piece Dinnerware Set
+Price: ₹12,500
+Description: Classic white porcelain set, 4 dinner plates, 4 salad plates, 4 cereal bowls, 4 mugs, subtle ribbed line textures.
+Product ID: 2f802f04-5e1d-4d02-9b2e-d60c776a52dc
+------------------------------------------
+
+Product Name: Wedgwood Gio Mug Set of 4
+Price: ₹5,900
+Description: Intaglio textured bone china mugs, white geometric relief pattern, dishwasher safe, elegant breakfast table addition.
+Product ID: d96c7b95-d201-4967-96f1-e8218da10ad5
+------------------------------------------
+
+Product Name: Noritake Colorwave Coupe Dinnerware
+Price: ₹14,800
+Description: Set of 4 setting coupes, matte finish exterior, glossy white interior glaze, premium chip-resistant stoneware.
+Product ID: f4e00df1-71ce-4bb4-9413-b6d65df6356e
+------------------------------------------
+
+Product Name: Corelle Vitrelle 18-Piece Set
+Price: ₹6,990
+Description: Triple-layer strong Vitrelle glass plates and bowls, space-saving stackable, break and chip resistant.
+Product ID: e61c1c8e-cccd-40af-ad74-8b78a3e2b29f
+------------------------------------------
+
+Product Name: Villeroy & Boch Manufacture Rock
+Price: ₹18,900
+Description: Matte slate-look porcelain plate set, textured surface, premium quality, modern dark gray styling.
+Product ID: d4eb45a6-71bf-427c-9b3f-a8d7066f47ac
+------------------------------------------
+
+Product Name: Denby Imperial Blue Mug Set
+Price: ₹6,500
+Description: Stoneware mugs handcraft in England, vibrant cobalt blue glaze inside white glaze, extremely durable.
+Product ID: c98c1a1e-79ce-40c6-8b48-2e12bedd8a41
+------------------------------------------
+
+Product Name: Lenox Butterfly Meadow Set
+Price: ₹11,500
+Description: Bone china dinnerware, classic botanical butterfly floral print, scalloped rims, dishwasher safe.
+Product ID: 4282d332-c1d2-42db-b3b8-254e6ac1c34b
+------------------------------------------
+
+Product Name: Mikasa Delray Bone China Set
+Price: ₹13,900
+Description: 40-piece bone china set (service for 8), clean white translucent body, classic round shape, chip resistant.
+Product ID: 7f392465-4195-42fe-a905-4d550ad55b81
+------------------------------------------
+
+Product Name: Williams Sonoma Brasserie Set
+Price: ₹9,800
+Description: French bistro style dinnerware, white porcelain with thin blue ring borders, commercial grade durability.
+Product ID: 8d1e18b8-5394-4f0c-9862-f7a7d51ae83c
+------------------------------------------
+
+Product Name: Fog Linen Work Linen Tablecloth
+Price: ₹8,900
+Description: 100% natural Lithuanian flax linen, woven border seams, softens with every wash, natural light tan color.
+Product ID: 718d4ab7-f081-45ff-84be-96ce53858ab9
+------------------------------------------
+
+Product Name: Coyuchi Organic Cotton Tablecloth
+Price: ₹7,500
+Description: Organic cotton, woven waffle texture border, lightweight, dyed with non-toxic botanical colors.
+Product ID: d6c674ca-365a-404a-a775-5dd760e20385
+------------------------------------------
+
+Product Name: Cultiver Flax Linen Tablecloth
+Price: ₹11,900
+Description: Premium French linen, pre-washed for softness, elegant drape, available in charcoal and oatmeal.
+Product ID: 921c6c98-5b77-42f8-820a-c4bd29f5a9c5
+------------------------------------------
+
+Product Name: Williams Sonoma Jacquard Table Runner
+Price: ₹3,490
+Description: Woven cotton-linen blend runner, classic damask floral print pattern, heavy hemmed borders.
+Product ID: 01536c7a-dfcc-4cec-a66f-a6b2e6e575e1
+------------------------------------------
+
+Product Name: Solino Home Linen Napkins Set
+Price: ₹2,290
+Description: Set of 4 pure flax linen dinner napkins, mitered corners, classic hemstitch details.
+Product ID: 13014d82-d83f-4d60-a95e-3020c5bf9c92
+------------------------------------------
+
+Product Name: West Elm Organic Cotton Napkins
+Price: ₹1,990
+Description: Set of 4 soft cotton napkins, geometric textured print, machine washable, modern styling.
+Product ID: 0b55a69f-4f2a-4e7b-bf96-11df0560e86b
+------------------------------------------
+
+Product Name: Target Threshold Kitchen Towels Pack
+Price: ₹990
+Description: Pack of 4 waffle weave absorbent kitchen towels, organic cotton loop hangers, lint-free.
+Product ID: b5cca5c5-04d4-4a7a-a8e1-db5ad243b4f8
+------------------------------------------
+
+Product Name: DII Cotton Kitchen Towels Set
+Price: ₹1,290
+Description: Set of 5 striped cotton dishtowels, heavy duty weave, multi-purpose cleaning and drying.
+Product ID: be27fa3f-a25f-4dbe-923d-e553c1559e51
+------------------------------------------
+
+Product Name: Fecido Classic Kitchen Towels Set
+Price: ₹1,590
+Description: Pack of 3 heavy-grade European cotton kitchen tea towels, grid texture, highly absorbent.
+Product ID: 8701a524-1bd2-4429-b6ed-498794be6760
+------------------------------------------
+
+Product Name: Maison d'Hermine Tablecloth
+Price: ₹4,500
+Description: 100% cotton print tablecloth, watercolor floral motifs, hand finished double hems.
+Product ID: 3bc1dd24-5a15-4b25-94e8-d1ee50c51ae0
+------------------------------------------
+
+Product Name: Herman Miller Eames Lounge Chair
+Price: ₹2,39,000
+Description: Iconic lounge chair and ottoman, molded plywood shells, premium leather upholstery, die-cast aluminum base.
+Product ID: 22f8e288-7851-4518-a6ef-3256734c4ed1
+------------------------------------------
+
+Product Name: Vitra Standard Chair
+Price: ₹38,900
+Description: Designed by Jean Prouve, sheet steel back legs distribute weight, oak veneer seat and back panel.
+Product ID: 680bb165-546e-4f99-9c3b-81a4d3eb9bca
+------------------------------------------
+
+Product Name: Fritz Hansen Series 7 Chair
+Price: ₹32,500
+Description: Designed by Arne Jacobsen, pressure-molded sliced veneer panel seat, stackable steel tube legs.
+Product ID: e0af48db-fad8-45df-a43c-644adc0c0da7
+------------------------------------------
+
+Product Name: Knoll Womb Chair & Ottoman
+Price: ₹1,85,000
+Description: Eero Saarinen classic, fiberglass shell wrapped in foam and premium wool fabric, steel rod frame legs.
+Product ID: 5fb4bdc3-89f7-45d6-92c1-a61c497bd74d
+------------------------------------------
+
+Product Name: Hay About A Chair AAC 22
+Price: ₹19,800
+Description: Ergonomic molded plastic shell armchair, curved solid oak wooden legs base, minimalist Scandinavian.
+Product ID: bc00fceb-a9fd-49dc-b065-b3b226c70289
+------------------------------------------
+
+Product Name: Muuto Visu Wood Base Chair
+Price: ₹21,500
+Description: Form-pressed oak veneer shell, matching solid wood legs, understated sleek profile.
+Product ID: aec0d77f-4b87-4850-9e14-78e6b372c447
+------------------------------------------
+
+Product Name: Carl Hansen CH24 Wishbone Chair
+Price: ₹44,900
+Description: Handcrafted dining chair, steam-bent solid wood backrest, hand-woven paper cord seat (120 meters cord).
+Product ID: 3c6100b4-e4f4-4570-b4a3-7bc7e42c5ece
+------------------------------------------
+
+Product Name: Article Sven Velvet Armchair
+Price: ₹54,900
+Description: Mid-century style armchair, high-density foam seat with tufting, soft velvet upholstery, tapered wood legs.
+Product ID: 6c751bee-d6ed-43b4-bcf5-1ad1a9ea2171
+------------------------------------------
+
+Product Name: West Elm Slope Leather Chair
+Price: ₹22,900
+Description: Industrial dining chair, curved seat wrapped in top-grain aniline leather, powder-coated steel legs.
+Product ID: f52f2929-dbee-4061-8fda-ffbc45903fe4
+------------------------------------------
+
+Product Name: IKEA Poang Armchair
+Price: ₹8,900
+Description: Layer-glued bent birch frame, high back supports neck, soft removable fabric cushion padding.
+Product ID: 37627e4a-8f6f-4676-99c1-639070b02cff
+------------------------------------------
+
+Product Name: Coyuchi Organic Cotton Throw Pillow
+Price: ₹4,900
+Description: Organic cotton knit cushion cover, down feather insert included, textured seed stitch pattern.
+Product ID: 36d4addc-67d4-4681-9157-8f600c902d8b
+------------------------------------------
+
+Product Name: West Elm Velvet Cushion Cover
+Price: ₹1,990
+Description: Lush cotton-viscose velvet cushion casing, invisible side zip closure, available in jewel tones.
+Product ID: 1c4012d6-f624-4430-8b00-3dc5316e9d9b
+------------------------------------------
+
+Product Name: CB2 Linen Throw Pillow
+Price: ₹3,490
+Description: Pure linen textured throw pillow, contrast piping trim edges, polyfill insert included.
+Product ID: b4de5cfb-054d-4701-b0ca-3055c99d0012
+------------------------------------------
+
+Product Name: Schoolhouse Cotton Cushion Cover
+Price: ₹4,500
+Description: Heavy-grade cotton canvas cushion cover, screen printed plaid checks pattern, metal zipper.
+Product ID: d0cf3428-0171-432b-8e75-1c25a54bb52e
+------------------------------------------
+
+Product Name: Pottery Barn Faux Fur Throw Pillow
+Price: ₹3,990
+Description: Incredibly plush acrylic faux fur cushion, polyester backing, down blend insert.
+Product ID: e4601074-343d-4833-907b-725f2a589255
+------------------------------------------
+
+Product Name: Pendleton Wool Cushion Cover
+Price: ₹7,900
+Description: Woven wool cushion casing, classic Native American geometric pattern jacquard, zippered.
+Product ID: a2139518-b16e-4ed7-94b1-5957347b4385
+------------------------------------------
+
+Product Name: IKEA Sanela Velvet Cushion Cover
+Price: ₹990
+Description: Thick cotton velvet cover, soft to touch, hidden zip, machine washable.
+Product ID: c04a7444-7632-4211-927b-edb9a05bff8a
+------------------------------------------
+
+Product Name: Restoration Hardware Linen Pillow
+Price: ₹8,900
+Description: Heavy Belgian linen cushion cover, natural feather down insert, hand-finished seams.
+Product ID: 48994d9a-2333-4b25-aaa0-da95a3d13d0e
+------------------------------------------
+
+Product Name: Serena & Lily Cable Knit Pillow
+Price: ₹6,500
+Description: Cotton-wool blend cable knit pillow cover, wood button envelope back closure.
+Product ID: f4d0b41a-01f5-4b2f-b764-837eb5a87cdf
+------------------------------------------
+
+Product Name: Target Opalhouse Fringe Cushion
+Price: ₹1,890
+Description: Textured canvas throw pillow, colorful tassel fringe borders, polyester insert.
+Product ID: 2177bc2d-3a1f-4cdf-ac9f-72efa36ad1d2
+------------------------------------------
+
+Product Name: Yamazaki Tosca Storage Basket
+Price: ₹2,990
+Description: Steel wire storage bin, white powder coat, solid ash wood carry handles, Japanese design.
+Product ID: 476e304b-33c6-4da3-bb3c-0c4e8e7e6f42
+------------------------------------------
+
+Product Name: Open Spaces Entryway Shoe Rack
+Price: ₹9,900
+Description: Three-tier steel storage rack, rounded corner panels, durable powder coat finish, holds 9 pairs.
+Product ID: 4faa849f-1c9e-4df7-9cdb-4af270cf8fbf
+------------------------------------------
+
+Product Name: Muuto Restore Felt Basket
+Price: ₹6,900
+Description: Storage bin made of fibers from recycled plastic bottles, soft felt appearance, cutout handle slots.
+Product ID: b35085c7-e082-4fb6-9e6b-fe3601c1548b
+------------------------------------------
+
+Product Name: Hay Color Crate Medium
+Price: ₹990
+Description: Collapsible perforated plastic crate, stackable storage solution, recycled post-industrial plastic.
+Product ID: 54702655-4c4f-4880-b3d9-b9243a9fc087
+------------------------------------------
+
+Product Name: iDesign Plastic Storage Bins Pack
+Price: ₹2,490
+Description: Pack of 4 clear BPA-free plastic bins, integrated handles, ideal for fridge and pantry organization.
+Product ID: 68f5a947-150d-4551-8c0b-413b0f725041
+------------------------------------------
+
+Product Name: Target Brightroom Metal Basket
+Price: ₹1,290
+Description: Wire storage grid basket, satin black finish, natural bamboo wooden rim band.
+Product ID: 47b038e1-c92f-466e-b0e1-f227f5654ac0
+------------------------------------------
+
+Product Name: Container Store Elfa Drawer System
+Price: ₹14,500
+Description: Wire basket drawer system, epoxy-bonded steel frame, 4 slide-out wire drawers, smooth rollers.
+Product ID: 3eedd068-7892-4aa1-baf6-0efa42acc4e9
+------------------------------------------
+
+Product Name: West Elm Lacquer Trays Set
+Price: ₹4,900
+Description: Set of 2 nesting lacquer serving/desk trays, high gloss finish, cutout handles.
+Product ID: 38f3c7da-7d70-431a-a3b7-96cfe36734f1
+------------------------------------------
+
+Product Name: Yamazaki Tower Dish Drying Rack
+Price: ₹4,500
+Description: Sleek steel dish drainer, self-draining water spout tray, adjustable cutlery holder basket.
+Product ID: 6c909187-1204-4356-88d9-440cd5224194
+------------------------------------------
+
+Product Name: IKEA Skadis Pegboard Pack
+Price: ₹2,990
+Description: Wood fiber pegboard sheet, wall mounting rails, customize with Skadis containers and hooks.
+Product ID: d6ec1baf-060b-4f27-badc-0d2a169c4dab
+------------------------------------------
+
+Product Name: AO Smith X8 Green RO Purifier
+Price: ₹17,900
+Description: RO+SCMT protection, Green RO recovery technology saves 2x water, mineralizer cartridge.
+Product ID: 05af6706-d6b6-441b-bd30-f7a08389ceaa
+------------------------------------------
+
+Product Name: Kurl-On Kurlo-Bond Coir Mattress
+Price: ₹8,900
+Description: Natural rubberised coir mattress, high-density bonded foam core, therapeutic spine support, quilted cover.
+Product ID: 46ba612a-5573-4512-9dd5-b172298e0eaa
+------------------------------------------
+
+Product Name: Pepperfry Solid Wood Poster Canopy Bed
+Price: ₹54,900
+Description: Traditional king-size four-poster canopy bed frame, solid mahogany wood, elegant turned spindles.
+Product ID: 224e1e2b-e048-4f82-8c31-f4c15fb309c4
+------------------------------------------
+
+Product Name: Orient Electric Apex-FX Ceiling Fan
+Price: ₹1,899
+Description: High-speed ceiling fan, copper motor, 1200mm sweeps, rust-free powder coated aluminum blades.
+Product ID: b4230d81-49f8-433f-8145-dfe4688f0808
+------------------------------------------
+
+Product Name: Havells Ambrose Decorative Ceiling Fan
+Price: ₹2,999
+Description: Premium decorative fan, metallic paint finish, high air delivery, silent operation double ball bearings.
+Product ID: 0c5cd6af-6377-452d-ab1e-4152b002dd8d
+------------------------------------------
+
+Product Name: Atomberg Renesa Smart BLDC Fan
+Price: ₹3,899
+Description: Energy-saving brushless DC motor ceiling fan, remote control, LED speed indicator, consumes 28W only.
+Product ID: 7949bf33-f9a3-4eed-873e-d7a45ef45eea
+------------------------------------------
+
+Product Name: Crompton Hill Briz Ceiling Fan
+Price: ₹1,699
+Description: Reliable high-speed utility fan, 100% copper winding, double ball bearing, 1200mm blade sweeps.
+Product ID: 9bc64330-5097-4206-91fa-df2281f7db3a
+------------------------------------------
+
+Product Name: Orient Electric Wendy Decorative Fan
+Price: ₹3,499
+Description: Stylish color combination ceiling fan, wide blades for high air thrust, silent durable motor.
+Product ID: 07b31885-34e6-438a-add5-a7ba7f65bbe0
+------------------------------------------
+
+Product Name: Havells Efficiencia Neo BLDC Fan
+Price: ₹3,699
+Description: Super-efficient BLDC fan, 5-star energy saving rating, runs three times longer on inverter backup.
+Product ID: bce0e85b-cda4-4379-9569-8353b9409cf8
+------------------------------------------
+
+Product Name: Luminous Dhoom High Speed Fan
+Price: ₹1,799
+Description: Classic white utility fan, high speed 380 RPM, copper motor, wide blade angle design.
+Product ID: 948bd4f4-f6ca-477f-a62f-46265d44a14e
+------------------------------------------
+
+Product Name: Atomberg Efficio BLDC Ceiling Fan
+Price: ₹3,299
+Description: BLDC motor fan with remote control, sleep mode timer speed regulation, saves up to ₹1500 yearly.
+Product ID: c7f93879-1d1b-4a3e-a196-6dea39454cf1
+------------------------------------------
+
+Product Name: Usha Swift High Speed Ceiling Fan
+Price: ₹1,850
+Description: High speed fan, pressure die cast motor casing, gloss powder coat paint, 100% copper windings.
+Product ID: b6ce3d3f-1a75-443b-b2d7-5c776a72fd6f
+------------------------------------------
+
+Product Name: Crompton Energion Silent Pro BLDC
+Price: ₹4,999
+Description: Silent BLDC ceiling fan, activBLDC tech, smart remote regulation, aerodynamically designed blades.
+Product ID: 61d6a4fe-3460-471b-b82a-05a4d3360e9a
+------------------------------------------
+
+Product Name: Kent Grand Plus RO Water Purifier
+Price: ₹16,900
+Description: RO+UV+UF water purification with TDS controller, patented mineral RO technology, 9-liter storage tank.
+Product ID: e24f7a9d-eb7c-47ec-bef4-25d0e94dcef5
+------------------------------------------
+
+Product Name: Aquaguard Ritz Active Copper Purifier
+Price: ₹18,900
+Description: RO+UV+MTDS purification, active copper tech infusion, premium e-boiling, stainless steel tank.
+Product ID: 4510ebc7-87e1-4af7-90eb-d286286ecc4e
+------------------------------------------
+
+Product Name: Pureit Copper+ Mineral RO Purifier
+Price: ₹19,990
+Description: 7-stage purification, copper charge technology, dual water dispensing choice, mineral cartridge.
+Product ID: 78493c89-678d-47eb-8298-211cf908b910
+------------------------------------------
+
+Product Name: AO Smith Z9 Green RO Purifier
+Price: ₹22,900
+Description: Hot water dispensing RO purifier, 8-stage purification, mineralizer tech, green energy saving.
+Product ID: ea903cfe-7107-492b-b456-141448cb1271
+------------------------------------------
+
+Product Name: Havells Max Alkaline RO Purifier
+Price: ₹14,900
+Description: Alkaline mineral RO+UV water purifier, raises pH level of water, transparent tank.
+Product ID: c01d2702-7b5a-471e-b803-1a8a693f54f4
+------------------------------------------
+
+Product Name: Kent Ultra Storage UV Purifier
+Price: ₹8,900
+Description: Double purification UV+UF, 8-liter storage tank, high power 11W UV lamp, computer controlled.
+Product ID: 456f9593-7127-434f-bd65-92fcdb47590b
+------------------------------------------
+
+Product Name: Aquaguard Marvel RO+UV Purifier
+Price: ₹13,900
+Description: RO+UV+Taste Adjuster MTDS purifier, active copper technology, wall mount compact design.
+Product ID: 057deb15-bf1e-4ca1-a28e-9517a2d47142
+------------------------------------------
+
+Product Name: Pureit Vital Max RO+UV Purifier
+Price: ₹11,900
+Description: RO+UV filtration, FiltraPower technology removes heavy metals, 7-liter storage, water saving.
+Product ID: 8108992b-88a8-441c-a4c8-3ed3146a042b
+------------------------------------------
+
+Product Name: V-Guard Zenora RO+UV+MB Purifier
+Price: ₹9,900
+Description: 7-stage RO UV purification, mineral balancer, smart LED indicators, food-grade storage tank.
+Product ID: 842c7654-bb83-4840-964a-faa5bcee5948
+------------------------------------------
+
+Product Name: Prestige Marvel Glass 3 Burner Stove
+Price: ₹4,999
+Description: 3-burner gas table, shatterproof black toughened glass top, high efficiency brass burners.
+Product ID: d802b541-c462-4a2d-8d40-13aefb470177
+------------------------------------------
+
+Product Name: Elica Vetro Glass Top 4 Burner Stove
+Price: ₹6,900
+Description: 4-burner manual gas stove, premium glass cooktop finish, euro-coated grid pan supports.
+Product ID: 481b38d9-c170-49a1-a6ea-6465e3d618ff
+------------------------------------------
+
+Product Name: Pigeon by Stovekraft Favourite 2 Burner
+Price: ₹1,999
+Description: 2-burner gas stove, stainless steel body, brass burners, unique user-friendly knobs.
+Product ID: 4373cc10-b956-4701-b735-dd558ff5885b
+------------------------------------------
+
+Product Name: Prestige Royale Plus Glass 4 Burner
+Price: ₹9,500
+Description: 4-burner gas cooktop, Schott glass top, Sabaf Italian gas valves, spill-proof designs.
+Product ID: 43a420fb-048c-480d-8a6e-9ff2ab4aa623
+------------------------------------------
+
+Product Name: Glen Glass Cooktop 3 High Burners
+Price: ₹5,400
+Description: 3-burner gas stove, aluminum alloy burners, toughened glass top, rich black body finish.
+Product ID: ca1c8df3-d8c4-4472-9fa5-5f328d459843
+------------------------------------------
+
+Product Name: Elica Vetro 3 Burner Auto Ignition
+Price: ₹5,900
+Description: Auto-ignition 3-burner gas stove, battery free spark, toughened black glass top.
+Product ID: b73b5a73-46ac-4e9a-a5c6-87cdac732029
+------------------------------------------
+
+Product Name: Pigeon Aster Glass 3 Burner Stove
+Price: ₹2,999
+Description: 3-burner cooktop, powder-coated body, strong tubular legs, spill tray steel plates.
+Product ID: eb7d19b5-f8f9-4309-a11e-94d1f81505e7
+------------------------------------------
+
+Product Name: Sunflame GT Pride 2 Burner Gas Stove
+Price: ₹2,600
+Description: 2-burner gas table, extra spacious toughened glass cooktop, brass burners.
+Product ID: ad69e0e9-12db-4f4a-b626-655f9286e3d2
+------------------------------------------
+
+Product Name: Glen Gourmet 4 Burner Glass Cooktop
+Price: ₹8,900
+Description: 4-burner gas stove, heavy-duty pan support, multi-spark auto-ignition, high-end knobs.
+Product ID: cfdadbf7-7c7d-4c7a-9b06-1cd480683773
+------------------------------------------
+
+Product Name: Butterfly Smart Glass 3 Burner Stove
+Price: ₹3,499
+Description: 3-burner cooktop, flame retardant front knobs, designer glass plate, easy cleaning spill trays.
+Product ID: 21959a5b-d160-4e6e-abd4-748807e0c48a
+------------------------------------------
+

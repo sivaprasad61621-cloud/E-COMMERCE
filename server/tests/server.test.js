@@ -65,3 +65,17 @@ test('5. CacheService In-Memory Operations', async () => {
   const deletedVal = await cacheService.get('test_key');
   assert.equal(deletedVal, null);
 });
+
+test('6. Chatbot Text Chunking Utility', async () => {
+  const { chunkText } = await import('../services/aiService.js');
+  const sampleText = "Velora E-Commerce RAG assistant. First sentence of context. Second sentence of context. Third sentence of context.";
+  const chunks = chunkText(sampleText, 50, 10);
+  assert.ok(chunks.length > 0);
+  assert.ok(chunks[0].length <= 50);
+});
+
+test('7. Chatbot Embeddings Factory Client', async () => {
+  const { getEmbeddingsClient } = await import('../services/aiService.js');
+  const client = getEmbeddingsClient();
+  assert.ok(client !== null);
+});

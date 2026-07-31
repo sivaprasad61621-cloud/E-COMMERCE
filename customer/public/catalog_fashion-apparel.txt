@@ -1,0 +1,603 @@
+Velora E-Commerce Product Catalog: Category: Fashion & Apparel
+==========================================
+
+Product Name: Barbour Beaufort Wax Jacket
+Price: ₹39,900
+Description: Classic waxed cotton jacket, signature corduroy collar, heavy duty two-way zip, storm fly front, tartan cotton interior lining.
+Product ID: a17c0992-80ec-4f40-8b8a-12f7a7450808
+------------------------------------------
+
+Product Name: Levi's Denim Sherpa Jacket
+Price: ₹7,999
+Description: Iconic jean trucker jacket, warm sherpa fleece lining in body and collar, quilted sleeve linings, snap-button closure.
+Product ID: 4266fa6f-d2af-454a-a667-afdb7eb5b94c
+------------------------------------------
+
+Product Name: Columbia Steens Mountain Fleece
+Price: ₹3,499
+Description: Cozy MTR filament fleece jacket, zippered hand pockets, drawstring adjustable hem, durable outdoor layering piece.
+Product ID: 4d7896e4-9561-42d5-9259-d912b3f6d831
+------------------------------------------
+
+Product Name: Schott NYC 530 Leather Jacket
+Price: ₹79,900
+Description: Hand-cut lightweight waxy cowhide leather jacket, plaid cotton lining, zippered chest pocket, antique brass hardware.
+Product ID: e349b795-753d-4e46-b5e8-23cc033c6e7f
+------------------------------------------
+
+Product Name: Canada Goose Expedition Parka
+Price: ₹1,25,000
+Description: Extreme weather parka, durable Arctic Tech shell, 625-fill power white duck down, coyote fur trim hood, multi utility pockets.
+Product ID: 7d41fbfa-d5fa-490f-aed1-c6c2c1cd3a94
+------------------------------------------
+
+Product Name: Carhartt WIP Detroit Jacket
+Price: ₹18,500
+Description: Rugged organic cotton canvas jacket, warm blanket striped body lining, corduroy collar, zipped chest pocket, triple-stitched seams.
+Product ID: 9d5e5cf1-14dd-49bd-9626-2f84826979a7
+------------------------------------------
+
+Product Name: Everlane Cashmere Crewneck
+Price: ₹11,900
+Description: Grade-A cashmere knit sweater, standard crewneck collar, ribbed cuffs and hem, incredibly soft and pills less over time.
+Product ID: d04e38b7-ce31-42c5-8215-329aee4221dc
+------------------------------------------
+
+Product Name: Naadam Essential Cashmere Sweater
+Price: ₹9,500
+Description: 100% Mongolian cashmere crewneck, sustainably sourced, lightweight breathable knit, flattering classic silhouette.
+Product ID: 2d013bd5-ccfe-4e67-9fad-77a8e493bd6b
+------------------------------------------
+
+Product Name: Patagonia Synchilla Fleece Jacket
+Price: ₹11,500
+Description: Double-sided fleece pullover, signature nylon snap-button placket, chest pocket, spandex bound collar and sleeve edges.
+Product ID: 9d25bde4-239c-4c4e-8512-f4a2c528f2ce
+------------------------------------------
+
+Product Name: Reformation Cashmere Cardigan
+Price: ₹18,900
+Description: V-neck knit cardigan button front, blend of recycled cashmere and fine wool, relaxed fit ribbed details, tortoise buttons.
+Product ID: e47fa0a8-e280-4671-bf29-e74c82af4e90
+------------------------------------------
+
+Product Name: Free People Easy Street Tunic
+Price: ₹9,800
+Description: Oversized tunic length knit sweater, mock-neck collar, side slits, drop-shoulder seams, cozy textured ribbed knit.
+Product ID: 7203eb2f-64fe-439d-b031-cce6323854f9
+------------------------------------------
+
+Product Name: Barefoot Dreams CozyChic Cardigan
+Price: ₹12,500
+Description: Super fluffy microfiber knit cardigan, open front cascade collar, patch pockets, feels like a warm cozy blanket.
+Product ID: a210df2c-0e22-4636-b4cd-8c30efbe0e95
+------------------------------------------
+
+Product Name: L.L. Bean Classic Cotton Sweater
+Price: ₹6,990
+Description: Textured cable-knit pullover, 100% long-staple cotton yarn, traditional crewneck, holds shape wash after wash.
+Product ID: 12198921-4e0c-415d-852d-d4d056329aff
+------------------------------------------
+
+Product Name: Jenni Kayne Everyday Sweater
+Price: ₹22,900
+Description: Premium lightweight wool-cashmere blend knit, relaxed fit, ribbed hems, modern understated California look.
+Product ID: b22598e4-41b2-45f9-9ce7-5cdbceac6134
+------------------------------------------
+
+Product Name: Uniqlo Extra Fine Merino Crew
+Price: ₹2,990
+Description: 100% extra fine merino wool, machine washable, anti-pilling, thin lightweight knit perfect for office layering.
+Product ID: d2fd8966-10c7-444e-a829-49a2e05ccf6a
+------------------------------------------
+
+Product Name: J.Crew Cable-Knit Crewneck
+Price: ₹8,900
+Description: Classic cable pattern sweater, soft wool-cotton blend, ribbed trims, available in versatile warm neutral colors.
+Product ID: 7dea7334-7019-4614-8a4f-462930957c41
+------------------------------------------
+
+Product Name: Reformation Juliette Midi Dress
+Price: ₹19,800
+Description: Slim fitting midi dress, sweetheart neckline, high thigh slit, adjustable tie shoulder straps, lightweight georgette fabric.
+Product ID: a138fc00-9837-48a5-8a65-095a18ec094a
+------------------------------------------
+
+Product Name: Ganni Floral Georgette Dress
+Price: ₹22,500
+Description: Printed wrap dress, recycled polyester georgette, ruffle edges, V-neckline, long balloon sleeves with elastic cuffs.
+Product ID: a85e1b57-d893-454d-9275-9eb1f88c3c3c
+------------------------------------------
+
+Product Name: Farm Rio Tropical Maxi Dress
+Price: ₹18,900
+Description: Vibrant tropical print maxi dress, adjustable thin straps, tiered skirt, smocked back panel, lightweight organic cotton fabric.
+Product ID: c9cecaf3-b916-4b49-a878-25828c8537f7
+------------------------------------------
+
+Product Name: Arc'teryx Atom LT Hoody
+Price: ₹26,900
+Description: Lightweight versatile synthetic insulated jacket, Coreloft compact fill, water-resistant Tyono shell, breathable side panels.
+Product ID: 160cdc90-135c-43bb-abd5-b9ea7bef1642
+------------------------------------------
+
+Product Name: The North Face 1996 Retro Nuptse
+Price: ₹24,900
+Description: Boxy retro puffer jacket, water-repellent ripstop fabric, 700-fill goose down insulation, packable hood folds into collar.
+Product ID: 2cf3143c-5caa-489c-998d-9e84f16b21d6
+------------------------------------------
+
+Product Name: Alpha Industries MA-1 Flight Jacket
+Price: ₹16,500
+Description: Classic military bomber jacket, reversible orange nylon lining, water-resistant flight nylon outer, utility pocket on sleeve.
+Product ID: d049c4d3-08e1-4afe-a51e-eee801253bd4
+------------------------------------------
+
+Product Name: Realisation Par The Alexandra Dress
+Price: ₹16,500
+Description: Mini wrap dress, 100% silk crepe, long sleeves, ruffled neckline and hem, wrap tie waist for custom adjustment.
+Product ID: 2462e5a1-69ea-4c88-a636-197fcfc9f8aa
+------------------------------------------
+
+Product Name: Staud Wells Poplin Dress
+Price: ₹24,500
+Description: A-line midi dress, structured corset-style bodice, square neckline, voluminous pleated skirt, soft cotton poplin.
+Product ID: 1d077357-33aa-4139-8829-41ebac39263e
+------------------------------------------
+
+Product Name: Zara Poplin Midi Dress
+Price: ₹3,990
+Description: Tiered skirt midi dress, sleeveless square neck, smocked bodice front, lightweight cotton blend fabric.
+Product ID: fab8ea91-e410-4325-aa65-9752d60c608e
+------------------------------------------
+
+Product Name: Anthropologie Somerset Maxi Dress
+Price: ₹14,800
+Description: Best-selling tiered maxi dress, smocked elastic waist, flutter cap sleeves, double side pockets, lightweight cotton.
+Product ID: f7c41db6-27a9-4ddb-b2d5-dcc9411b9e02
+------------------------------------------
+
+Product Name: Madewell Linen Halter Dress
+Price: ₹9,800
+Description: Halter tie neck midi dress, 100% Belgian flax linen, side slit details, open back panel, perfect hot weather resort wear.
+Product ID: 50caa30a-c6ec-41b1-9f32-840ef7985d03
+------------------------------------------
+
+Product Name: Free People Oasis Midi Dress
+Price: ₹11,500
+Description: Bohemian style dress, embroidery details on bodice, balloon sleeves, layered raw hem skirt, elastic smocked cuffs.
+Product ID: 05bf54c8-529f-4e42-9c2b-fc378d51d8a0
+------------------------------------------
+
+Product Name: Lulus Satin Slip Dress
+Price: ₹5,400
+Description: Elegant cowl neck midi slip dress, glossy satin fabric, adjustable cross back straps, bias-cut drapes beautifully.
+Product ID: b8b5f92a-2174-4060-a022-911785c3e598
+------------------------------------------
+
+Product Name: Polo Ralph Lauren Oxford
+Price: ₹9,900
+Description: Classic fit long-sleeved sport shirt, breathable cotton oxford, button-down collar, signature embroidered pony logo.
+Product ID: d2fffe92-4aca-452c-b554-11190310b68d
+------------------------------------------
+
+Product Name: Gitman Vintage Flannel Shirt
+Price: ₹18,500
+Description: Heavyweight brushed cotton flannel, classic check pattern, button-down collar, curved hem, made in the USA.
+Product ID: d1c01051-889f-4a76-8702-8c4fbd8dfe87
+------------------------------------------
+
+Product Name: Uniqlo Supima Cotton Tee
+Price: ₹990
+Description: 100% premium long-staple Supima cotton, smooth texture, clean silhouette, durable collar binding, perfect base tee.
+Product ID: bdac1181-d952-4c97-8460-742fef3e4dbe
+------------------------------------------
+
+Product Name: Patagonia Responsibili-Tee
+Price: ₹3,490
+Description: Eco-friendly screenprint tee, 100% recycled polyester/cotton blend, Fair Trade certified sewn, classic logo on back.
+Product ID: a9892130-bee9-4746-b93e-d9e965eac787
+------------------------------------------
+
+Product Name: Carhartt K87 Pocket Tee
+Price: ₹2,290
+Description: Workwear pocket t-shirt, thick heavyweight cotton knit, left chest pocket with sewn-on logo patch, loose fit comfort.
+Product ID: 87111a65-b875-45d7-80a3-0700b27cd135
+------------------------------------------
+
+Product Name: Filson Alaskan Guide Shirt
+Price: ₹11,500
+Description: Rugged cotton flannel guide shirt, tight wind-resistant weave, double-needle stitched seams, expanding chest pockets.
+Product ID: 7b691637-b2ef-4e6e-b381-5ec2b743f260
+------------------------------------------
+
+Product Name: Brooks Brothers Button-Down
+Price: ₹10,900
+Description: Original non-iron cotton dress shirt, button-down collar, signature 6-Free pleat cuffs, durable Supima cotton.
+Product ID: d918ef56-4320-49d9-b51c-cfe634f85a03
+------------------------------------------
+
+Product Name: Taylor Stitch Jack Shirt
+Price: ₹9,800
+Description: Tailored casual shirt, custom organic cotton waffle weave texture, lock-stitched buttons, single chest pocket.
+Product ID: b74d3a33-868c-47a4-b52b-9a060269de06
+------------------------------------------
+
+Product Name: Fred Perry Laurel Wreath Polo
+Price: ₹7,900
+Description: Cotton pique polo shirt, twin tipped ribbed collar and cuffs, signature laurel wreath logo embroidery, regular fit.
+Product ID: 4c71c465-5241-438a-82b7-d1762ae3ac25
+------------------------------------------
+
+Product Name: Lacoste Classic L1212 Polo
+Price: ₹6,900
+Description: Original cotton petit pique polo, ribbed collar, two-button placket, signature green crocodile logo patch.
+Product ID: 8bde71a5-f583-4ab9-a48c-2007e75275b5
+------------------------------------------
+
+Product Name: Nike Air Force 1 '07
+Price: ₹7,495
+Description: Classic leather basketball sneaker, foam midsole with encapsulated Air cushioning, clean retro low top styling.
+Product ID: b7ddffca-2d94-4032-be73-3b83f54d95f7
+------------------------------------------
+
+Product Name: Adidas Samba Classic
+Price: ₹8,999
+Description: Heritage indoor soccer sneaker, soft full-grain leather upper, T-toe suede overlay, signature gum rubber outsole.
+Product ID: aa703049-36b0-45f4-8f4d-d041241cdafc
+------------------------------------------
+
+Product Name: New Balance 990v6 Sneakers
+Price: ₹19,999
+Description: Premium lifestyle running shoe, FuelCell foam midsole, ENCAP cushioning, suede/mesh overlays, made in the USA.
+Product ID: e6ab224d-d236-4c4f-ad70-865dac5f8daa
+------------------------------------------
+
+Product Name: Birkenstock Boston Clogs
+Price: ₹12,900
+Description: Suede leather slip-on clog, anatomically shaped cork-latex footbed, adjustable metal buckle strap, EVA outer sole.
+Product ID: fe3712b6-1d31-4135-afc8-63c3ce18c1d4
+------------------------------------------
+
+Product Name: Dr. Martens 1460 Smooth Boots
+Price: ₹14,900
+Description: Iconic 8-eyelet combat boots, smooth durable leather, signature yellow welt stitching, AirWair air-cushioned bouncing sole.
+Product ID: 2975bfea-e81b-4a72-a80d-10cd169c0399
+------------------------------------------
+
+Product Name: Clarks Originals Desert Boots
+Price: ₹11,999
+Description: Classic chukka boot design, premium English suede upper, two-eyelet lace closure, signature natural crepe rubber sole.
+Product ID: cf7092e1-73de-45ee-839f-70a46d43051c
+------------------------------------------
+
+Product Name: Converse Chuck 70 High Top
+Price: ₹5,999
+Description: Premium heavy canvas high-top, vintage license plate branding, OrthoLite cushioned footbed, glossy egret rubber sidewall.
+Product ID: bba0159b-0098-43a7-b6d3-364cd2e80af5
+------------------------------------------
+
+Product Name: Salomon XT-6 Trail Shoe
+Price: ₹17,999
+Description: Outdoor trail running sneaker, Agile Chassis system, Quicklace toggle draw system, durable Contagrip lugged rubber sole.
+Product ID: a9183f4c-2cd5-4ddb-b49d-0fe46dbb7f41
+------------------------------------------
+
+Product Name: Vans Old Skool Canvas
+Price: ₹4,499
+Description: Classic canvas skate shoe, signature leather side stripe, padded collars, durable waffle pattern vulcanized rubber sole.
+Product ID: 8fb82127-0ed8-4db8-9bc4-588eb47798ac
+------------------------------------------
+
+Product Name: Veja Campo Leather Sneakers
+Price: ₹13,500
+Description: Sustainable leather sneakers, logo V made of wild rubber and rice waste, organic cotton lining, Amazonian wild rubber sole.
+Product ID: 3e423b60-fe6c-43b5-8b6d-4f4ae96c27e9
+------------------------------------------
+
+Product Name: Fjallraven Kanken Backpack
+Price: ₹6,999
+Description: Classic Scandinavian school pack, Vinylon F durable waterproof fabric, top handles, reflective logo, removable seat cushion pad.
+Product ID: 418eeaee-e6ee-4f98-9e89-584a5323f78e
+------------------------------------------
+
+Product Name: Herschel Heritage Backpack
+Price: ₹4,999
+Description: Classic functional daypack, signature striped fabric lining, internal laptop sleeve, zippered front pocket with key clip.
+Product ID: 35c9dda9-c735-4337-a881-1c365d553b71
+------------------------------------------
+
+Product Name: Patagonia Black Hole MLC 45L
+Price: ₹18,900
+Description: Maximum legal carry-on travel bag, tough TPU-laminated recycled polyester ripstop, converts from backpack to duffle.
+Product ID: b8086339-19dd-4256-8600-a3b2f8ba4fe0
+------------------------------------------
+
+Product Name: Bellroy Classic Backpack Plus
+Price: ₹14,500
+Description: Minimalist smart commuter pack, dual compartment storage, vertical side pockets, lumbar support back padding, water-resistant woven fabric.
+Product ID: d230f915-d6a8-496c-b4ee-f05c24663326
+------------------------------------------
+
+Product Name: Filson Original Briefcase
+Price: ₹34,900
+Description: Heavy duty work briefcase, 22-oz rugged cotton twill, bridle leather handles and strap, solid brass zipper, weather-resistant.
+Product ID: eb2defa8-4889-4378-bacd-cb207362f96f
+------------------------------------------
+
+Product Name: Peak Design Everyday Backpack
+Price: ₹23,900
+Description: Award-winning camera/everyday backpack, MagLatch top closure, customizable FlexFold internal dividers, weather-proof zip access.
+Product ID: df9c733c-134f-49fb-96c6-c77f5aa5e57b
+------------------------------------------
+
+Product Name: Timbuk2 Classic Messenger Bag
+Price: ₹8,900
+Description: Iconic cycle messenger bag, waterproof TPU interior lining, cam buckle shoulder strap, corner wing fold closure weather guards.
+Product ID: faa30001-3bd1-45ea-93b6-64ceeb2672d8
+------------------------------------------
+
+Product Name: Osprey Farpoint 40 Travel Pack
+Price: ₹14,900
+Description: Travel backpack, stowaway mesh harness and hipbelt, large panel zip access, compression straps, padded laptop pocket.
+Product ID: f859ac37-6740-44e0-add4-411c3c7a1162
+------------------------------------------
+
+Product Name: Chrome Industries Citizen Messenger
+Price: ₹12,500
+Description: Professional grade messenger bag, quick-release seatbelt buckle strap with bottle opener, military grade 1050D nylon.
+Product ID: 204a9888-b621-47c2-b5fd-bc672416b907
+------------------------------------------
+
+Product Name: Nomatic Travel Bag 30L
+Price: ₹22,900
+Description: Smart organization travel bag, shoe compartment, RFID safe pocket, cord pass-through slots, converts to briefcase.
+Product ID: 97a067cd-7a9b-4f06-b727-d938e0064abe
+------------------------------------------
+
+Product Name: Bellroy Hide & Seek Bifold
+Price: ₹6,999
+Description: Slim leather bifold wallet, 4 quick access slots, hidden currency section, RFID protection, premium eco-tanned leather.
+Product ID: 74f648bc-6da3-44db-9e5d-e1192b359ad9
+------------------------------------------
+
+Product Name: Secrid Slimwallet Card Protector
+Price: ₹6,500
+Description: Aluminium card protector shell wrapped in fine leather, side trigger lever slides cards out sequentially, RFID shield.
+Product ID: 6bec2c27-fbd8-4237-bf5a-20163e887098
+------------------------------------------
+
+Product Name: Saddleback Leather Bifold
+Price: ₹5,900
+Description: Heavy full-grain boot leather bifold, stitched with marine-grade thread, pigskin lining, 100-year warranty craftsmanship.
+Product ID: a4131f59-1eb3-4fc0-82ac-0ff1ddee9f70
+------------------------------------------
+
+Product Name: Ridge Wallet Matte Aluminium
+Price: ₹9,500
+Description: Minimalist metal front pocket wallet, holds up to 12 cards, integrated cash strap, RFID-blocking aerospace aluminum.
+Product ID: 3d9ae419-1b39-473e-8a42-209b83a66cc5
+------------------------------------------
+
+Product Name: Tanner Goods Utility Bifold
+Price: ₹9,800
+Description: Classic leather wallet, 3.5oz vegetable-tanned tooling leather, raw cut edges, hand-assembled, ages beautifully.
+Product ID: 1bf8bdc5-ae29-4c8a-a7d9-6d13f120d160
+------------------------------------------
+
+Product Name: Coach Leather Card Case
+Price: ₹4,900
+Description: Minimal card holder, crossgrain refined calf leather, 6 card slots, central cash compartment, subtle embossed logo.
+Product ID: c3573c89-6286-403f-b353-63ddb5d6675d
+------------------------------------------
+
+Product Name: Fossil Derrick Leather Bifold
+Price: ₹2,999
+Description: Traditional leather wallet, flip-out ID window, multiple credit card slots, sliding card pocket, contrast stitching.
+Product ID: 588e75ee-4397-437c-9f10-6268c6c7bd67
+------------------------------------------
+
+Product Name: Montblanc Meisterstuck Wallet
+Price: ₹26,500
+Description: Luxury leather wallet, European full-grain cowhide, deep shine finish, Montblanc emblem jacquard lining, palladium star ring.
+Product ID: 35ad531c-3ac0-40b8-8c04-9f922a5a0d38
+------------------------------------------
+
+Product Name: Herschel Roy Canvas Wallet
+Price: ₹1,999
+Description: Casual canvas bifold, signature striped fabric liner, multiple card slots, screen printed classic Herschel label.
+Product ID: 1f9a0381-474e-4563-9175-ae3bccafd97c
+------------------------------------------
+
+Product Name: Carhartt Leather Passcase Wallet
+Price: ₹2,499
+Description: Rugged leather work wallet, removable passcase utility sleeve, antique metal logo emblem, heavy-duty stitching.
+Product ID: 25c490d4-4f51-4cd7-8069-232f8c1d00c0
+------------------------------------------
+
+Product Name: Away The Bigger Carry-On
+Price: ₹22,900
+Description: Hard shell spinner luggage, durable polycarbonate shell, ejectable USB battery charger, 360-degree wheels, interior compression.
+Product ID: e547b4c6-5ec5-4e2f-a160-2cdb7ad64fa3
+------------------------------------------
+
+Product Name: Travelpro Platinum Elite Spinner
+Price: ₹28,900
+Description: Premium softside luggage, high-density nylon fabric, Duraguard stain-resistant coating, precisionglide magnetic wheel tracking.
+Product ID: a46bf5e2-dfc6-47d9-96a7-78d1794ef099
+------------------------------------------
+
+Product Name: Rimowa Essential Cabin Polycarbonate
+Price: ₹68,900
+Description: Luxury lightweight cabin luggage, gloss polycarbonate ribbed shell, TSA-approved locks, flex divider internal system.
+Product ID: 5eed37fa-1c6f-4771-a47e-9cdb18a56437
+------------------------------------------
+
+Product Name: Samsonite Freeform Spinner
+Price: ₹14,500
+Description: Modern hardside spinner, lightweight polypropylene shell, double wheels, expandable packing capacity, built-in ID tag.
+Product ID: 4ebad9a7-10f9-4aab-8717-60d06ff1d07a
+------------------------------------------
+
+Product Name: Patagonia Black Hole Duffle 55L
+Price: ₹13,900
+Description: Weather-resistant duffle bag, heavy duty TPU ripstop fabric, removable padded shoulder backpack straps, reinforced grab handles.
+Product ID: 9ef4454a-cba5-4b54-9954-6d83240a9d19
+------------------------------------------
+
+Product Name: Filson Medium Twill Duffle
+Price: ₹39,500
+Description: Artisanal travel duffle, 22-oz industrial cotton twill, storm-flap closure over zipper, vegetable-tanned bridle leather trims.
+Product ID: d3768ac1-ffc8-40ce-a333-8cb7c319a291
+------------------------------------------
+
+Product Name: Herschel Novel Duffle Bag
+Price: ₹6,999
+Description: Weekend travel bag, signature shoe compartment side sleeve, padded mesh shoulder strap, classic canvas handles.
+Product ID: a3bf8b74-45e2-4207-84f5-ec1bca6bc87a
+------------------------------------------
+
+Product Name: Nomatic Travel Bag 40L
+Price: ₹24,900
+Description: Ultimate travel backpack-duffle hybrid, laundry pocket, water-resistant zippers, tech pocket, dedicated tablet sleeve.
+Product ID: 0447bab4-0e1c-4ec1-a7e5-3a8ec3853bd0
+------------------------------------------
+
+Product Name: Yeti Crossroads Duffle 60L
+Price: ₹18,900
+Description: Adventure grade duffle, TuffSkin 840D nylon, structured foam walls prevent collapse, modular internal divider straps.
+Product ID: f0369136-24d8-403f-bd9a-ca5a8ef0ccd4
+------------------------------------------
+
+Product Name: Delsey Helium Aero Hardside
+Price: ₹11,990
+Description: High-gloss polycarbonate spinner, large front compartment with laptop sleeve (cabin model), expandable zip, double glider wheels.
+Product ID: bd540f77-84b9-41e4-8637-262bd90d4c1f
+------------------------------------------
+
+Product Name: Lululemon Align Yoga Pant
+Price: ₹8,900
+Description: Buttery-soft Nulu fabric yoga leggings, weightless naked sensation, high-rise flat waistband, hidden key pocket.
+Product ID: 7a121c8b-27ad-4b00-9e00-b237a1a2dd79
+------------------------------------------
+
+Product Name: Outdoor Voices CloudKnit Tee
+Price: ₹4,500
+Description: Unbelievably soft lightweight active tee, polyester-spandex performance blend, moisture-wicking and quick drying.
+Product ID: c571822a-ba67-4e57-9e0d-72ea361787c9
+------------------------------------------
+
+Product Name: Nike Pro Compression Shorts
+Price: ₹2,495
+Description: Tight compression undershorts, Dri-FIT sweat wicking fabric, elastic wide waistband, flat seams reduce chafing.
+Product ID: 2b6e716f-b36f-4044-a217-ca790e14709c
+------------------------------------------
+
+Product Name: Under Armour Tech 2.0 Tee
+Price: ₹1,699
+Description: Loose fit athletic shirt, UA Tech fabric has a soft natural feel, anti-odor technology, streamlined curved hem.
+Product ID: 25498eb0-8884-46b2-81d1-0cd2bf722d5b
+------------------------------------------
+
+Product Name: Gymshark Vital Seamless Leggings
+Price: ₹4,900
+Description: Seamless high-waisted gym tights, sweat-wicking knit, jacquard shading contours body shape, ribbed waistband supports.
+Product ID: 59a31ae2-31b0-4026-afbc-125db6e5683c
+------------------------------------------
+
+Product Name: Patagonia Baggies Shorts 5"
+Price: ₹4,990
+Description: Classic quick-dry active shorts, NetPlus recycled nylon faille, mesh pocket bags, elastic waistband with internal drawcord.
+Product ID: 9b679ddf-6b2e-409f-aeae-020b3149de08
+------------------------------------------
+
+Product Name: Alo Yoga Warrior Mat Bag
+Price: ₹5,400
+Description: Sleek studio gym bag, water-repellent performance fabric, adjustable shoulder strap, side pockets for phone/cards.
+Product ID: e5603175-1cea-4e48-a9ee-945b9ca34d47
+------------------------------------------
+
+Product Name: Rhone Commuter Pant
+Price: ₹11,900
+Description: Premium office/active hybrid pants, Flex-knit fabric with 4-way stretch, media pocket, secure zip back pocket.
+Product ID: 0c8fb9c1-7cd5-477f-ba24-2174985df8c6
+------------------------------------------
+
+Product Name: Vuori Performance Jogger
+Price: ₹8,900
+Description: Slim fit performance joggers, DreamKnit premium stretch fleece, cropped leg, elastic drawcord waist.
+Product ID: 863e86da-0725-44fa-bbb1-7b49f1a509d8
+------------------------------------------
+
+Product Name: Tracksmith Van Cortlandt Singlet
+Price: ₹5,800
+Description: Premium running singlet, lightweight breathable mesh, classic sash design print, gold pins included for racing bib.
+Product ID: 4c510fa1-53c8-46c1-a400-7a80b78f9ee8
+------------------------------------------
+
+Product Name: Ray-Ban Wayfarer Classic
+Price: ₹9,900
+Description: Iconic acetate frame sunglasses, G-15 green crystal lenses, 100% UV protection, classic silver rivet accents.
+Product ID: 6582b487-14fb-4860-a82d-0bf9264b59df
+------------------------------------------
+
+Product Name: Oakley Holbrook Sunglasses
+Price: ₹11,900
+Description: Sport lifestyle sunglasses, O Matter stress-resistant lightweight frame, Prizm lenses enhance color/contrast.
+Product ID: 36fb7ace-fb23-48d4-a2f8-30762137547f
+------------------------------------------
+
+Product Name: Persol 714 Folding Sunglasses
+Price: ₹23,900
+Description: Handcrafted folding acetate sunglasses, Meflecto flexible stem system, signature arrow hinges, crystal lenses.
+Product ID: 1daa4c75-dc5c-41b9-b1ec-4101fda14fdf
+------------------------------------------
+
+Product Name: Tom Ford Snowdon Sunglasses
+Price: ₹29,900
+Description: Luxury thick-frame acetate sunglasses, metal T temple details, vintage rectangular frame, made in Italy.
+Product ID: 66fc0699-27da-4490-949f-9fc490e53d01
+------------------------------------------
+
+Product Name: Carhartt Acrylic Watch Hat Beanie
+Price: ₹1,690
+Description: Classic ribbed watch hat, stretchable rib-knit acrylic yarn, fold-up cuff with sewn-on Carhartt patch.
+Product ID: bc108c50-4bd9-4308-beb5-9cb1a9121903
+------------------------------------------
+
+Product Name: Patagonia Fitz Roy Trout Cap
+Price: ₹2,990
+Description: 6-panel trucker hat, organic cotton canvas front, recycled polyester mesh back, adjustable snapback closure.
+Product ID: 5bb566e0-3386-43d0-be8e-a088f44187d6
+------------------------------------------
+
+Product Name: Buff CoolNet UV+ Neck Gaiter
+Price: ₹1,499
+Description: Seamless multifunctional neckwear, UPF 50+ sun protection, cooling tech fabric, recycled polyester microfiber.
+Product ID: 2c2a2910-b3b0-47cf-a4f5-16d95659c90e
+------------------------------------------
+
+Product Name: Ridge KeyCase Organizer
+Price: ₹6,500
+Description: Minimalist key organizer, patent-pending tension plate holds 2-6 keys, matte black aerospace grade aluminum.
+Product ID: fbf8ee39-2ade-48b1-a059-869e29342332
+------------------------------------------
+
+Product Name: Smartwool Everyday Crew Socks
+Price: ₹1,999
+Description: Comfortable crew socks, premium Merino wool blend, light cushioning, elastic arch support brace, flat knit toe seam.
+Product ID: 75e1dc31-35d0-4cff-9e36-52cf9fbab417
+------------------------------------------
+
+Product Name: Seiko 5 Sports Automatic Watch
+Price: ₹22,500
+Description: Mechanical automatic watch, 24 jewels calibre movement, day/date display, stainless steel case and link bracelet, lumibrite hands.
+Product ID: 4a240ab6-f14d-406c-9ce3-d06fc6439063
+------------------------------------------
+
+Product Name: Patagonia Better Sweater Fleece
+Price: ₹12,500
+Description: Warm 100% recycled polyester fleece jacket, sweater-knit aesthetic exterior, brushed interior, dyed with low-impact process.
+Product ID: 42e7f784-3ca0-4d42-b59d-00b5fb93355f
+------------------------------------------
+

@@ -1,0 +1,603 @@
+Velora E-Commerce Product Catalog: Category: Beauty & Health
+==========================================
+
+Product Name: Vitruvi Stone Essential Oil Diffuser
+Price: ₹11,900
+Description: Premium ceramic stone cover ultrasonic diffuser, 100ml water capacity, runs up to 8 hours, dual timer settings.
+Product ID: 0d3eedb3-1a76-4cfa-bb6d-720bfc2a0408
+------------------------------------------
+
+Product Name: MUJI Ultrasonic Humidifier Diffuser
+Price: ₹5,900
+Description: Minimalist white cylinder diffuser, ultrasonic mist waves, warm white LED light levels, auto-off safety.
+Product ID: 2b7da7d6-44f8-4ae9-a302-22a6b8453531
+------------------------------------------
+
+Product Name: ASAKUKI 500ml Smart Diffuser
+Price: ₹2,990
+Description: Large capacity humidifier diffuser, 5-in-1 functions, 7 LED color lights, remote control and smartphone app link.
+Product ID: b3b428bf-9e39-4d45-9d56-14602ee4860e
+------------------------------------------
+
+Product Name: Stadler Form Jasmine Diffuser
+Price: ₹4,900
+Description: Sleek modern bowl diffuser, interval mode sprays 10 mins on / 20 mins off, up to 24 hours total run.
+Product ID: fb3da8f8-2d1a-4407-879e-d2723913dd37
+------------------------------------------
+
+Product Name: Canopy Waterless Aroma Diffuser
+Price: ₹8,900
+Description: Waterless clean mist-free diffuser, fan-powered clean evaporation, ceramic aroma puck oil tray.
+Product ID: 464afd13-2b30-44f0-a2b2-4e40509780fe
+------------------------------------------
+
+Product Name: HoMedics Ellia Blossom Diffuser
+Price: ₹6,900
+Description: Handcrafted ceramic and wood design diffuser, ambient color light ring, relaxation sound tracks built-in.
+Product ID: 77e89c28-6e1a-4ff6-9c23-9c69ea311a2e
+------------------------------------------
+
+Product Name: Sierra Modern Stone Diffuser
+Price: ₹9,500
+Description: Smart WiFi stone diffuser, compatable with Alexa/Google, app control mist schedules and LED ring colors.
+Product ID: e0839591-a2f2-4ebd-8b5c-7747ceb820a9
+------------------------------------------
+
+Product Name: Serene House Ranger Portable Diffuser
+Price: ₹3,490
+Description: USB rechargeable portable diffuser, fits car cup holders, runs wireless up to 4 hours, travel bag included.
+Product ID: e5f0f646-0424-4c6d-b245-fa610822a965
+------------------------------------------
+
+Product Name: Innogear 150ml Essential Oil Diffuser
+Price: ₹1,990
+Description: Compact essential oil diffuser, ultrasonic cool mist, 7 changing colors, auto shut-off without water.
+Product ID: d2c7406f-ee59-4be9-9f16-02b1df92979b
+------------------------------------------
+
+Product Name: Urpower 2nd Gen 100ml Diffuser
+Price: ₹1,690
+Description: Classic compact diffuser, improved mist output, adjustable continuous and intermittent spray modes.
+Product ID: bbfbe6fc-b190-443a-8388-e968c377ff02
+------------------------------------------
+
+Product Name: Plant Therapy Organic Lavender Oil
+Price: ₹1,290
+Description: 100% pure USDA organic lavender essential oil, steam distilled, calms mind and promotes deep sleep.
+Product ID: b40d3e1f-ce83-453d-9ace-7c89ba7546d8
+------------------------------------------
+
+Product Name: doTERRA Peppermint Essential Oil
+Price: ₹2,490
+Description: Therapeutic grade peppermint oil, cooling sensation, alleviates tension headaches, refreshes breathing.
+Product ID: 256ea69d-d06e-40fc-af8c-0745a1dedc16
+------------------------------------------
+
+Product Name: Young Living Lemon Essential Oil
+Price: ₹1,890
+Description: Premium cold-pressed lemon peel oil, energetic citrus aroma, purifies air and supports focus.
+Product ID: 9db98f9b-2968-4f9c-9786-ab83646b486a
+------------------------------------------
+
+Product Name: Edens Garden Tea Tree Oil
+Price: ₹990
+Description: 100% pure tea tree oil, steam-distilled melaleuca, natural antiseptic for acne and scalp health.
+Product ID: 2c20eaf8-5896-478a-ac04-7137fe70b279
+------------------------------------------
+
+Product Name: Now Foods Eucalyptus Essential Oil
+Price: ₹790
+Description: Strong clarifying eucalyptus oil, ideal for steam inhalation, relaxes muscles and opens airways.
+Product ID: a014d89a-4b89-4f24-a458-82b14f9189ab
+------------------------------------------
+
+Product Name: Plant Therapy Lemon & Rosemary Blend
+Price: ₹1,490
+Description: Synergy focus blend, cold-pressed lemon and steam-distilled rosemary, boosts mental clarity.
+Product ID: 5772c704-92d3-466a-932f-ced49f5c1690
+------------------------------------------
+
+Product Name: Mountain Rose Herbs Frankincense Oil
+Price: ₹3,490
+Description: Organic wildcrafted Boswellia carterii oil, woody warm aroma, ideal for meditation and skin repair.
+Product ID: 18d30cd3-d25d-4ecc-8c9d-f0b5877cfe3b
+------------------------------------------
+
+Product Name: Aura Cacia Sweet Orange Oil
+Price: ₹890
+Description: 100% pure cold-pressed orange oil, sweet uplifting aromatherapy mist, brightens home atmosphere.
+Product ID: 3575b88e-0431-45cf-9dc0-89709c813a7d
+------------------------------------------
+
+Product Name: Edens Garden Fighting Five Blend
+Price: ₹1,590
+Description: Immunity defense blend, clove, lemon, cinnamon, eucalyptus and rosemary essential oils.
+Product ID: 66076121-c3cb-472b-9258-6ec921628254
+------------------------------------------
+
+Product Name: Cliganic Organic Jojoba Carrier Oil
+Price: ₹1,290
+Description: 100% pure cold-pressed unrefined jojoba oil, ideal carrier for diluting essential oils on skin.
+Product ID: 80fa3932-5c72-43e8-b105-4b4fb3ea35e0
+------------------------------------------
+
+Product Name: Supergoop! Unseen Sunscreen SPF 40
+Price: ₹3,800
+Description: 100% invisible weightless sunscreen, oil-free formula, acts as makeup primer, velvet finish.
+Product ID: 1627f955-2806-4c3d-aa61-3824bdaa6f92
+------------------------------------------
+
+Product Name: EltaMD UV Clear Broad-Spectrum SPF 46
+Price: ₹4,200
+Description: Dermatologist recommended zinc oxide sunscreen, niacinamide calms acne-prone sensitive skin.
+Product ID: de88d462-8472-4450-8b9a-5db0fa29cf16
+------------------------------------------
+
+Product Name: La Roche-Posay Anthelios SPF 50
+Price: ₹2,490
+Description: Cell-Ox Shield antioxidant technology, melt-in milk sunscreen lotion, water resistant 80 minutes.
+Product ID: 9b1e7936-8030-41b1-a2a4-386dda9a9747
+------------------------------------------
+
+Product Name: Biore UV Aqua Rich Watery Essence
+Price: ₹1,650
+Description: Japanese water-like light sunscreen, SPF 50+, hyaluronic acid, absorbs instantly with no white cast.
+Product ID: 747fdb6e-c3c1-4c31-ae5e-40c85412f1b2
+------------------------------------------
+
+Product Name: Shiseido Ultimate Sun Protector SPF 50+
+Price: ₹4,500
+Description: SynchroShield technology becomes stronger when exposed to heat and water, invisible barrier.
+Product ID: 372d8902-0b7c-46d1-b0ef-5ade34f84e5f
+------------------------------------------
+
+Product Name: Neutrogena Ultra Sheer Dry-Touch
+Price: ₹850
+Description: Helioplex broad-spectrum protection, dry-touch matte finish, lightweight fast-absorbing.
+Product ID: ecabaad7-7e91-401b-8c01-3133f4b62a4c
+------------------------------------------
+
+Product Name: Supergoop! Play Everyday Lotion SPF 50
+Price: ₹2,900
+Description: Hydrating water-resistant sunscreen lotion, sunflower extract, ideal for sports and outdoor use.
+Product ID: 1203a237-be52-4170-b6ed-41dd852ad881
+------------------------------------------
+
+Product Name: COSRX Aloe Soothing Sun Cream
+Price: ₹1,290
+Description: Hydrating daily sunscreen, formulated with Aloe Arborescens Leaf Extract, feels like a cream.
+Product ID: 63ff9ffd-04ea-4ffa-bc45-e70ae71a8b82
+------------------------------------------
+
+Product Name: Aveeno Protect + Hydrate SPF 60
+Price: ₹1,590
+Description: Nourishing prebiotic oat sunscreen, oil-free, non-comedogenic, hydrates skin all day.
+Product ID: 0636f4ce-7ba7-4404-855a-ad7d1279d93e
+------------------------------------------
+
+Product Name: Sun Bum Original Sunscreen Lotion SPF 50
+Price: ₹1,690
+Description: Hypoallergenic vegan sunscreen, enriched with Vitamin E, signature classic banana coconut scent.
+Product ID: 038314ea-ca4b-496b-92e1-4fc5f4af2201
+------------------------------------------
+
+Product Name: Dr. Bronner's Pure-Castile Liquid Soap
+Price: ₹1,890
+Description: Organic 18-in-1 castile soap, lavender oil, organic coconut/olive base, biodegradable.
+Product ID: ed26b462-9f83-4b81-a4f2-d4d98971f766
+------------------------------------------
+
+Product Name: L'Occitane Cleansing Almond Shower Oil
+Price: ₹2,490
+Description: Transforming oil-to-milk cleanser, sweet almond oil, respects skin barrier, delicious scent.
+Product ID: 0c7e6df6-3ae9-48cf-ab32-dd3a201221ed
+------------------------------------------
+
+Product Name: Nécessaire The Body Wash (Eucalyptus)
+Price: ₹2,900
+Description: Multi-vitamin body cleanser, niacinamide, vitamins A/C/E, rich lather, clean eucalyptus scent.
+Product ID: 3f0337f4-76d5-4a09-9bab-c2685afd9c35
+------------------------------------------
+
+Product Name: Aveeno Daily Moisturising Body Wash
+Price: ₹950
+Description: Soap-free body cleanser, formulated with nourishing prebiotic oat, relieves dry itchy skin.
+Product ID: cb5bf1db-ce82-4819-959c-64b84ee26d4f
+------------------------------------------
+
+Product Name: Dove Deep Moisture Body Wash
+Price: ₹490
+Description: MicroMoisture technology body wash, 24-hour hydration, sulfate-free, dermatologically tested.
+Product ID: 9fddd977-68d4-49b4-a48c-9aa6294293f8
+------------------------------------------
+
+Product Name: Outlaw Soaps Fire in the Hole Bar Soap
+Price: ₹990
+Description: Handcrafted bar soap, unique campfire, gunpowder, sage, whiskey rugged scent, vegan oils.
+Product ID: fedda963-195c-4d48-9be0-66dc255ec773
+------------------------------------------
+
+Product Name: Mrs. Meyer's Lavender Body Wash
+Price: ₹1,150
+Description: Aromatic essential oils body cleanser, aloe vera and flaxseed oil, cruelty-free formula.
+Product ID: c3bf6f8e-b8ce-4c44-8362-9f248e4f26a0
+------------------------------------------
+
+Product Name: Aesop Resurrection Hand Wash
+Price: ₹3,800
+Description: Exquisite hand wash, mandarin rind, rosemary leaf, cedarwood atlas, fine exfoliating texture.
+Product ID: 50815b74-74e8-4533-ba87-961451f03c0a
+------------------------------------------
+
+Product Name: Native Body Wash Coconut & Vanilla
+Price: ₹1,290
+Description: Simple clean body wash, derived from coconut oil, paraben-free, sweet gourmand aroma.
+Product ID: 1658be80-735d-4eec-9a32-8aec3ff827be
+------------------------------------------
+
+Product Name: Method Body Wash Pure Peace
+Price: ₹1,390
+Description: Infused with peony, rose water, and pink sea salt, plant-based biodegradable cleansers.
+Product ID: 57395824-5a7e-475a-90ce-6ddf0b34d267
+------------------------------------------
+
+Product Name: Sports Research Vitamin D3 5000 IU
+Price: ₹1,490
+Description: High potency Vitamin D3 coconut MCT oil softgels, supports bone density and immune function.
+Product ID: 31a8abad-83ec-47f0-a87f-cd05873a7e7f
+------------------------------------------
+
+Product Name: Thorne Research Basic Nutrients 2/Day
+Price: ₹3,490
+Description: Complete daily multivitamin/mineral formula, bioavailable active forms, gluten-free, NSF certified.
+Product ID: 693070fa-fa32-4faf-9268-61f998656741
+------------------------------------------
+
+Product Name: Garden of Life Raw Probiotics 100 Billion
+Price: ₹4,500
+Description: Once daily raw probiotics, 34 raw probiotic strains, digestive enzymes, shelf stable capsules.
+Product ID: 76e64c13-d489-4f69-b8a1-8365c0fc0e27
+------------------------------------------
+
+Product Name: Nordic Naturals Ultimate Omega 1280mg
+Price: ₹3,800
+Description: High-concentration EPA/DHA fish oil, lemon flavor softgels, supports cardiovascular and brain health.
+Product ID: 07b5b1f5-0e10-43aa-919d-b1a45946bb19
+------------------------------------------
+
+Product Name: Vital Proteins Collagen Peptides
+Price: ₹4,900
+Description: Unflavored grass-fed pasture-raised bovine collagen powder, supports hair, skin, nails, and joints.
+Product ID: 13a4181f-8357-40bc-819a-c35d2ccaa36a
+------------------------------------------
+
+Product Name: Hum Nutrition Flatter Me Digestive Enzyme
+Price: ₹2,900
+Description: 18 full-spectrum digestive enzymes, ginger, fennel, peppermint, reduces bloating and supports digestion.
+Product ID: d14dd9e6-a659-4a9d-8341-7529912c1ae3
+------------------------------------------
+
+Product Name: Ritual Essential Multivitamin for Women
+Price: ₹3,200
+Description: Clinically backed delayed-release multivitamin, key nutrients including folate and D3, mint tab.
+Product ID: 4549d85c-e2d2-4316-86f8-d4821375aed8
+------------------------------------------
+
+Product Name: MaryRuth's Liquid Morning Multivitamin
+Price: ₹3,900
+Description: Raspberry flavored liquid vitamin, vegan organic ingredients, easy absorption for all ages.
+Product ID: 619fb66a-d0e4-4f2b-81c0-242d3a98840a
+------------------------------------------
+
+Product Name: MegaFood MegaFlora Probiotic 20 Billion
+Price: ₹2,800
+Description: 14 life-enhancing probiotic strains, supports intestinal health and bowel regularity, acid-resistant.
+Product ID: d91e1579-5cbc-4b9a-a1ce-e18c88ab23d6
+------------------------------------------
+
+Product Name: Pure Encapsulations Magnesium Glycinate
+Price: ₹2,600
+Description: Highly absorbable magnesium chelate, supports muscle relaxation, cardiometabolic health and sleep.
+Product ID: 25d472bb-9ca0-4056-90c7-f850cc9df272
+------------------------------------------
+
+Product Name: SkinCeuticals C E Ferulic Serum
+Price: ₹14,900
+Description: Patented daytime Vitamin C antioxidant serum, 15% pure L-ascorbic acid, 1% alpha-tocopherol, 0.5% ferulic acid.
+Product ID: 4c73c3df-255f-48ae-bd71-a4857e08fdde
+------------------------------------------
+
+Product Name: Sunday Riley Good Genes Glycolic
+Price: ₹9,500
+Description: Deeply exfoliating glycolic acid treatment, plumps fine lines, brightens skin tone, instantly reveals radiant skin.
+Product ID: 25fe6750-bd4e-430a-a882-6ad78347bdae
+------------------------------------------
+
+Product Name: The Ordinary Niacinamide 10%
+Price: ₹750
+Description: Water-based serum with niacinamide (Vitamin B3) and zinc PCA, regulates sebum production, reduces skin blemishes.
+Product ID: 40caf9ee-a06b-4629-9a51-3909f8268ec0
+------------------------------------------
+
+Product Name: Paula's Choice 2% BHA Exfoliant
+Price: ₹3,400
+Description: Salicylic acid liquid exfoliant, unclogs pores, smooths wrinkles, evens out skin tone, non-abrasive formula.
+Product ID: c0b90e49-d403-408f-8dfb-45806b39db0f
+------------------------------------------
+
+Product Name: Glow Recipe Watermelon Niacinamide
+Price: ₹2,990
+Description: Dew Drops highlighting serum, niacinamide infused, hydrates and visibly reduces hyperpigmentation for a dewy glow.
+Product ID: a61a4467-c794-4f7f-baaf-d01c5f5ec34b
+------------------------------------------
+
+Product Name: Drunk Elephant C-Firma Fresh
+Price: ₹6,800
+Description: 15% Vitamin C day serum, l-ascorbic acid powder mixed fresh before first use, firms and brightens skin texture.
+Product ID: 4364f12d-4e3d-4caf-84fb-92e4acdd9a56
+------------------------------------------
+
+Product Name: Paula's Choice 10% Azelaic Acid
+Price: ₹3,900
+Description: Booster multi-tasking cream, azelaic and salicylic acid blend, reduces brown spots and redness from past breakouts.
+Product ID: 2657bf1c-0fee-4c41-a3a6-8231a05d425b
+------------------------------------------
+
+Product Name: The Ordinary Hyaluronic Acid 2%
+Price: ₹850
+Description: Hydrating serum, low/medium/high molecular weight hyaluronic acid molecules, B5 vitamin for deep hydration plumping.
+Product ID: be69c22e-66bd-4647-98d5-371a0d7284c0
+------------------------------------------
+
+Product Name: Caudalie Vinoperfect Radiance
+Price: ₹5,400
+Description: Oil-free brightening serum, patented Viniferine derived from grape sap (62x more effective than Vitamin C), reduces dark spots.
+Product ID: ea5278c9-ea7d-4070-8be7-fc869ed234e4
+------------------------------------------
+
+Product Name: La Roche-Posay Hyalu B5 Serum
+Price: ₹2,990
+Description: Anti-aging skin repair serum, pure hyaluronic acid, vitamin B5, madecassoside, locks in moisture and repairs barrier.
+Product ID: d7d36d9b-b775-45bd-8b56-e1f073f4a92a
+------------------------------------------
+
+Product Name: CeraVe Moisturising Cream
+Price: ₹1,250
+Description: Rich face and body cream, 3 essential ceramides, hyaluronic acid, MVE technology for 24-hour continuous hydration.
+Product ID: 25d1b217-f832-4518-9fbd-889f07010404
+------------------------------------------
+
+Product Name: Kiehl's Ultra Facial Cream
+Price: ₹3,400
+Description: 24-hour daily face moisturizer, glacial glycoprotein, olive-derived squalane, lightweight and non-greasy.
+Product ID: 19900f3b-2090-45d6-9be6-a95720b2913c
+------------------------------------------
+
+Product Name: La Mer Crème de la Mer
+Price: ₹26,500
+Description: Ultra-rich luxury moisturizing cream, Miracle Broth cell-renewing elixir, lime tea extract, heals dry skin.
+Product ID: f219bb3b-80b5-4319-aebe-99b2d372f03d
+------------------------------------------
+
+Product Name: Weleda Skin Food Original
+Price: ₹1,850
+Description: Intensively hydrating thick skin cream, pansy, calendula and chamomile extracts, organic sunflower oil base.
+Product ID: 1485491e-c422-4698-9592-46f45ef031e0
+------------------------------------------
+
+Product Name: First Aid Beauty Ultra Repair Cream
+Price: ₹2,900
+Description: Intense hydration fast-absorbing cream, colloidal oatmeal, shea butter, squalane, safe for sensitive eczema skin.
+Product ID: 4b8e2e19-551d-4745-925f-275f7e9bb82f
+------------------------------------------
+
+Product Name: Clinique Moisture Surge 100H
+Price: ₹2,950
+Description: Oil-free gel-cream moisturizer, aloe bio-ferment, hyaluronic acid, auto-replenishing technology hydrates 100 hours.
+Product ID: 13355464-bda7-4131-9e34-ee5c6eaeb5fd
+------------------------------------------
+
+Product Name: Neutrogena Hydro Boost Water Gel
+Price: ₹1,150
+Description: Lightweight oil-free moisturizer, hyaluronic acid instantly absorbs like a gel but hydrates like a cream.
+Product ID: 7f084b9a-3294-4263-ad53-221901f06b5f
+------------------------------------------
+
+Product Name: Tatcha The Water Cream
+Price: ₹5,900
+Description: Oil-free anti-aging moisturizer, Japanese wild rose, leopard lily, Hadasei-3 superfood ferment complex.
+Product ID: 37635ed7-cc55-4628-b221-c9aeb11ffdbf
+------------------------------------------
+
+Product Name: Dr. Jart+ Ceramidin Cream
+Price: ₹3,900
+Description: Deep moisture barrier cream, 5-Cera Complex ceramides, prevents water loss, strengthens dry irritated skin.
+Product ID: 2e2a9533-a1e8-4d9b-b1d4-16c65600f9f2
+------------------------------------------
+
+Product Name: Youth to the People Superfood
+Price: ₹4,400
+Description: Air-whip moisture cream, kale, spinach, green tea antioxidant extracts, hyaluronic acid, lightweight hydration.
+Product ID: 51fa0fc4-2bda-4b90-a04c-0282c59091ee
+------------------------------------------
+
+Product Name: Sand & Sky Pink Clay Mask
+Price: ₹3,490
+Description: 4-in-1 pore tightening mask, Australian pink clay, kelp and witch hazel, brightens and refines skin texture.
+Product ID: 5cc9eed5-f116-4495-9582-4c36b6b25f66
+------------------------------------------
+
+Product Name: Aztec Secret Healing Clay
+Price: ₹1,150
+Description: 100% natural calcium bentonite clay powder, deep pore cleansing facial mask, mix with apple cider vinegar.
+Product ID: bcf9c92e-f177-4ebc-9147-6820f34d4ebd
+------------------------------------------
+
+Product Name: Laneige Water Sleeping Mask
+Price: ₹2,200
+Description: Overnight hydrating gel mask, Probiotic-Derived Complex, squalane, locks in hydration while you sleep.
+Product ID: d4e9d2cf-46ce-45cc-81ec-5e1db0151bcb
+------------------------------------------
+
+Product Name: Summer Fridays Jet Lag Mask
+Price: ₹4,200
+Description: Nourishing cream mask, niacinamide, glycerin, hyaluronic acid, antioxidants, can be used as overnight cream.
+Product ID: f6abb0a7-c09b-4dd5-aadd-3758b0fb231d
+------------------------------------------
+
+Product Name: Origins Clear Improvement Mask
+Price: ₹2,900
+Description: Active charcoal mask, white China clay, extracts environmental toxins and unclogs pores, clears skin.
+Product ID: ad57f523-13e7-4c81-b6a9-2fd8d53a8781
+------------------------------------------
+
+Product Name: Drunk Elephant Babyfacial
+Price: ₹6,900
+Description: AHA/BHA facial peel, 25% AHA (glycolic/tartaric/lactic) and 2% BHA, resurfaces skin, smooths texture.
+Product ID: 69e4efa0-3584-48cb-aba5-5ab602755a4b
+------------------------------------------
+
+Product Name: The Ordinary Peeling Solution
+Price: ₹950
+Description: AHA 30% + BHA 2% exfoliating peeling solution, 10-minute facial, Tazmanian Pepperberry reduces irritation.
+Product ID: 01edbf61-7242-4661-8bb5-9f510ae64e35
+------------------------------------------
+
+Product Name: Fresh Umbrian Clay Purifying Mask
+Price: ₹4,900
+Description: Mineral-rich clay treatment, purifies skin, minimizes pores, can be used as deep daily face cleanser.
+Product ID: d5f6b53a-0415-4d2b-9922-97ffdfd68be3
+------------------------------------------
+
+Product Name: Kiehl's Rare Earth Clay Mask
+Price: ₹2,900
+Description: Deep pore cleansing masque, formulated with Amazonian White Clay, removes dirt, toxins, and excess oils.
+Product ID: 7822c220-9b0d-4397-9920-17360b57fb7c
+------------------------------------------
+
+Product Name: Glamglow Supermud Clearing Mask
+Price: ₹5,400
+Description: Clarifying charcoal mud mask, six exfoliating acids (AHA/BHA), active-x charcoal, clears skin imperfections.
+Product ID: ea12e8f0-dae3-4213-8f14-796dea700c84
+------------------------------------------
+
+Product Name: Olaplex No. 7 Bonding Oil
+Price: ₹2,950
+Description: Highly concentrated lightweight styling oil, repairs damaged hair bonds, heat protection up to 450°F, adds shine.
+Product ID: 3e25acfe-8f15-4897-a2b2-9f74245e034c
+------------------------------------------
+
+Product Name: Moroccanoil Treatment Original
+Price: ₹3,800
+Description: Argan oil infused hair treatment, detangles, speeds up blow-drying time, boosts shine, conditions split ends.
+Product ID: bedf8f01-17bc-48d3-8347-7a1171814eb1
+------------------------------------------
+
+Product Name: Kérastase Elixir Ultime Hair Oil
+Price: ₹4,500
+Description: Luxury beautifying hair oil, camellia and argan oil blend, long-lasting anti-frizz control, thermal protection.
+Product ID: 258fabf5-dd93-4a93-bbca-48a77b3512da
+------------------------------------------
+
+Product Name: Briogeo Don't Despair Oil
+Price: ₹2,900
+Description: Strengthening treatment oil, rosehip oil and macadamia derivatives, seals hair cuticles, repairs split ends.
+Product ID: 44609b95-ff4f-4980-8ac0-1ee82f2bfa37
+------------------------------------------
+
+Product Name: Gisou Honey Infused Hair Oil
+Price: ₹3,900
+Description: Premium hair oil, enriched with Mirsalehi honey, maintains natural moisture balance, rebuilds and repairs.
+Product ID: cc875e4a-e2aa-4ad0-8a7e-cd70b3538cf6
+------------------------------------------
+
+Product Name: Verb Ghost Oil
+Price: ₹1,850
+Description: Vanishing daily restorative oil, moringa oil blend, smooths frizz, locks in moisture without weighing down thin hair.
+Product ID: 63da83cb-40a1-469f-96a2-144796fddffb
+------------------------------------------
+
+Product Name: L'Anza Keratin Healing Oil
+Price: ₹3,400
+Description: Volumizing treatment oil, Phyto IV Complex, adds deep moisture, heals damaged keratin structure, UV protection.
+Product ID: dcadc85b-070d-42c0-87e1-4b3ed3769b88
+------------------------------------------
+
+Product Name: The Ordinary Multi-Peptide Hair Density
+Price: ₹1,990
+Description: Concentrated serum for hair density, Redensyl, Procapil, and Capixyl peptide complexes, promotes thicker growth.
+Product ID: c878a2cf-9da9-4db2-a38d-d671eba2bb07
+------------------------------------------
+
+Product Name: Virtue Labs Healing Oil
+Price: ₹3,600
+Description: Nutrient-rich hair oil, Alpha Keratin 60ku clinical protein, repairs dry strands, adds brilliant shine.
+Product ID: 523ce2b5-cf74-4a1b-b505-e24fcfc28825
+------------------------------------------
+
+Product Name: OUAI Hair Oil & Styling Heat Protectant
+Price: ₹2,800
+Description: Multitasking oil, ama oil and borage seed oil blend, locks in hair color, seals split ends, high shine.
+Product ID: b2275a12-0ad7-4e0b-97a6-ba6dae65b645
+------------------------------------------
+
+Product Name: Olaplex No. 4 Bond Shampoo
+Price: ₹2,950
+Description: Bond maintenance daily shampoo, highly moisturizing, repairs split ends, color-safe, sulfate-free.
+Product ID: 80b45255-4e47-49c0-8096-0f33d46c7978
+------------------------------------------
+
+Product Name: Pureology Hydrate Shampoo
+Price: ₹3,100
+Description: Deeply hydrating shampoo for color-treated hair, jojoba, green tea, sage extracts, signature aromatherapy scent.
+Product ID: 082edd54-5363-4c4b-a27e-7846d501e037
+------------------------------------------
+
+Product Name: Briogeo Charcoal Scalp Revival
+Price: ₹3,400
+Description: Micro-exfoliating scalp shampoo, binchotan charcoal, tea tree and peppermint oils, removes buildup.
+Product ID: 8efc86a9-b0a2-49b5-bfd3-cdc475b5b48f
+------------------------------------------
+
+Product Name: Redken All Soft Shampoo
+Price: ₹2,100
+Description: Softness shampoo, formulated with argan oil, RCT Protein Complex, intensely moisturizes dry brittle hair.
+Product ID: 92afec19-d5b4-4584-a036-0b46c8af99fd
+------------------------------------------
+
+Product Name: OUAI Detox Clarifying Shampoo
+Price: ₹2,800
+Description: Apple cider vinegar clarifying shampoo, deeply cleanses product buildup, oil, hard water minerals, keratin-infused.
+Product ID: 4d6ac016-5808-4220-8214-e174a209b081
+------------------------------------------
+
+Product Name: Moroccanoil Hydrating Shampoo
+Price: ₹2,200
+Description: Moisturizing daily cleanser, argan oil, vitamins A and E, red algae extract, balances hair hydration.
+Product ID: c75b81b8-76a1-4e46-98bd-0a228d1cc645
+------------------------------------------
+
+Product Name: SheaMoisture Coconut & Hibiscus
+Price: ₹1,150
+Description: Curl and shine shampoo, organic shea butter, coconut oil, silk protein, tames thick curly frizz.
+Product ID: f82a06a6-ac7c-4b75-84ac-122e9720194f
+------------------------------------------
+
+Product Name: Living Proof Perfect Hair Day
+Price: ₹2,900
+Description: Revolutionary daily shampoo, patented healthy hair molecule (OFPMA), keeps hair cleaner longer, builds volume.
+Product ID: a0e81c5d-a8da-4d11-b256-e85f13c67806
+------------------------------------------
+
+Product Name: Biolage Color Last Shampoo
+Price: ₹1,850
+Description: Color preserving shampoo, low pH formula, orchid extract, gently cleanses to prevent color fading.
+Product ID: ba806339-10fc-40e0-9151-f9385d4b15f7
+------------------------------------------
+
+Product Name: Aveeno Apple Cider Vinegar Shampoo
+Price: ₹990
+Description: Scalp soothing shampoo, oat base, apple cider vinegar clarifies and adds high gloss shine to dull hair.
+Product ID: df3ff99b-3922-4859-b15a-3c4500e9f2d8
+------------------------------------------
+

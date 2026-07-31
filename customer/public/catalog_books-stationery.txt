@@ -1,0 +1,603 @@
+Velora E-Commerce Product Catalog: Category: Books & Stationery
+==========================================
+
+Product Name: Sapiens: A Brief History of Humankind
+Price: ₹599
+Description: Yuval Noah Harari's sweeping narrative of human evolution from foragers to rulers of Earth.
+Product ID: d7173529-0429-47d4-89df-f1d966295b3c
+------------------------------------------
+
+Product Name: The Midnight Library by Matt Haig
+Price: ₹499
+Description: Bestselling novel following a woman who finds a library between life and death containing infinite books of paths.
+Product ID: 8278c264-bf6a-4cb8-bbaa-7a2dfdba0fe8
+------------------------------------------
+
+Product Name: Lessons in Chemistry by Bonnie Garmus
+Price: ₹599
+Description: Witty historical fiction about an unconventional female chemist in the 1960s who becomes a TV cooking star.
+Product ID: a7720efa-a260-490c-9c9a-29c0024f75c1
+------------------------------------------
+
+Product Name: Tomorrow, and Tomorrow, and Tomorrow
+Price: ₹549
+Description: A beautiful narrative about two friends who become game design partners, exploring love, art, and failure.
+Product ID: def4011d-86e6-49fd-a24a-6a91119cfac5
+------------------------------------------
+
+Product Name: Yellowface by R.F. Kuang
+Price: ₹449
+Description: A sharp, satirical thriller exploring literary theft, cultural appropriation, and the dark side of social media.
+Product ID: e477b231-ac5e-453b-9549-6f46fbed3d8d
+------------------------------------------
+
+Product Name: Demon Copperhead by Barbara Kingsolver
+Price: ₹699
+Description: Pulitzer Prize-winning modern adaptation of David Copperfield set in the Appalachian mountains.
+Product ID: 944796bc-74a6-40d0-b9e9-04ff4a6c2321
+------------------------------------------
+
+Product Name: Iron Flame by Rebecca Yarros
+Price: ₹799
+Description: The epic fantasy sequel to Fourth Wing, following Violet Sorrengail at Basgiath War College.
+Product ID: 8ef79ab2-c61c-49fb-91b7-55c889504412
+------------------------------------------
+
+Product Name: Happy Place by Emily Henry
+Price: ₹399
+Description: A charming contemporary romance about a broken-up couple pretending to be together during their annual vacation.
+Product ID: 73a69258-f0cf-4deb-9d72-c3ab247d1f25
+------------------------------------------
+
+Product Name: Fourth Wing by Rebecca Yarros
+Price: ₹699
+Description: Bestselling romantic fantasy novel, dragon riders war college, high stakes battles.
+Product ID: 96ceadd3-b70c-4268-aaf3-1524a45c8a10
+------------------------------------------
+
+Product Name: A Court of Thorns and Roses Box Set
+Price: ₹2,499
+Description: Sarah J. Maas classic fantasy series box set (5 books), high fae romance adventure.
+Product ID: 2a944770-2053-43b0-8f15-430fcb85717f
+------------------------------------------
+
+Product Name: The Covenant of Water by Abraham Verghese
+Price: ₹899
+Description: Epic three-generation family saga set in Kerala, India, exploring medical mystery and love.
+Product ID: 041423a5-18c6-402b-98c9-b7482d9e1fd1
+------------------------------------------
+
+Product Name: Atomic Habits by James Clear
+Price: ₹449
+Description: The definitive guide to building tiny daily habits, breaking bad ones, and gaining 1% improvement daily.
+Product ID: 9e9e7276-b593-41be-bb04-cee004a17879
+------------------------------------------
+
+Product Name: The Mountain Is You by Brianna Wiest
+Price: ₹399
+Description: Insightful guide to understanding self-sabotage, extracting lessons, and embracing transformation.
+Product ID: 69a0cf38-5c89-494e-b8bd-f5264a69af85
+------------------------------------------
+
+Product Name: Show Your Work! by Austin Kleon
+Price: ₹299
+Description: 10 ways to share your creativity and get discovered, inspiring guide for modern creators.
+Product ID: b446a2ed-d331-4c93-bc35-b85be343c09d
+------------------------------------------
+
+Product Name: Deep Work by Cal Newport
+Price: ₹450
+Description: Rules for focused success in a distracted world, cognitive training tips to achieve peak flow.
+Product ID: f0b1b3e5-7152-494f-8f29-8b08471f4809
+------------------------------------------
+
+Product Name: Outlive: The Science of Longevity
+Price: ₹799
+Description: Dr. Peter Attia's medical guide to expanding lifespan and healthspan, nutrition and exercise tips.
+Product ID: 5679e99c-a93c-47c7-9aeb-af073cdb5e58
+------------------------------------------
+
+Product Name: The Creative Act by Rick Rubin
+Price: ₹899
+Description: A legendary producer's guide to creativity, art, and being in the world, beautifully designed book.
+Product ID: 9db45ed1-bb73-4345-80d6-439902c6b46e
+------------------------------------------
+
+Product Name: Four Thousand Weeks by Oliver Burkeman
+Price: ₹499
+Description: Time management for mortals, embracing limitations to build a meaningful finite life.
+Product ID: 74098ae6-c5ad-4487-ae57-47fd28ce7ec3
+------------------------------------------
+
+Product Name: Clear Thinking by Shane Parrish
+Price: ₹699
+Description: Farnam Street founder's guide to decision making, overcoming cognitive bias under pressure.
+Product ID: fd63bba2-e1f4-4bc5-9163-c6d4ad12468a
+------------------------------------------
+
+Product Name: Start with Why by Simon Sinek
+Price: ₹499
+Description: How great leaders inspire action, the golden circle framework of finding purpose.
+Product ID: 5a8ba4d2-c128-48de-b302-2e920e0845c2
+------------------------------------------
+
+Product Name: Thinking, Fast and Slow by Daniel Kahneman
+Price: ₹599
+Description: Nobel laureate's review of cognitive systems, slow rational thinking vs fast emotional triggers.
+Product ID: 8cb6a692-8ab9-479f-b94e-ebdd2d198443
+------------------------------------------
+
+Product Name: Homo Deus: A Brief History of Tomorrow
+Price: ₹599
+Description: Explores the future of humanity, bioengineering, AI, and search for god-like capabilities.
+Product ID: 130a1540-4b0d-43c7-b75f-542bfd459338
+------------------------------------------
+
+Product Name: A Brief History of Time by Stephen Hawking
+Price: ₹399
+Description: Famous physicist's guide to cosmology, black holes, big bang, space-time relativity.
+Product ID: bd3b54e7-a801-4d35-8c85-66395eb01d77
+------------------------------------------
+
+Product Name: Breath: The New Science of a Lost Art
+Price: ₹449
+Description: James Nestor's journalistic review of breathing techniques to improve physical health.
+Product ID: 2b87ce21-06a9-444e-9331-a1cccc69d257
+------------------------------------------
+
+Product Name: The Emperor of All Maladies by Siddhartha
+Price: ₹699
+Description: A biography of cancer, Pulitzer prize winning historical overview of medicine.
+Product ID: 0a53028a-3590-417d-a456-935e2779e66a
+------------------------------------------
+
+Product Name: Guns, Germs, and Steel by Jared Diamond
+Price: ₹599
+Description: Fates of human societies, environmental factors that shaped history and technology development.
+Product ID: 785e5294-86f6-4b99-a7b4-6d28c215608e
+------------------------------------------
+
+Product Name: Cosmos by Carl Sagan
+Price: ₹499
+Description: Classic science literature, exploring space science, human evolution and future technology.
+Product ID: 1904e225-db8d-4784-bb83-418296980c4d
+------------------------------------------
+
+Product Name: Silent Spring by Rachel Carson
+Price: ₹399
+Description: Foundational environmental book exposing dangers of pesticides, launched modern ecology.
+Product ID: cb9a5b2a-42ae-40b5-821a-63af536dbe38
+------------------------------------------
+
+Product Name: The Silent Patient by Alex Michaelides
+Price: ₹349
+Description: Bestselling psychological thriller, investigation of a woman who shoots husband and goes mute.
+Product ID: ad1f8b43-953f-41a6-be85-51043bae22c5
+------------------------------------------
+
+Product Name: An Immense World by Ed Yong
+Price: ₹699
+Description: Pulitzer prize winner, how animal senses reveal the hidden realms around us.
+Product ID: eadcf0c1-a840-4d83-bb62-5a2043bd6187
+------------------------------------------
+
+Product Name: Vintage Leather Journal with Clasp
+Price: ₹1,299
+Description: Handcrafted full-grain leather bound notebook, antique deckle edge paper, metal bronze lock clasp.
+Product ID: 948454d8-3acd-4a4b-95c0-9e03a25e7586
+------------------------------------------
+
+Product Name: Handcrafted Leather Sketchbook
+Price: ₹1,499
+Description: Thick brown leather sketchbook, heavy cotton rag sheets, flat opening hand sewn spine.
+Product ID: 8e771feb-404b-4655-a64a-488548acbef9
+------------------------------------------
+
+Product Name: Buffalo Leather Writing Notebook
+Price: ₹999
+Description: Genuine water buffalo leather wrap, lined cream paper, leather tie strap wrap closure.
+Product ID: 9a2e0013-6432-4096-a709-9a6208ed6f7d
+------------------------------------------
+
+Product Name: Tree of Life Embossed Journal
+Price: ₹1,199
+Description: Detailed tree design embossed leather journal, blank unlined pages, vintage handmade finish.
+Product ID: cef5d770-fc26-4de2-9528-73e7df7376b5
+------------------------------------------
+
+Product Name: Refillable Leather Travelers Notebook
+Price: ₹1,599
+Description: Soft leather sleeve, holds 3 separate notebook inserts, elastic card slot accessory pouch.
+Product ID: 4c82b34c-b458-4ad6-8613-6e4d82597341
+------------------------------------------
+
+Product Name: Distressed Leather Daily Planner
+Price: ₹1,899
+Description: Dated diary notebook, thick distressed leather sleeve, standard layouts for goals and tasks.
+Product ID: 9d567361-0575-4610-906a-fbecfd8adfe6
+------------------------------------------
+
+Product Name: Antique Deckle Edge Paper Journal
+Price: ₹1,299
+Description: Handmade linen cotton rag paper, deckled edges, raw tan leather cover wrap, rustic design.
+Product ID: c06eff8c-ee9f-49c6-8c17-f9781112633d
+------------------------------------------
+
+Product Name: Celtic Cross Embossed Leather Journal
+Price: ₹1,199
+Description: Ornate Celtic patterns debossed on dark brown leather, lined pages, bookmark ribbon.
+Product ID: 1b88606d-6c6d-4842-83a4-56469c627fa9
+------------------------------------------
+
+Product Name: Leather Bound Grimoire Journal
+Price: ₹2,200
+Description: Thick spellbook style leather journal, extra thick sheets, lock studs on sides, vintage print.
+Product ID: 63021e7f-5f48-433e-9f04-0a96a2cff884
+------------------------------------------
+
+Product Name: Minimalist Tan Leather Notebook A5
+Price: ₹1,450
+Description: Clean vegetable-tanned leather sleeve, replaceable notebook, elastic pen holder sleeve.
+Product ID: f2a554a7-c684-4de1-92dc-b7314d976438
+------------------------------------------
+
+Product Name: Leuchtturm1917 A5 Dotted Notebook
+Price: ₹1,899
+Description: Premium bullet journal notebook, 80g acid-free dotted paper, page numbers, index tables, double bookmarks.
+Product ID: dea71fc7-e91a-48c4-98f4-e93c51d1a529
+------------------------------------------
+
+Product Name: Moleskine Classic Dotted Journal Large
+Price: ₹1,699
+Description: Soft cover dotted notebook, rounded corners, elastic closure loop, expandable back pouch.
+Product ID: b4f8fd40-9862-4524-9274-ed460c0d7380
+------------------------------------------
+
+Product Name: Rhodia Webnotebook Dotted A5
+Price: ₹1,550
+Description: 90g ivory brushed vellum paper, smooth fountain pen friendly, hard leatherette cover.
+Product ID: 80a8bf36-bab3-443b-adb2-a591e2d426c6
+------------------------------------------
+
+Product Name: Dingbats* Wildlife A5 Dotted Notebook
+Price: ₹1,799
+Description: Vegan leather cover, FSC-certified green paper, micro-perforated pages, pen loop holder.
+Product ID: dd4c1d01-9cca-4c41-b530-6a3ecb43bb8e
+------------------------------------------
+
+Product Name: Baronfig Confidant Dotted Notebook
+Price: ₹1,490
+Description: Fabric wrap bookbinding, lays completely flat, premium acid-free cream paper, minimal bookmark.
+Product ID: 6362dcab-8bb1-48e8-954d-d67d3b9e6d7f
+------------------------------------------
+
+Product Name: Minimalist Art Dotted Notebook A5
+Price: ₹990
+Description: PU leather cover, thick 120gsm paper, 192 pages, elastic band, ribbon markers.
+Product ID: 49b9f44c-8700-49eb-a755-b9446c6ba2dd
+------------------------------------------
+
+Product Name: Ottergami Dotted Bullet Journal
+Price: ₹1,290
+Description: Heavyweight 150gsm dot grid notebook, includes stencil templates and sticker sheets.
+Product ID: 19ec48a9-c32b-4983-8b0f-7a85c21203f1
+------------------------------------------
+
+Product Name: Scribbles That Matter A5 Bullet Book
+Price: ₹1,999
+Description: High quality vegan leather, key and index tables, pen test page, 160gsm paper.
+Product ID: a8c340bc-14d3-4bf1-b299-006c87526707
+------------------------------------------
+
+Product Name: Paperage Dotted Journal Notebook
+Price: ₹799
+Description: Hardcover journal, heavy 100gsm paper, expandable folder pocket, lay-flat thread binding.
+Product ID: 71aae602-7461-40b7-8113-a861b1a16c0f
+------------------------------------------
+
+Product Name: TWSBI Eco Fountain Pen
+Price: ₹3,490
+Description: Piston filling ink system, clear transparent demonstrator body, large capacity chamber.
+Product ID: 96ad79d7-8765-414e-bfff-ba48a6a0fd93
+------------------------------------------
+
+Product Name: Sailor Compass 1911 Pen
+Price: ₹3,800
+Description: Clear colored demonstrator, steel medium-fine nib, includes matching color converter.
+Product ID: 7d2d7365-b62d-48aa-83d9-94ceca091675
+------------------------------------------
+
+Product Name: Platinum Preppy Fountain Pen
+Price: ₹450
+Description: Budget fountain pen, patented slip-and-seal cap prevents ink drying, stainless steel nib.
+Product ID: 3eb25a94-ade5-49b9-8094-cc41e3d9ff4f
+------------------------------------------
+
+Product Name: Pilot Metropolitan Fountain Pen
+Price: ₹1,999
+Description: Brass metal barrel, classic cigar profile, alloy medium nib, squeeze converter included.
+Product ID: 7c8fda73-f84d-4395-a594-6b91459a1c96
+------------------------------------------
+
+Product Name: Kaweco Sport Classic Pocket Pen
+Price: ₹2,190
+Description: Compact pocket fountain pen, octagonal cap design, gold plated steel nib, retro branding.
+Product ID: e51e0c97-cd74-4466-b786-164a0cb0904a
+------------------------------------------
+
+Product Name: Parker 51 Fountain Pen
+Price: ₹9,500
+Description: Hooded nib design, precious resin body, brushed steel metal cap with jewel crown.
+Product ID: 9b02c124-790c-4ec8-a7c0-d93ca5afa763
+------------------------------------------
+
+Product Name: Pelikan M200 Classic Fountain Pen
+Price: ₹14,500
+Description: Piston-fill mechanism, 24k gold-plated fittings, marble green barrel cylinder body.
+Product ID: 37b06943-9f74-43ee-aec3-7e21c5c98b60
+------------------------------------------
+
+Product Name: Conklin Duragraph Fountain Pen
+Price: ₹4,900
+Description: Handcrafted resin body, flat-top design, custom omniflex steel nib, converter included.
+Product ID: 49b4c442-5f52-4925-90a0-0f037d878332
+------------------------------------------
+
+Product Name: Waterman Hemisphere Fountain Pen
+Price: ₹8,900
+Description: Sleek thin profile, black lacquer barrel, 23k gold plated clip trim, fine steel nib.
+Product ID: 9578e93a-3f7e-46d5-9a1b-b695924554a9
+------------------------------------------
+
+Product Name: Speedball Calligraphy Starter Kit
+Price: ₹1,499
+Description: Complete set, pen holder, 6 assorted calligraphy nibs, 1 bottle black ink, practice pad.
+Product ID: 748947d3-599b-4d43-8225-c559af52522c
+------------------------------------------
+
+Product Name: Pilot Parallel Pen 4-Pack Set
+Price: ₹3,800
+Description: Unique parallel plate nib technology, 4 sizes (1.5, 2.4, 3.8, 6.0mm), mixable inks.
+Product ID: 76437253-3321-4a3c-b07a-40ba7235a370
+------------------------------------------
+
+Product Name: Tachikawa Comic Pen Nib Holder
+Price: ₹950
+Description: Wood pen holder with soft rubber grip, holds mapping and G-nibs securely, made in Japan.
+Product ID: cf0eaef9-7963-4cac-93d6-9330c8577ee4
+------------------------------------------
+
+Product Name: Winsor & Newton Calligraphy Ink Set
+Price: ₹2,490
+Description: Set of 6 colored calligraphy inks, pigmented acrylic formula, water-resistant.
+Product ID: a0fffd61-3751-4993-8ecc-685c43da8b59
+------------------------------------------
+
+Product Name: Tombow Dual Brush Pen 10-Set
+Price: ₹1,990
+Description: Flexible brush tip and fine tip markers, water-based blendable inks, pastel color set.
+Product ID: b437367e-6a94-4064-bfd9-c923c975b088
+------------------------------------------
+
+Product Name: Higgins Eternal Black Writing Ink
+Price: ₹590
+Description: Carbon writing ink, non-waterproof, flows smoothly in fountain pens and dip nibs.
+Product ID: 276e1faa-755f-44dc-b3f5-876c9da54d80
+------------------------------------------
+
+Product Name: Kuretake Zig Calligraphy Dual Pens
+Price: ₹1,290
+Description: Set of 6 double-ended markers (2.0 and 5.0mm chisel tips), water-based pigment, acid-free.
+Product ID: b9ee0af5-ab59-48d3-8092-1e822d89f266
+------------------------------------------
+
+Product Name: Sakura Pigma Micron Fineliner Set
+Price: ₹990
+Description: Set of 6 archival ink pens, black pigment, waterproof, micro-fine tips for details.
+Product ID: f2131f02-a252-4dba-a1cd-7e3bd4677569
+------------------------------------------
+
+Product Name: Brause Calligraphy Practice Nib Set
+Price: ₹1,590
+Description: Includes wood holder, 3 bandzug broad nibs, 1 index nib, 1 cito-fehn fine nib.
+Product ID: 6dbada63-1365-4942-9ffe-2df972bb8500
+------------------------------------------
+
+Product Name: Manuscript Deluxe Calligraphy Set
+Price: ₹2,800
+Description: Classic fountain pen casing with 6 interchangeable calligraphy nib sections, cartridges.
+Product ID: 3f9842fa-68c8-48be-aae9-bac8d07b7d29
+------------------------------------------
+
+Product Name: Prismacolor Premier Colored Pencils
+Price: ₹4,900
+Description: Set of 72 professional coloring pencils, soft cores for blending, rich pigments.
+Product ID: a9dc5056-6c87-42e7-99df-37bc1b8397f7
+------------------------------------------
+
+Product Name: Derwent Graphic Pencils 12-Set
+Price: ₹1,450
+Description: Fine sketching pencils, assorted graphite grades (9H to 9B), metal storage tin.
+Product ID: 3a0bd607-1367-4f4d-aee9-4bc030656d53
+------------------------------------------
+
+Product Name: Faber-Castell Pitt Artist Pens 8-Set
+Price: ₹1,690
+Description: Indian ink artist brush pens, waterproof pigment, archival black, assorted tips.
+Product ID: 16610895-9e3f-49b8-a8c7-c08c942bc881
+------------------------------------------
+
+Product Name: Sakura Gelly Roll White Pens Set
+Price: ₹650
+Description: Pack of 3 opaque white gel pens (05, 08, 10 sizes), smooth flow, highlights drawing.
+Product ID: 2ad1ceca-1306-44e7-a06a-09383135f9ae
+------------------------------------------
+
+Product Name: Strathmore 400 Series Sketchbook
+Price: ₹1,290
+Description: Wirebound A4 sketchbook, 100 sheets of acid-free 89gsm paper, micro-perforated.
+Product ID: fb7bd606-fab4-4e36-91d1-3ea1a3909066
+------------------------------------------
+
+Product Name: Moleskine Art Watercolor Album
+Price: ₹1,890
+Description: Landscape watercolor pad, heavy 200gsm cold press paper, matching elastic band.
+Product ID: c0488f6a-e843-4081-b0c5-31745fee7f7d
+------------------------------------------
+
+Product Name: Winsor & Newton Pocket Watercolor Set
+Price: ₹2,900
+Description: Cotman watercolor travel case, 12 half pans, pocket brush, integrated mixing palettes.
+Product ID: 35e57100-93da-4767-8736-98b5f6294c6a
+------------------------------------------
+
+Product Name: General's Charcoal Pencil Kit
+Price: ₹890
+Description: Includes 4 charcoal pencils, 1 carbon sketch pencil, charcoal block, kneaded eraser.
+Product ID: fb43139c-4098-4a08-9be8-a08e7f009029
+------------------------------------------
+
+Product Name: Copic Ciao Marker 12-Pack Set
+Price: ₹4,500
+Description: Alcohol-based dual-tip sketch markers, skin/basic colors, replaceable nibs and refillable.
+Product ID: 47a7fbf0-0d53-4ddc-8079-01f55df1f087
+------------------------------------------
+
+Product Name: Faber-Castell Polychromos 24-Set
+Price: ₹3,400
+Description: Oil-based colored pencils, smudge-proof water-resistant lead, break-resistant SV binding.
+Product ID: cc0ff649-9cf5-4d52-af25-a5647a67cdc4
+------------------------------------------
+
+Product Name: Steve Jobs by Walter Isaacson
+Price: ₹699
+Description: The exclusive biography of the Apple co-founder based on forty interviews over two years.
+Product ID: 129da5ad-8ce8-4912-82ff-a3e956a71661
+------------------------------------------
+
+Product Name: Greenlights by Matthew McConaughey
+Price: ₹499
+Description: The Oscar-winning actor's memoir containing journals, poetry, and life lessons.
+Product ID: fe9b208c-bd1d-4c4a-b35c-04d6a28e91de
+------------------------------------------
+
+Product Name: Becoming by Michelle Obama
+Price: ₹599
+Description: A deeply personal memoir by the former First Lady of the United States.
+Product ID: d76c8983-7296-45c7-a863-eb53d7bc59d4
+------------------------------------------
+
+Product Name: Educated by Tara Westover
+Price: ₹449
+Description: A memoir of a young girl who leaves her survivalist Idaho family to pursue a PhD.
+Product ID: 5efa7df5-3ef1-4d95-9ec3-fbd0c914d48f
+------------------------------------------
+
+Product Name: Shoe Dog by Phil Knight
+Price: ₹499
+Description: The Nike founder's candid memoir about starting a startup import business.
+Product ID: 2d8391b6-873f-4728-913c-b9ceb4f0de03
+------------------------------------------
+
+Product Name: Born to Run by Bruce Springsteen
+Price: ₹599
+Description: The legendary rock star's autobiography, detail of his Jersey shore youth and E-street band.
+Product ID: 0321f3f0-1340-4e95-8354-60d363be0e3b
+------------------------------------------
+
+Product Name: Open by Andre Agassi
+Price: ₹499
+Description: The tennis legend's raw, honest memoir about his struggles with pressure and success.
+Product ID: b1999668-8bf5-474d-a9d9-dd4ce4b90b10
+------------------------------------------
+
+Product Name: I'm Glad My Mom Died by Jennette McCurdy
+Price: ₹699
+Description: Bestselling memoir by former Nickelodeon star detailing child acting struggles.
+Product ID: 26b0e734-8eff-4bcd-b8e2-96f784011fc5
+------------------------------------------
+
+Product Name: Friends, Lovers, and the Big Terrible Thing
+Price: ₹599
+Description: Matthew Perry's memoir about Friends fame and his long battle with addiction.
+Product ID: 8359cd74-6264-4ee7-be1e-c4969c8c8c9c
+------------------------------------------
+
+Product Name: Surrender by Bono (U2)
+Price: ₹799
+Description: U2 frontman's autobiography, 40 songs representing 40 chapters of activist life.
+Product ID: fadc5d94-470b-4b66-b161-5e321fba9e8d
+------------------------------------------
+
+Product Name: Galen Leather Desk Pad Large
+Price: ₹6,900
+Description: Premium thick crazy horse leather desk writing pad mat, hand-stitched, smooth texture.
+Product ID: f16a684e-4bba-4489-afd2-d519b69379a7
+------------------------------------------
+
+Product Name: Grovemade Wood Desk Organizer Tray
+Price: ₹8,900
+Description: Solid walnut wood desk pen tray, solid brass base lining, minimalist cork cushion feet.
+Product ID: b8febb43-830c-4279-b3f7-26e77b9e6e95
+------------------------------------------
+
+Product Name: Yamazaki Steel Desk File Tray
+Price: ₹2,990
+Description: White powder coated steel letter tray, wooden carry handle, stacks document papers.
+Product ID: 609e69dc-8e1c-450b-a11a-aaef4e3ca2e3
+------------------------------------------
+
+Product Name: Ugmonk Gather Desk Organizer Set
+Price: ₹14,500
+Description: Modular magnetic desk organizer, solid wood base, plastic compartments for pens/notes.
+Product ID: 7c722cc3-fd6c-454d-b7e1-5b4d02d10c12
+------------------------------------------
+
+Product Name: Philips Hue Signe Smart Desk Lamp
+Price: ₹15,900
+Description: Smart LED table light, slim profile, dynamic colorful gradients, app and Siri control.
+Product ID: df99634b-ccaa-4096-8a1e-af3dc16492f6
+------------------------------------------
+
+Product Name: Keychron Walnut Palm Rest Keyboard
+Price: ₹2,490
+Description: Solid walnut wood wrist rest, ergonomic slope, rubber feet, fits mechanical keyboards.
+Product ID: 4f3ffd08-e035-4331-8e9d-a4c5860cccae
+------------------------------------------
+
+Product Name: Lamy Desk Stand Pen Holder
+Price: ₹1,990
+Description: Heavy weight desktop pen stand, textured plastic finish, holds Lamy pens at ideal angle.
+Product ID: 68e489e0-95b7-49ab-a717-2a5753db75e5
+------------------------------------------
+
+Product Name: Logitech MX Keys Wireless Keyboard
+Price: ₹12,900
+Description: Spherically-dished backlit keys, smart illumination sensors, multi-device flow connect.
+Product ID: 7a01f608-36cb-415f-9c08-25efa476e07f
+------------------------------------------
+
+Product Name: BenQ ScreenBar Monitor Light Bar
+Price: ₹9,900
+Description: Monitor clip desk lamp, asymmetrical optical light path prevents screen glare, auto dimmer.
+Product ID: 3e052885-0a50-4b8d-ae36-36d13ad5baa1
+------------------------------------------
+
+Product Name: Orbitkey Leather Desk Mat Medium
+Price: ₹4,900
+Description: Vegan leather desk pad, quick access toolbar track bar, magnetic cable holder clip.
+Product ID: 583e0844-20c2-4753-bb8f-f84979b944e5
+------------------------------------------
+
+Product Name: Lamy Safari Fountain Pen
+Price: ₹2,200
+Description: Ergonomic triangular grip, durable ABS plastic body, steel medium nib, ink level windows.
+Product ID: e1c649a2-cb27-46e2-be45-e05d22bbceff
+------------------------------------------
+
+Product Name: Archer & Olive A5 Dot Grid Notebook
+Price: ₹2,900
+Description: Thick 160gsm white paper, no ghosting, cute gold embossed cover print, silk ribbon.
+Product ID: 7f2d11f2-f4f8-4e36-a9e0-9d5b8da3248c
+------------------------------------------
+

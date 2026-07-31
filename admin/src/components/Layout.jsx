@@ -12,7 +12,9 @@ import {
   BarChart3, 
   Settings as SettingsIcon, 
   LogOut, 
-  Menu 
+  Menu,
+  BookOpen,
+  MessageSquare
 } from 'lucide-react';
 
 export const Layout = ({ children }) => {
@@ -43,6 +45,8 @@ export const Layout = ({ children }) => {
     { name: 'Orders', path: '/orders', icon: ShoppingCart },
     { name: 'Customers', path: '/customers', icon: Users },
     { name: 'Reports', path: '/reports', icon: BarChart3 },
+    { name: 'Knowledge Base', path: '/knowledge', icon: BookOpen },
+    { name: 'Chat Logs', path: '/conversations', icon: MessageSquare },
     { name: 'Settings', path: '/settings', icon: SettingsIcon },
   ];
 

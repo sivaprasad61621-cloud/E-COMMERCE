@@ -1,0 +1,783 @@
+Velora E-Commerce Product Catalog: Category: Sports & Outdoors
+==========================================
+
+Product Name: Rogue Monster Bands Set
+Price: ₹6,900
+Description: Heavy-duty natural latex pull-up bands, progressive resistance levels color-coded, ultimate durability.
+Product ID: 369bab41-5108-49dc-9fcd-549253c70adc
+------------------------------------------
+
+Product Name: Fit Simplify Resistance Loop Bands
+Price: ₹1,290
+Description: Set of 5 elastic loop bands, heavy-grade latex, included instruction guide and carry pouch.
+Product ID: 5bc1ae7e-3939-496e-bd08-c352fca8edd6
+------------------------------------------
+
+Product Name: Theraband Latex-Free Bands Set
+Price: ₹2,490
+Description: Professional rehabilitation resistance bands, latex-free elastic, color progressive levels.
+Product ID: 6bfe1caa-3e0e-4f0d-940f-7e4bf5893dbc
+------------------------------------------
+
+Product Name: Black Mountain Products Bands Set
+Price: ₹3,490
+Description: Resistance tube set with foam handles, ankle straps, door anchor, up to 75 lbs resistance stack.
+Product ID: 98149194-144a-43e4-a071-f3e33817f7b7
+------------------------------------------
+
+Product Name: WODFitters Pull Up Assisted Bands
+Price: ₹4,500
+Description: Thick loop mobility bands, ideal for powerlifting, crossfit pull up support, heavy duty stretch.
+Product ID: aada073e-dd84-4086-bdc4-f7a6a0389584
+------------------------------------------
+
+Product Name: Serious Steel Assisted Band
+Price: ₹2,900
+Description: Heavy duty continuous loop resistance bands, ideal for powerlifting and stretching exercises.
+Product ID: b27d7093-6cce-4009-9120-1560aee19ccf
+------------------------------------------
+
+Product Name: Undersun Fitness Resistance Bands
+Price: ₹8,900
+Description: 5 loop resistance bands, outdoor-grade design, customized app exercise tracking program access.
+Product ID: 961df076-823f-4981-818c-608e40db4814
+------------------------------------------
+
+Product Name: Eacktek Loop Resistance Bands Set
+Price: ₹1,500
+Description: Fabric non-slip elastic resistance bands for hip and glute training, double seam stitching.
+Product ID: 9067e560-b6e8-432f-b62e-2da4876b8812
+------------------------------------------
+
+Product Name: Peach Bands Hip Resistance Band
+Price: ₹1,990
+Description: Fabric elastic loop band, non-slip rubber grip inner, medium-heavy resistance, storage box.
+Product ID: 4a07b62a-6c63-43f7-8f13-f66d6e90e93a
+------------------------------------------
+
+Product Name: TRX All-in-One Suspension Trainer
+Price: ₹18,900
+Description: Bodyweight resistance suspension straps, patented locking loop, door anchor, workout guide.
+Product ID: 5d4c03b3-ce60-4fa5-8c7e-b891790a1e62
+------------------------------------------
+
+Product Name: Bowflex SelectTech 552 Dumbbells
+Price: ₹34,900
+Description: Adjustable dumbbell pair, dials adjustment from 5 to 52.5 lbs, compact space-saving home gym.
+Product ID: 55848862-f813-4180-9ee1-1568af96ee4e
+------------------------------------------
+
+Product Name: Rogue Rubber Hex Dumbbells Pair 15kg
+Price: ₹7,900
+Description: Heavy duty rubber encased hex head dumbbells, chrome plated ergonomic knurled handle grip.
+Product ID: 4bea9729-b87f-45cd-b948-fa3f4ff88edd
+------------------------------------------
+
+Product Name: PowerBlock Elite EXP Adjustable Weights
+Price: ₹39,900
+Description: Square block adjustable dumbbells, steel selector pin system, expands up to 90 lbs per hand.
+Product ID: 1fc0b0f8-cf50-4537-9c5d-fdf8f5f49c77
+------------------------------------------
+
+Product Name: Cap Barbell Cast Iron Dumbbell 20kg
+Price: ₹4,500
+Description: Solid cast iron hex dumbbell, semi-gloss enamel paint finish, prevents rust chipping.
+Product ID: 5c017d7b-2203-4e48-96d3-4df36e040b20
+------------------------------------------
+
+Product Name: Amazon Basics Neoprene Dumbbell Set
+Price: ₹2,999
+Description: Set of 3 pairs (2, 3, 5 lbs) neoprene coated weights, included matching stand organizer.
+Product ID: fcd5cd17-0dbb-4d64-bb5e-5b614bafd2b3
+------------------------------------------
+
+Product Name: Yes4All Adjustable Dumbbells 40kg
+Price: ₹6,990
+Description: Chrome threaded spinlock dumbbells set, cast iron weight plates, connector rod convert to barbell.
+Product ID: 6bd43501-3d83-4132-af05-1040cdfdc3f3
+------------------------------------------
+
+Product Name: Cap Barbell Cast Iron Kettlebell 16kg
+Price: ₹3,990
+Description: Traditional cast iron kettlebell, wide powder coated handle, ideal for cross training swings.
+Product ID: 6f3acef3-a976-425b-a3ad-00fc4163b42f
+------------------------------------------
+
+Product Name: Core Home Fitness Adjustable Dumbbells
+Price: ₹29,900
+Description: Quick twist handle adjustable dumbbells, 5 to 50 lbs range, cradled holder stands included.
+Product ID: aefa106a-3787-4791-aa90-e205eaa5946a
+------------------------------------------
+
+Product Name: Rogue Classic Powder Coat Kettlebell
+Price: ₹5,400
+Description: First grade casting kettlebell, textured powder coat finish holds chalk well, flat machined base.
+Product ID: 0fd9b687-0993-41f3-a1b4-5820ae936fbc
+------------------------------------------
+
+Product Name: Cap Barbell 7-Foot Olympic Barbell
+Price: ₹8,900
+Description: Solid steel barbell bar, medium knurling, 2-inch sleeve collar bearings, 1000 lbs capacity limit.
+Product ID: b142511e-e026-460d-a859-129c1394e327
+------------------------------------------
+
+Product Name: Crossrope Get Lean Speed Rope Set
+Price: ₹9,900
+Description: Weighted jump rope system, 1/4 lb and 1/2 lb interchangeable cables, fast clip handle design.
+Product ID: 1a3579e5-49e2-46cc-9349-c33ea7061066
+------------------------------------------
+
+Product Name: Rogue SR-1 Bearing Speed Rope
+Price: ₹3,490
+Description: Aircraft-grade bearing speed jump rope, adjustable polyurethane cable, knurled handle grip.
+Product ID: 6ff44d79-8257-44da-856f-71f74f8a0893
+------------------------------------------
+
+Product Name: WOD Nation Speed Jump Rope
+Price: ₹1,890
+Description: Double under speed rope, steel cable coated in nylon, 4-bearing articulation system.
+Product ID: ca3fa156-170a-4a94-804c-74551336b018
+------------------------------------------
+
+Product Name: Survival and Cross Jump Rope
+Price: ₹1,290
+Description: Adjustable steel wire jump rope, smooth rotation, ideal for boxing cardio double unders.
+Product ID: 4042b86d-7205-49f2-b62e-dbb992d3729d
+------------------------------------------
+
+Product Name: Buddy Lee Aero Speed Jump Rope
+Price: ₹4,500
+Description: Patented swivel bearing system, plastic aerodynamic handles, professional speed skip training.
+Product ID: fad1b7a5-dd73-4435-8143-c88d0c1b9e91
+------------------------------------------
+
+Product Name: Degol Skipping Rope with Counters
+Price: ₹990
+Description: Cardio jump rope, memory foam handles, integrated automatic mechanical jump counter tab.
+Product ID: 16d21c4c-e29e-4401-bae9-061670d9987d
+------------------------------------------
+
+Product Name: Elite SRS Bullet Fit Jump Rope
+Price: ₹2,900
+Description: Aluminum handle double under speed rope, dual ball bearings, click adjust cable locks.
+Product ID: a2004248-6f79-4a50-a033-ad6842df510f
+------------------------------------------
+
+Product Name: Epitomie Fitness Sonic Boom Rope
+Price: ₹3,200
+Description: Ball bearing speed rope, silicon coated steel cable, spare cable and carry bag included.
+Product ID: 7ee9c44c-5e1e-480f-8749-b105b69b7f72
+------------------------------------------
+
+Product Name: Proud Panda Weighted Jump Rope
+Price: ₹1,990
+Description: Heavy weighted skip rope, thick PVC solid cord, non-slip handles for power training.
+Product ID: 7302003a-5d3c-47af-b984-d274b257d994
+------------------------------------------
+
+Product Name: Everlast Weighted Speed Rope
+Price: ₹1,590
+Description: Adjustable plastic speed rope, removable weights in handles, smooth rotating collar.
+Product ID: 55d00571-2e3b-4c25-9c2b-c6c8f309f88d
+------------------------------------------
+
+Product Name: REI Co-op Half Dome SL 2+ Tent
+Price: ₹28,900
+Description: 2-person backpacking tent, lightweight hubbed aluminum poles, dual vestibules, mesh ventilation panels.
+Product ID: 4e4e3231-3c85-4d8a-bb6c-0aebb6830520
+------------------------------------------
+
+Product Name: Big Agnes Copper Spur HV UL2
+Price: ₹49,900
+Description: High-volume ultralight tent, double ripstop nylon fabric, proprietary awning-style vestibule doors.
+Product ID: 250c5247-e5d3-401b-b49c-df77fd14396f
+------------------------------------------
+
+Product Name: MSR Hubba Hubba NX 2-Person
+Price: ₹44,900
+Description: Backpacking tent, durashield waterproof coating, easton syclone shatterproof poles, compact compression bag.
+Product ID: a0f3f885-6637-4666-9259-6465e2226733
+------------------------------------------
+
+Product Name: Coleman Sundome 4-Person Tent
+Price: ₹8,900
+Description: Classic dome camping tent, weathertec system welded floors, large window mesh, fiberglass poles.
+Product ID: 4d873b81-5529-44ea-838a-f31cfec77b9b
+------------------------------------------
+
+Product Name: ALPS Mountaineering Lynx 1-Person
+Price: ₹11,900
+Description: Solo backpacking tent, factory sealed fly and floor seams, aluminum poles, extra vestibule storage.
+Product ID: 5e0338ae-7fe8-4222-a2f2-b3b6a8ad5ff9
+------------------------------------------
+
+Product Name: Nemo Hornet OSMO 2P Ultralight
+Price: ₹38,900
+Description: Ultralight backpacking tent, proprietary OSMO poly-nylon ripstop fabric, single pole setup.
+Product ID: 573425e8-8c7d-4ac6-a9c7-2419db848857
+------------------------------------------
+
+Product Name: Marmot Limelight 2-Person Tent
+Price: ₹24,500
+Description: Zone construction pre-bent poles maximize headroom, extra wide double doors, footprint sheet included.
+Product ID: 7ab13147-a9bf-498d-b1c5-e26050916085
+------------------------------------------
+
+Product Name: Coleman Instant Cabin 6-Person
+Price: ₹18,900
+Description: Instant setup camping tent, pre-attached steel poles fold out in 1 minute, weathertec double thickness floor.
+Product ID: 622a08e9-3680-48f7-9c08-cb320ee6b5a0
+------------------------------------------
+
+Product Name: Kelty Late Start 2P Backpacking
+Price: ₹14,900
+Description: Quick corner pole sleeves, durable pre-bent aluminum poles, single door, spacious vestibule fly.
+Product ID: 4a5e92fe-1919-44fb-9d6f-1076a6432d28
+------------------------------------------
+
+Product Name: Black Diamond Mega Light Shelter
+Price: ₹22,900
+Description: Four-person floorless pyramid tarp shelter, single adjustable carbon center pole, windproof nylon.
+Product ID: 3ad77fa0-5242-4baa-93be-633bad725420
+------------------------------------------
+
+Product Name: Hydro Flask 32 oz Wide Mouth
+Price: ₹3,990
+Description: TempShield double-wall vacuum insulation, 18/8 pro-grade stainless steel, flex cap handle loop, powder finish.
+Product ID: c7e99e38-7f94-48a6-85ab-0ebe9987c1aa
+------------------------------------------
+
+Product Name: Yeti Rambler 26 oz Straw Bottle
+Price: ₹4,500
+Description: Duracoat colored insulated bottle, leak-resistant triplehaul straw cap, dishwasher safe, heavy duty.
+Product ID: e273082a-9028-468a-9f59-b2711a3c9ede
+------------------------------------------
+
+Product Name: Klean Kanteen Classic 27 oz
+Price: ₹2,490
+Description: Single-wall non-insulated stainless steel bottle, chip-resistant Klean Coat finish, leakproof loop cap.
+Product ID: f5d5456b-dfbf-431e-8d9e-895fbe169955
+------------------------------------------
+
+Product Name: CamelBak Chute Mag 32 oz
+Price: ₹1,890
+Description: Vacuum insulated stainless steel bottle, magnetic handle keeps cap stowed, high flow drinking spout.
+Product ID: e16c2770-1938-4b82-8f96-8d22d8176e31
+------------------------------------------
+
+Product Name: Stanley Classic Vacuum Bottle 1.0L
+Price: ₹3,890
+Description: Iconic hammertone green thermal bottle, keeps hot/cold for 24 hours, insulated lid doubles as drinking cup.
+Product ID: e2a77ac9-3fd5-4bb5-8761-36db86475eec
+------------------------------------------
+
+Product Name: Thermos Stainless King 40 oz
+Price: ₹2,990
+Description: Double wall vacuum insulated flask, folding metal carry handle, twist-and-pour stopper cap.
+Product ID: 3fd981da-08d0-4273-93fa-2f9501d7c20c
+------------------------------------------
+
+Product Name: Takeya Actives 32 oz Insulated
+Price: ₹2,790
+Description: Powder coated insulated bottle, protective silicone bumper base sleeve, leakproof spout cap.
+Product ID: 95b5d905-aa5c-4d86-9aac-2642ae876289
+------------------------------------------
+
+Product Name: Hydro Flask 24 oz Standard Mouth
+Price: ₹3,490
+Description: Slim design insulated bottle, fits car cup holders, temp-shield vacuum insulation, honeycomb cap.
+Product ID: 2cc5323c-5e8b-46f6-a8e3-10f4c2e05ad4
+------------------------------------------
+
+Product Name: Nalgene Wide Mouth 32 oz Tritan
+Price: ₹1,290
+Description: BPA-free daily water bottle, leakproof threaded loop cap, measurement indicators, impact-resistant.
+Product ID: 86110c58-6c16-4648-9567-cbf47847d0ec
+------------------------------------------
+
+Product Name: Contigo Ashland 2.0 Autospout
+Price: ₹1,590
+Description: One-touch pop up straw bottle, button lock prevents accidental opening, integrated carrying clip loop.
+Product ID: b07532b9-e18f-4f82-bd7e-c8b2b94dde0d
+------------------------------------------
+
+Product Name: Manduka PRO Yoga Mat 6mm
+Price: ₹9,900
+Description: Professional dense cushioning yoga mat, closed-cell hygienic surface, slip-resistant grip texture.
+Product ID: 886ef4ea-da5c-43c0-8aff-a439665b36a6
+------------------------------------------
+
+Product Name: Lululemon Reversible Mat 5mm
+Price: ₹7,900
+Description: Polyurethane top layer absorbs moisture, natural rubber textured base, antimicrobial additive.
+Product ID: 7bd363ab-04cf-4e39-ac3e-9cdd57ee9bb5
+------------------------------------------
+
+Product Name: JadeYoga Harmony Mat 4.8mm
+Price: ₹6,900
+Description: Natural open-cell rubber yoga mat, exceptional non-slip traction grip, eco-friendly sustainable.
+Product ID: abf12062-49e9-4059-87d4-ed08a68dc394
+------------------------------------------
+
+Product Name: Gaiam Premium 2-Color Yoga Mat
+Price: ₹2,990
+Description: Lightweight sticky non-slip textured mat, latex-free PVC, 6mm thickness cushioning support.
+Product ID: 4d6ffbe3-07e2-4c4b-bb22-6195adf1fa1e
+------------------------------------------
+
+Product Name: Hugger Mugger Para Rubber Mat
+Price: ₹8,900
+Description: Natural rubber mat, dual-sided texturing (dense grip / soft cushion), durable tear-resistant weave.
+Product ID: e7f5d751-998a-4e93-9320-74a1f7517ce7
+------------------------------------------
+
+Product Name: Liforme Original Yoga Mat
+Price: ₹13,900
+Description: AlignForMe unique alignment line prints, proprietary eco-polyurethane grip material, extra wide.
+Product ID: 56d3574d-35c5-41e7-9c90-212b15296e6d
+------------------------------------------
+
+Product Name: Alo Yoga Warrior Mat
+Price: ₹11,500
+Description: Luxurious matte dry-grip top surface, natural rubber base, moisture-wicking, odor-resistant.
+Product ID: 20b9bc82-99a2-44de-a5ac-5d43744e4924
+------------------------------------------
+
+Product Name: Manduka eKO Lite Mat 4mm
+Price: ₹6,500
+Description: Biodegradable natural tree rubber mat, catch-grip ripple surface texture, zero chemical plasticizers.
+Product ID: b74f0f99-952f-4a51-9cf9-1d987b0e6a15
+------------------------------------------
+
+Product Name: Gaiam Athletic 2-Color Yoga Mat
+Price: ₹3,499
+Description: Durable exercise mat, textured sticky surface, 8mm thick for joint cushion comfort, sling strap.
+Product ID: 392779b7-a29e-4648-8e3e-b29dc5d749bb
+------------------------------------------
+
+Product Name: Retrospec Solana 1-inch Mat
+Price: ₹1,990
+Description: Extra thick ribbed foam exercise mat, non-slip ribbed design, includes carry strap.
+Product ID: 4a40fe94-3f90-4ea9-b0a4-e0ac7887e101
+------------------------------------------
+
+Product Name: REI Co-op Trailmade 20 Sleeping Bag
+Price: ₹11,900
+Description: Mummy sleeping bag, synthetic polyester fill, relaxed fit, zip draft tube, certified to 20°F.
+Product ID: 39ec982a-a0fd-4937-9e99-571c9a42015e
+------------------------------------------
+
+Product Name: Marmot Trestles Elite Eco 15
+Price: ₹14,500
+Description: HL-ElixR Eco 100% recycled synthetic insulation, anatomical footbox, double side sliders.
+Product ID: c18b04cc-c863-4879-b187-92e7b8cfeb63
+------------------------------------------
+
+Product Name: Kelty Cosmic Down 20 Bag
+Price: ₹16,900
+Description: 800-fill power hydrophobic drydown, trapezoidal baffle construction, buttery nylon taffeta lining.
+Product ID: e0738c64-6c27-4a3c-9724-8a880a834ce1
+------------------------------------------
+
+Product Name: Big Agnes Anvil Horn 15 Sleeping Bag
+Price: ₹23,900
+Description: 650-fill DownTek water repellent down, integrated sleeping pad sleeve, spacious rectangular fit.
+Product ID: 6ecce76d-f11b-4e78-a596-51752b0c4476
+------------------------------------------
+
+Product Name: Nemo Disco 15 Down Spoon Bag
+Price: ₹29,500
+Description: Classic Spoon shape adds room for side sleepers, 650-fill RDS down, Thermo Gills vents.
+Product ID: 7a216b24-5a30-45fb-9346-a170884242e5
+------------------------------------------
+
+Product Name: Therm-a-Rest Questar 20 Down Bag
+Price: ₹26,500
+Description: 650-fill Nikwax Hydrophobic Down, SynergyLink connectors integrate bag with sleeping pad.
+Product ID: 02c19595-ca5b-4702-937b-94b4538bc4a5
+------------------------------------------
+
+Product Name: Coleman North Rim Mummy Bag
+Price: ₹5,900
+Description: Heavyweight winter sleeping bag, polyester fill, quilted construction, draft collar, rated to 0°F.
+Product ID: 7bcf3812-672b-4b26-84f6-809231e8ccbe
+------------------------------------------
+
+Product Name: Sea to Summit Spark Down Bag
+Price: ₹34,900
+Description: Ultra-lightweight packing sleeping bag, 850+ fill loft down, ultralight 10D nylon shell fabric.
+Product ID: 7a5db416-2e14-46a6-adda-34130748b11d
+------------------------------------------
+
+Product Name: Mountain Hardwear Bishop Pass 15
+Price: ₹21,500
+Description: 650-fill down insulation, lightweight ripstop shell, glow-in-the-dark zipper pull tab, pocket.
+Product ID: fefcd56d-bcad-4e59-9364-f5b3488cb1bb
+------------------------------------------
+
+Product Name: Nemo Forte 35 Synthetic Spoon Bag
+Price: ₹17,900
+Description: Primaloft RISE synthetic insulation, Spoon shape side sleeper profile, blanket fold neck draft collar.
+Product ID: 4a5394d4-22d9-497e-ba55-6b97009d7ba4
+------------------------------------------
+
+Product Name: Jetboil Flash Cooking System
+Price: ₹11,900
+Description: All-in-one personal cooking system, integrated 1-liter cup with heat indicator, boils in 100 seconds.
+Product ID: 51754234-f9e7-45d4-a2b0-56f154349f56
+------------------------------------------
+
+Product Name: MSR PocketRocket 2 Stove
+Price: ₹4,900
+Description: Ultralight canister stove, folding pot support arms, windclip burner protection, fits pocket storage case.
+Product ID: e8df8835-becc-4e51-b648-2ad899d15811
+------------------------------------------
+
+Product Name: Camp Chef Everest 2-Burner Stove
+Price: ₹14,500
+Description: Heavy duty double burner camp stove, 20000 BTU matchless ignition burners, wind block shields.
+Product ID: aedf51e0-dcac-4c2f-b47b-2533608151f4
+------------------------------------------
+
+Product Name: Coleman Triton 2-Burner Stove
+Price: ₹8,900
+Description: Classic propane camp stove, adjustable burner dial control, windblock panels, chrome wire grate.
+Product ID: c0d8649e-d80f-4f6f-bd63-a671eed00b99
+------------------------------------------
+
+Product Name: Solo Stove Lite Wood Burner
+Price: ₹6,900
+Description: Eco-friendly double wall biomass gasifier stove, wood twigs burning, stainless steel construction.
+Product ID: c84bbff1-c54e-49b8-a97e-da7ddd909354
+------------------------------------------
+
+Product Name: MSR WindBurner Duo Stove System
+Price: ₹19,800
+Description: Windproof pressure regulated burner stove, integrated 1.8L pot, secure locking connection.
+Product ID: aa53319e-7b10-4e51-b881-0313e4e9bb37
+------------------------------------------
+
+Product Name: BioLite CampStove 2+ Power Generator
+Price: ₹14,900
+Description: Wood burning camp stove converts heat into electricity, internal fan, USB port charges phones.
+Product ID: 847ba913-3411-442d-aa2a-0f36aaa328a4
+------------------------------------------
+
+Product Name: Snow Peak GigaPower 2.0 Stove
+Price: ₹4,900
+Description: Compact steel canister stove, auto igniter, four folding pot supports, precision flame adjust.
+Product ID: da99a296-8c94-44fa-8b5a-09710d2462bc
+------------------------------------------
+
+Product Name: Soto Amicus Canister Stove
+Price: ₹4,500
+Description: Concave burner head increases wind resistance, spring loaded pot supports, lightweight.
+Product ID: 4cc948bb-f56b-421e-85a3-9e7e469366ca
+------------------------------------------
+
+Product Name: Stanley Base Camp Cook Set
+Price: ₹8,500
+Description: 21-piece prep and cook nesting set, 3.7L stainless steel pot, 3-ply frying pan, plates, bowls.
+Product ID: 646065d3-433b-4f5f-90b7-df59dde06458
+------------------------------------------
+
+Product Name: Osprey Atmos AG 65 Backpack
+Price: ₹23,900
+Description: Anti-Gravity suspension trampoline mesh back panel, fit-on-the-fly harness, raincover included.
+Product ID: e51544eb-8591-4a2d-9c61-ec4ab6e3ad93
+------------------------------------------
+
+Product Name: Gregory Baltoro 75 Heavy Pack
+Price: ₹28,900
+Description: Heavy load response A3 suspension system, custom raincover, removable daypack compartment.
+Product ID: 3f7fee92-4cb3-4405-b616-d2d7729884df
+------------------------------------------
+
+Product Name: REI Co-op Trail 40 Hiking Pack
+Price: ₹9,900
+Description: Daypack, U-shaped front panel zipper access, internal hydration sleeve, breathable mesh strap.
+Product ID: 3a2d7dbd-2965-45f5-8ac2-17ae3eddef49
+------------------------------------------
+
+Product Name: Osprey Talon 22 Daypack
+Price: ₹11,900
+Description: Biostretch wrap-around hipbelt harness, lidlock helmet attachment slot, stow-on-the-go trekking pole loop.
+Product ID: e9100978-d1d4-49da-ae99-edeb6b5c3594
+------------------------------------------
+
+Product Name: Patagonia Nine Trails 28L Pack
+Price: ₹8,900
+Description: Lightweight ripstop daypack, mono-mesh back panel increases airflow, side stretch water slots.
+Product ID: 90f8e9e4-72d4-49b8-93ae-5e2a41d36520
+------------------------------------------
+
+Product Name: Deuter Aircontact Lite Backpack
+Price: ₹18,500
+Description: Ergonomic back padding frame, variquick easy torso length adjust, expandable collar top lid.
+Product ID: 2bf3156d-bbb3-4471-b1c1-ae62c0b43241
+------------------------------------------
+
+Product Name: Kelty Redwing 50 Backpack
+Price: ₹9,800
+Description: Versatile travel-hiking daypack, amp-flow ventilated back panel, hybrid zipped access.
+Product ID: 8bce5961-7972-49d4-b79b-109a2689356e
+------------------------------------------
+
+Product Name: Arc'teryx Bora 65 Gear Pack
+Price: ₹34,500
+Description: Tough weather-resistant grid pack, tegular roto-glide hipbelt swivels vertically and rotates.
+Product ID: 5048fc1c-f556-4499-9242-818b907b98e4
+------------------------------------------
+
+Product Name: Mystery Ranch Coulee 25 Pack
+Price: ₹14,500
+Description: Classic 3-zip design panel bag, adjustable yoke collar frame, external stretch pocket storage.
+Product ID: c2c55a1a-36c0-4a31-a671-bf8cb4358de5
+------------------------------------------
+
+Product Name: Black Diamond Speed 30 Alpine Pack
+Price: ₹12,500
+Description: Climbing daypack, strippable design removable lid, hipbelt and frame sheet, micro ice-tool pick sleeves.
+Product ID: 79ea3e6e-2e9d-4a7d-a682-4c02f5c58426
+------------------------------------------
+
+Product Name: Garmin Instinct 2 Solar Outdoor Watch
+Price: ₹39,900
+Description: Rugged GPS watch, solar charging power glass, built-in 3-axis compass, trackback routing.
+Product ID: 093dca86-3afb-4fc3-835e-e32271bdccd1
+------------------------------------------
+
+Product Name: Coros Vertix 2 GPS Adventure Watch
+Price: ₹58,900
+Description: Dual-frequency GPS watch, offline global landscape maps, titanium bezel, up to 140 hours standard GPS.
+Product ID: c329d70f-2775-4bd2-8b48-c2a2c21f2e02
+------------------------------------------
+
+Product Name: Suunto 9 Peak Pro GPS Watch
+Price: ₹44,900
+Description: Ultra-thin sports watch, fast processor, 95 sports modes, military grade durable bezel casing.
+Product ID: 6a1c0e73-9aba-4cc7-a3f7-e57d6d7f9fe6
+------------------------------------------
+
+Product Name: Garmin Forerunner 965 Premium
+Price: ₹62,900
+Description: Titanium bezel running GPS watch, bright 1.4-inch AMOLED display, preloaded full-color mapping.
+Product ID: 8763d1c3-b9bd-405e-9fe9-64ee3836f423
+------------------------------------------
+
+Product Name: Casio Pro Trek PRG-270 Altimeter
+Price: ₹11,900
+Description: Solar powered digital sport watch, triple sensor altimeter, barometer, thermometer, compass.
+Product ID: 6135bf6f-65c9-470e-8bc2-03541dddb08a
+------------------------------------------
+
+Product Name: Polar Grit X Pro Military Watch
+Price: ₹39,900
+Description: Outdoor multisport watch, scratch-resistant sapphire glass, route guidance turn-by-turn navigation.
+Product ID: e41a9040-2d2e-4c61-aef2-0e726ebb61e9
+------------------------------------------
+
+Product Name: Suunto Vertical Titanium Solar Watch
+Price: ₹68,900
+Description: Solar adventure watch, free offline maps, dual-band GPS, 85 hours battery in max accuracy tracking.
+Product ID: 48c01b64-02b2-4569-b791-79c1ac1a22d5
+------------------------------------------
+
+Product Name: Garmin eTrex 22x Handheld GPS
+Price: ₹18,900
+Description: Outdoor navigation handheld, 2.2-inch color display, preloaded TopoActive maps, 8GB memory.
+Product ID: 76c8ede8-5ed4-4176-a39f-5350215cdb03
+------------------------------------------
+
+Product Name: Spot Gen4 Satellite Messenger
+Price: ₹14,500
+Description: Satellite tracker, check-in custom messages, S.O.S. search and rescue direct link.
+Product ID: a4e052b3-b770-485a-b1a8-09c8312714e9
+------------------------------------------
+
+Product Name: Garmin inReach Mini 2 Satellite communicator
+Price: ₹34,900
+Description: Compact satellite communicator, interactive SOS, two-way text messaging, trackback routing map.
+Product ID: 97bb8302-5100-4398-a78d-81ce11a73766
+------------------------------------------
+
+Product Name: Kookaburra Kahuna Cricket Bat
+Price: ₹9,500
+Description: Premium English Willow cricket bat, large edge profile, sweet spot positioned for dynamic drive play.
+Product ID: 8cd9708f-dea0-49c2-9e74-ca6dce615244
+------------------------------------------
+
+Product Name: SG Club Leather Cricket Ball
+Price: ₹650
+Description: Alum tanned leather cricket ball, hand stitched, core made from high quality cork wound with worsted yarn.
+Product ID: 489f5484-4618-49c6-8715-eb8b333fa19f
+------------------------------------------
+
+Product Name: SS Sunridges Cricket Helmet
+Price: ₹2,999
+Description: High impact resistant outer shell, inner mesh padding, adjustable steel visor grill, back adjustment.
+Product ID: 986929ad-edf5-4e1e-b741-164694022594
+------------------------------------------
+
+Product Name: Gray-Nicolls Powerbow Batting Gloves
+Price: ₹1,899
+Description: Multi-section design, high density foam fingers protection, premium leather palm grip, sweatband.
+Product ID: db85d942-1b59-4c06-8621-ec16dfffe4be
+------------------------------------------
+
+Product Name: SG Test Batting Legguards
+Price: ₹3,499
+Description: Test match quality batting pads, high density sponge bolster, dynamic ankle strap, pre-molded protection.
+Product ID: 3e8901e2-cb45-4de5-b8f3-ace7d1e2b426
+------------------------------------------
+
+Product Name: Adidas Adipower Vector Cricket Shoes
+Price: ₹8,999
+Description: Cricket shoes with metal spikes, TPU outsole plate, cushioning midsole, synthetic leather upper.
+Product ID: 22fc5918-adea-46bf-8729-d415b43b8ec0
+------------------------------------------
+
+Product Name: Kookaburra Pro Wheelie Cricket Bag
+Price: ₹4,500
+Description: Heavy-duty nylon bag, large main compartment, separate bat sleeve pockets, premium wheels.
+Product ID: f2c38f8b-99d0-4c55-8116-c07900ad7da5
+------------------------------------------
+
+Product Name: SG Club Wicket Keeping Gloves
+Price: ₹2,200
+Description: Premium leather keepers gloves, rubber web grip reinforcement, cotton lined cuff padding.
+Product ID: fc10fb97-6c37-4de7-8c6d-2669f0537a05
+------------------------------------------
+
+Product Name: Shrey Master Class Air Cricket Helmet
+Price: ₹7,999
+Description: Titanium visor grill, lightweight carbon fiber composite shell, advanced air ventilation.
+Product ID: e5d909c4-fc9a-4868-bdfb-fef03b93e70a
+------------------------------------------
+
+Product Name: GM Chrome English Willow Bat
+Price: ₹14,500
+Description: Grade 1 English Willow cricket bat, natural finish, supreme control and balance, concaved back profile.
+Product ID: aa04777e-1d57-4b28-8d2a-090cc317c31e
+------------------------------------------
+
+Product Name: Mikasa V200W Official Volleyball
+Price: ₹5,400
+Description: FIVB official game ball, 18 panel aerodynamic design, double-dimple microfiber surface, sweat resistance.
+Product ID: cba2f53f-da44-4ff2-b4db-854bb8017153
+------------------------------------------
+
+Product Name: Molten V5M5000 Volleyball
+Price: ₹4,200
+Description: Premium synthetic leather volleyball, Flistatec flight stability technology, nylon wound core.
+Product ID: 0f4e1e7c-058b-429a-89ea-b86cff94da79
+------------------------------------------
+
+Product Name: Tachikara SV5W Gold Volleyball
+Price: ₹2,900
+Description: High quality leather volleyball, Sensi-Tec micro-fiber composite cover, loose bladder construction.
+Product ID: 8752d849-8ce5-4257-9bc6-c7e5e9b64cc5
+------------------------------------------
+
+Product Name: Mizuno Wave Lightning Z7 Shoes
+Price: ₹9,900
+Description: High performance court volleyball shoes, Wave plate cushion tech, lightweight upper mesh.
+Product ID: 121208b8-7460-4beb-88e0-2578c92eb40b
+------------------------------------------
+
+Product Name: Asics Gel-Rocket 10 Court Shoes
+Price: ₹5,999
+Description: Indoor court shoes, Gel cushioning system, Trusstic system technology, gum rubber outsole.
+Product ID: 31ff6fbf-3ecf-48ec-9e5f-8af049db581a
+------------------------------------------
+
+Product Name: McDavid Hexpad Knee Pads
+Price: ₹1,899
+Description: Hex technology knee pads, lightweight compression sleeve, moisture management fabric.
+Product ID: e3f83d78-9344-45ad-ae7a-43a775a8a751
+------------------------------------------
+
+Product Name: Park & Sun Sports Volleyball Net System
+Price: ₹14,900
+Description: Outdoor portable volleyball net, telescoping aluminum poles, guyline system, boundary line.
+Product ID: de4e0de9-bc4c-4033-bf99-924df419ff91
+------------------------------------------
+
+Product Name: Wilson Soft Play Volleyball
+Price: ₹1,290
+Description: Soft touch synthetic leather volleyball, sponge-backed cover, 18-panel machine sewn.
+Product ID: 2e45a34c-9f44-4a77-8f9c-1aabbe44612a
+------------------------------------------
+
+Product Name: Nike Streak Volleyball Knee Pads
+Price: ₹1,490
+Description: Dri-FIT fabric knee protection, shock absorbing foam padding, ergonomic contoured fit.
+Product ID: b9f830f6-8b1a-4493-b1b2-1a99f706a6c5
+------------------------------------------
+
+Product Name: Mikasa V300W Competition Ball
+Price: ₹3,800
+Description: High quality competition indoor volleyball, composite leather, dimple surface panel styling.
+Product ID: 2c194fe4-9157-4147-bfca-3f09e6459242
+------------------------------------------
+
+Product Name: Spalding TF-1000 Legacy Basketball
+Price: ₹4,900
+Description: ZK composite leather cover, moisture management, deep channel design, indoor play official size.
+Product ID: 52e0a3a2-b5bc-408e-ae8a-745ed917a572
+------------------------------------------
+
+Product Name: Wilson Evolution Game Basketball
+Price: ₹5,400
+Description: Microfiber composite cover, cushion core carcass, laid-in composite channels, standard high school ball.
+Product ID: 7f3218ee-2e65-4ebc-9705-ee95becf66ef
+------------------------------------------
+
+Product Name: Nike Giannis Immortality 3 Shoes
+Price: ₹7,995
+Description: Lightweight breathable mesh basketball shoes, grooved outsole, containment straps.
+Product ID: fab1b1c7-6d00-441c-93b4-c7c4c1f85faa
+------------------------------------------
+
+Product Name: Under Armour Curry Flow 10 Shoes
+Price: ₹14,900
+Description: UA Flow cushioning technology shoes, lightweight mesh upper, supportive heel counter.
+Product ID: 66daf5b8-11e4-47d3-ad11-cd29e35a410d
+------------------------------------------
+
+Product Name: Lifetime Adjustable Portable Basketball Hoop
+Price: ₹24,900
+Description: 44-inch impact backboard hoop, telescoping height adjustment, heavy-duty roller base.
+Product ID: 76fb09bb-4fad-4357-8bfa-10360f8adf60
+------------------------------------------
+
+Product Name: Molten BG4500 FIBA Basketball
+Price: ₹4,500
+Description: FIBA approved 12-panel design basketball, premium composite leather, natural pebble texture.
+Product ID: 6110822d-2961-49d5-bdc4-6fd70dabcddc
+------------------------------------------
+
+Product Name: Baden Elite Indoor Basketball
+Price: ₹3,900
+Description: Proprietary microfiber cover, stealth valve, cushion core, perfect balance symmetry.
+Product ID: 4e80323c-eea7-4f44-a2f9-2b61860ccafd
+------------------------------------------
+
+Product Name: Nike Pro Combat Elbow Sleeve
+Price: ₹1,290
+Description: Compression elbow sleeve, abrasion-resistant design, breathable mesh ventilation panels.
+Product ID: bbff38b8-54e5-451c-8c45-991108e0fc22
+------------------------------------------
+
+Product Name: Spalding NBA Slam Jam Rim Board
+Price: ₹3,200
+Description: Mini indoor backboard set, steel breakaway spring action rim, realistic replicas scale.
+Product ID: caa3dbb3-84e5-4589-a4e5-71e518b090d9
+------------------------------------------
+
+Product Name: Wilson NBA Forge Outdoor Basketball
+Price: ₹1,890
+Description: High durability outdoor rubber ball, inflation retention lining, pebble channel grooves.
+Product ID: 25c732de-ee07-4b3a-811b-05bef9c555aa
+------------------------------------------
+

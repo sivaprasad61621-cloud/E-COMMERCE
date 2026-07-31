@@ -11,6 +11,8 @@ import OrderDetailPage from './features/orders/OrderDetailPage';
 import CustomersPage from './features/customers/CustomersPage';
 import ReportsPage from './features/reports/ReportsPage';
 import SettingsPage from './features/settings/SettingsPage';
+import KnowledgeManager from './components/KnowledgeManager';
+import ConversationAnalytics from './components/ConversationAnalytics';
 
 // Protected Route Wrapper
 const ProtectedRoute = ({ children }) => {
@@ -107,6 +109,26 @@ function App() {
             <ProtectedRoute>
               <Layout>
                 <SettingsPage />
+              </Layout>
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/knowledge" 
+          element={
+            <ProtectedRoute>
+              <Layout>
+                <KnowledgeManager />
+              </Layout>
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/conversations" 
+          element={
+            <ProtectedRoute>
+              <Layout>
+                <ConversationAnalytics />
               </Layout>
             </ProtectedRoute>
           } 

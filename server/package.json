@@ -9,14 +9,21 @@
     "dev": "node index.js",
     "test": "node --test tests/server.test.js"
   },
-
   "dependencies": {
+    "@huggingface/inference": "^4.13.23",
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.2.3",
+    "@langchain/openai": "^1.5.5",
+    "@pinecone-database/pinecone": "^8.1.0",
     "@supabase/supabase-js": "^2.40.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
+    "express-rate-limit": "^8.6.0",
     "jsonwebtoken": "^9.0.2",
+    "langchain": "^1.5.4",
+    "pdf-parse": "^2.4.5",
     "resend": "^6.17.2"
   }
 }

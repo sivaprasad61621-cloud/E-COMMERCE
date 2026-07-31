@@ -1,8 +1,27 @@
-/**
- * Advanced Elasticsearch-Style Search Engine Service
- * Implements tokenization, fuzzy term weighting, field-specific scoring,
- * faceted filtering, auto-complete suggestions, and dynamic sorting.
- */
+const SEARCH_STOP_WORDS = new Set([
+  'under', 'below', 'above', 'over', 'less', 'than', 'more', 'with', 'for', 'the', 'a', 'an', 'and', 'or', 'of', 'to', 'in', 'at', 
+  'is', 'are', 'show', 'me', 'find', 'get', 'buy', 'item', 'items', 'product', 'products', 'give', 'list', 'please'
+]);
+
+const SYNONYMS_MAP = {
+  'laptop': ['laptop', 'laptops', 'macbook', 'ultrabook', 'vivobook', 'ideapad', 'inspiron', 'pavilion'],
+  'laptops': ['laptop', 'laptops', 'macbook', 'ultrabook', 'vivobook', 'ideapad', 'inspiron', 'pavilion'],
+  'phone': ['phone', 'phones', 'mobile', 'mobiles', 'iphone', 'galaxy', 'pixel', 'smartphone'],
+  'phones': ['phone', 'phones', 'mobile', 'mobiles', 'iphone', 'galaxy', 'pixel', 'smartphone'],
+  'mobile': ['phone', 'phones', 'mobile', 'mobiles', 'iphone', 'galaxy', 'pixel', 'smartphone'],
+  'mobiles': ['phone', 'phones', 'mobile', 'mobiles', 'iphone', 'galaxy', 'pixel', 'smartphone'],
+  'headphone': ['headphone', 'headphones', 'earphone', 'earbuds', 'airpods', 'headset', 'audio'],
+  'headphones': ['headphone', 'headphones', 'earphone', 'earbuds', 'airpods', 'headset', 'audio'],
+  'shoe': ['shoe', 'shoes', 'sneaker', 'sneakers', 'footwear'],
+  'shoes': ['shoe', 'shoes', 'sneaker', 'sneakers', 'footwear'],
+  'watch': ['watch', 'watches', 'smartwatch'],
+  'watches': ['watch', 'watches', 'smartwatch'],
+  'bag': ['bag', 'bags', 'backpack', 'luggage', 'carry-on'],
+  'bags': ['bag', 'bags', 'backpack', 'luggage', 'carry-on'],
+  'dress': ['dress', 'dresses', 'fleece', 'sweater', 'shirt', 'clothing', 'apparel'],
+  'dresses': ['dress', 'dresses', 'fleece', 'sweater', 'shirt', 'clothing', 'apparel'],
+  'tv': ['tv', 'monitor', 'display', 'screen']
+};
 
 export class SearchEngine {
   /**
@@ -23,6 +42,25 @@ export class SearchEngine {
   static scoreProduct(product, queryTokens) {
     if (!queryTokens || queryTokens.length === 0) return 1;
 
+    const queryStr = queryTokens.join(' ').toLowerCase();
+    const titleLower = String(product.name || product.title || '').toLowerCase();
+
+    // 1. Accessory Exclusion Rule: If user asks for "laptop/laptops" without asking for bags/cases, exclude bags/backpacks
+    const isLaptopQuery = queryTokens.some(t => ['laptop', 'laptops', 'macbook', 'ultrabook'].includes(t));
+    const isBagQuery = queryTokens.some(t => ['bag', 'backpack', 'sleeve', 'case', 'cover', 'pack', 'luggage', 'pouch', 'tote', 'skin'].includes(t));
+    if (isLaptopQuery && !isBagQuery) {
+      const isAccessoryProduct = ['backpack', 'pack', 'luggage', 'sleeve', 'case', 'bag', 'pouch', 'tote', 'skin', 'stand', 'mount', 'cleaner'].some(acc => titleLower.includes(acc));
+      if (isAccessoryProduct) return 0;
+    }
+
+    // 2. Accessory Exclusion Rule: If user asks for "phone/mobile" without asking for cases/chargers, exclude phone cases/chargers
+    const isPhoneQuery = queryTokens.some(t => ['phone', 'phones', 'mobile', 'iphone', 'smartphone'].includes(t));
+    const isPhoneAccQuery = queryTokens.some(t => ['case', 'cover', 'charger', 'cable', 'protector', 'holder', 'mount', 'skin'].includes(t));
+    if (isPhoneQuery && !isPhoneAccQuery) {
+      const isPhoneAccProduct = ['case', 'cover', 'screen protector', 'tempered glass', 'cable', 'charger', 'mount', 'holder'].some(acc => titleLower.includes(acc));
+      if (isPhoneAccProduct) return 0;
+    }
+
     const titleTokens = this.tokenize(product.name || product.title || '');
     const descTokens = this.tokenize(product.description || '');
     const categoryTokens = this.tokenize(product.category || product.category_id || '');
@@ -33,46 +71,62 @@ export class SearchEngine {
     let matchedTokens = 0;
 
     for (const qToken of queryTokens) {
+      if (SEARCH_STOP_WORDS.has(qToken) && queryTokens.length > 1) {
+        continue; // Skip preposition/stop words unless single-word query
+      }
+
+      // Check synonyms
+      const synonymList = SYNONYMS_MAP[qToken] || [qToken];
       let tokenMatched = false;
 
-      // 1. Exact or prefix match in Title (Weight: 10)
-      if (titleTokens.some(t => t.includes(qToken))) {
-        score += titleTokens.some(t => t === qToken) ? 10 : 6;
-        tokenMatched = true;
-      }
+      for (const syn of synonymList) {
+        // 1. Exact or prefix match in Title (Weight: 20)
+        if (titleTokens.some(t => t.includes(syn))) {
+          score += titleTokens.some(t => t === syn) ? 20 : 12;
+          tokenMatched = true;
+          break;
+        }
 
-      // 2. Brand match (Weight: 8)
-      if (brandTokens.some(b => b.includes(qToken))) {
-        score += 8;
-        tokenMatched = true;
-      }
+        // 2. Category match (Weight: 15)
+        if (categoryTokens.some(c => c.includes(syn))) {
+          score += 15;
+          tokenMatched = true;
+          break;
+        }
 
-      // 3. Tag match (Weight: 5)
-      if (tagTokens.some(t => t.includes(qToken))) {
-        score += 5;
-        tokenMatched = true;
-      }
+        // 3. Brand match (Weight: 8)
+        if (brandTokens.some(b => b.includes(syn))) {
+          score += 8;
+          tokenMatched = true;
+          break;
+        }
 
-      // 4. Category match (Weight: 4)
-      if (categoryTokens.some(c => c.includes(qToken))) {
-        score += 4;
-        tokenMatched = true;
-      }
+        // 4. Tag match (Weight: 5)
+        if (tagTokens.some(t => t.includes(syn))) {
+          score += 5;
+          tokenMatched = true;
+          break;
+        }
 
-      // 5. Description match (Weight: 2)
-      if (descTokens.some(d => d.includes(qToken))) {
-        score += 2;
-        tokenMatched = true;
+        // 5. Description match (Weight: 1 - weak penalty to prevent accessory false positives)
+        if (descTokens.some(d => d.includes(syn))) {
+          score += 1;
+          tokenMatched = true;
+          break;
+        }
       }
 
       if (tokenMatched) matchedTokens++;
     }
 
-    // Require at least one matching token
+    const effectiveQueryTokens = queryTokens.filter(t => !SEARCH_STOP_WORDS.has(t) || queryTokens.length === 1);
+    if (effectiveQueryTokens.length === 0) return 1;
+
+    // Require at least one matching meaningful token
     if (matchedTokens === 0) return 0;
 
-    // Boost score if all query tokens match
-    const coverageMultiplier = matchedTokens / queryTokens.length;
+    // Boost score if all effective query tokens match
+    const coverageMultiplier = matchedTokens / effectiveQueryTokens.length;
     return score * coverageMultiplier;
   }
 
@@ -80,7 +134,7 @@ export class SearchEngine {
    * Execute full multi-faceted search query against dataset
    */
   static search(products = [], options = {}) {
-    const {
+    let {
       q = '',
       category = 'all',
       minPrice = 0,
@@ -92,7 +146,24 @@ export class SearchEngine {
       limit = 20,
     } = options;
 
-    const queryTokens = this.tokenize(q);
+    let cleanQuery = q;
+
+    // Natural Language Price Parsing (e.g. "laptops under 60000", "below 50000")
+    if (q) {
+      const maxMatch = q.match(/(?:under|below|less\s+than)\s*(?:rs\.?|₹)?\s*(\d+)/i);
+      if (maxMatch) {
+        maxPrice = parseFloat(maxMatch[1]);
+        cleanQuery = cleanQuery.replace(maxMatch[0], '').trim();
+      }
+
+      const minMatch = q.match(/(?:above|over|more\s+than|greater\s+than)\s*(?:rs\.?|₹)?\s*(\d+)/i);
+      if (minMatch) {
+        minPrice = parseFloat(minMatch[1]);
+        cleanQuery = cleanQuery.replace(minMatch[0], '').trim();
+      }
+    }
+
+    const queryTokens = this.tokenize(cleanQuery);
 
     // Step 1: Filter & Score
     const scoredList = [];
@@ -103,9 +174,13 @@ export class SearchEngine {
         if (prodCat !== String(category).toLowerCase()) continue;
       }
 
-      // Price filter
-      const price = parseFloat(product.price || 0);
-      if (price < parseFloat(minPrice) || price > parseFloat(maxPrice)) continue;
+      // Calculate effective discounted price
+      const basePrice = parseFloat(product.price || 0);
+      const discount = parseFloat(product.discount || 0);
+      const effectivePrice = discount > 0 ? basePrice * (1 - discount / 100) : basePrice;
+
+      // Price filter against effective price
+      if (effectivePrice < parseFloat(minPrice) || effectivePrice > parseFloat(maxPrice)) continue;
 
       // Rating filter
       const rating = parseFloat(product.rating || 4.5);
@@ -117,7 +192,8 @@ export class SearchEngine {
 
       // Calculate relevancy score
       const relevanceScore = this.scoreProduct(product, queryTokens);
-      if (queryTokens.length > 0 && relevanceScore <= 0) continue;
+      const minScoreThreshold = queryTokens.length > 0 ? 4 : 0;
+      if (queryTokens.length > 0 && relevanceScore < minScoreThreshold) continue;
 
       scoredList.push({
         product,
