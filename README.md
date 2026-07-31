@@ -108,3 +108,13 @@ To start all components in development mode, run the dev servers in separate ter
     npm run dev
     ```
     *(Runs on [http://localhost:5174](http://localhost:5174))*
+
+---
+
+## 🌐 Live Production Deployments
+
+The application is deployed live on Vercel:
+
+- 💻 **Customer Storefront:** [https://customer-iota-one.vercel.app](https://customer-iota-one.vercel.app)
+- ⚙️ **Admin Dashboard:** [https://admin-nine-ivory-71.vercel.app](https://admin-nine-ivory-71.vercel.app)
+- 🔌 **API Server Backend:** [https://server-tau-taupe-45.vercel.app](https://server-tau-taupe-45.vercel.app)
