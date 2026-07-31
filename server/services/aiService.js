@@ -4,7 +4,6 @@ import { OpenAIEmbeddings } from "@langchain/openai";
 import dotenv from 'dotenv';
 import supabase from '../config/supabase.js';
 import { memoryDocuments, documentTextCache } from './memoryStore.js';
-import { PDFParse } from 'pdf-parse';
 
 dotenv.config();
 

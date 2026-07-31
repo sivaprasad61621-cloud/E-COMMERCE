@@ -2,7 +2,6 @@ import express from 'express';
 import { requireAuth, requireRole } from '../middleware/auth.js';
 import supabase from '../config/supabase.js';
 import { chunkText, upsertDocumentChunks, getVectorIndex } from '../services/aiService.js';
-import { PDFParse } from 'pdf-parse';
 import { memoryDocuments, documentTextCache } from '../services/memoryStore.js';
 
 const router = express.Router();
@@ -81,13 +80,10 @@ router.post('/upload', requireAuth, requireRole(['admin']), async (req, res) => 
       let text = '';
       if (file_type === 'pdf') {
         const buffer = Buffer.from(await fileRes.arrayBuffer());
-        const parser = new PDFParse({ data: buffer });
-        try {
-          const result = await parser.getText();
-          text = result.text;
-        } finally {
-          await parser.destroy();
-        }
+        // Dynamic import to avoid startup hoisting issues and Vercel serverless environment crash
+        const pdf = (await import('pdf-parse')).default;
+        const result = await pdf(buffer);
+        text = result.text;
       } else {
         text = await fileRes.text();
       }
