@@ -1,5 +1,6 @@
 import express from 'express';
 import { ChatOpenAI } from '@langchain/openai';
+import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
 import { SystemMessage, HumanMessage, AIMessage } from '@langchain/core/messages';
 import supabase from '../config/supabase.js';
 import { similaritySearch } from '../services/aiService.js';
@@ -203,19 +204,9 @@ Product Link: [View Product Details](/product/${p.id})`;
   // 4. Invoke LLM or Fallback to Simulated RAG response
   let answer = '';
   const openaiKey = process.env.OPENAI_API_KEY;
+  const geminiKey = process.env.GEMINI_API_KEY;
 
-  if (openaiKey) {
-    try {
-      const model = new ChatOpenAI({
-        openAIApiKey: openaiKey,
-        configuration: {
-          baseURL: process.env.OPENAI_BASE_URL || undefined,
-        },
-        modelName: 'gpt-4o-mini',
-        temperature: 0.3
-      });
-
-      const systemPrompt = `You are the Velora AI Shopping Concierge, representing Velora E-Commerce. 
+  const systemPrompt = `You are the Velora AI Shopping Concierge, representing Velora E-Commerce. 
 Your tone must reflect our design ethos: classic, publication-grade, intellectual, yet concise and helpful. 
 
 Answer the customer's queries using ONLY the context provided below. If the context does not contain the answer, state politely that you don't have that information on hand and offer to connect them to support (support@velora.com).
@@ -228,6 +219,14 @@ When the customer is asking about a product or item from the catalog, make sure 
 RELEVANT KNOWLEDGE CONTEXT:
 ${contextText}
 ---`;
+
+  if (geminiKey) {
+    try {
+      const model = new ChatGoogleGenerativeAI({
+        apiKey: geminiKey,
+        modelName: 'gemini-1.5-flash',
+        temperature: 0.3
+      });
 
       const chatMessages = [new SystemMessage(systemPrompt)];
       
@@ -244,7 +243,36 @@ ${contextText}
       const response = await model.invoke(chatMessages);
       answer = response.content;
     } catch (err) {
-      console.error('[Chat Router] LLM invocation failure:', err.message);
+      console.error('[Chat Router] Gemini LLM invocation failure:', err.message);
+      answer = `I apologize, but I am experiencing temporary connectivity difficulties. Here is what I retrieved from our archives:\n\n${contextText}`;
+    }
+  } else if (openaiKey) {
+    try {
+      const model = new ChatOpenAI({
+        openAIApiKey: openaiKey,
+        configuration: {
+          baseURL: process.env.OPENAI_BASE_URL || undefined,
+        },
+        modelName: 'gpt-4o-mini',
+        temperature: 0.3
+      });
+
+      const chatMessages = [new SystemMessage(systemPrompt)];
+      
+      historyMessages.forEach(msg => {
+        if (msg.sender === 'user') {
+          chatMessages.push(new HumanMessage(msg.message));
+        } else {
+          chatMessages.push(new AIMessage(msg.message));
+        }
+      });
+
+      chatMessages.push(new HumanMessage(message));
+
+      const response = await model.invoke(chatMessages);
+      answer = response.content;
+    } catch (err) {
+      console.error('[Chat Router] OpenAI LLM invocation failure:', err.message);
       answer = `I apologize, but I am experiencing temporary connectivity difficulties. Here is what I retrieved from our archives:\n\n${contextText}`;
     }
   } else {
