@@ -1,6 +1,8 @@
 const SEARCH_STOP_WORDS = new Set([
   'under', 'below', 'above', 'over', 'less', 'than', 'more', 'with', 'for', 'the', 'a', 'an', 'and', 'or', 'of', 'to', 'in', 'at', 
-  'is', 'are', 'show', 'me', 'find', 'get', 'buy', 'item', 'items', 'product', 'products', 'give', 'list', 'please'
+  'is', 'are', 'show', 'me', 'find', 'get', 'buy', 'item', 'items', 'product', 'products', 'give', 'list', 'please',
+  'budget', 'within', 'upto', 'from', 'around', 'price', 'pricing', 'cost', 'rs', 'inr',
+  'can', 'you', 'i', 'we', 'want', 'need', 'looking', 'suggest', 'recommend', 'some', 'any', 'good', 'best', 'cheap', 'affordable'
 ]);
 
 const SYNONYMS_MAP = {
@@ -148,18 +150,60 @@ export class SearchEngine {
 
     let cleanQuery = q;
 
-    // Natural Language Price Parsing (e.g. "laptops under 60000", "below 50000")
+    // Helper to parse price numbers with k, lakh, thousand, etc.
+    const parsePriceValue = (numStr, unitStr = '') => {
+      let val = parseFloat(String(numStr).replace(/,/g, ''));
+      if (isNaN(val)) return null;
+      const unit = (unitStr || '').toLowerCase().trim();
+      if (unit === 'k') val *= 1000;
+      else if (unit === 'thousand' || unit === 'thousands') val *= 1000;
+      else if (unit === 'lakh' || unit === 'lakhs' || unit === 'lac' || unit === 'lacs' || unit === 'l') val *= 100000;
+      else if (unit === 'cr' || unit === 'crore' || unit === 'crores') val *= 10000000;
+      return val;
+    };
+
+    // Natural Language Price Parsing (e.g. "laptops under 60k", "below 50000", "between 40k and 60k")
     if (q) {
-      const maxMatch = q.match(/(?:under|below|less\s+than)\s*(?:rs\.?|₹)?\s*(\d+)/i);
-      if (maxMatch) {
-        maxPrice = parseFloat(maxMatch[1]);
-        cleanQuery = cleanQuery.replace(maxMatch[0], '').trim();
+      // 1. Price Range: e.g. "between 40k and 60k", "40k to 60k", "40000 - 60000"
+      const rangeMatch = cleanQuery.match(/(?:between\s+)?(?:rs\.?|inr|₹)?\s*(\d+(?:,\d+)*(?:\.\d+)?)\s*(k|thousand|thousands|lakh|lakhs|lac|lacs|l)?\s*(?:to|and|-)\s*(?:rs\.?|inr|₹)?\s*(\d+(?:,\d+)*(?:\.\d+)?)\s*(k|thousand|thousands|lakh|lakhs|lac|lacs|l)?\b/i);
+      if (rangeMatch) {
+        const minVal = parsePriceValue(rangeMatch[1], rangeMatch[2]);
+        const maxVal = parsePriceValue(rangeMatch[3], rangeMatch[4]);
+        if (minVal !== null && maxVal !== null) {
+          minPrice = minVal;
+          maxPrice = maxVal;
+          cleanQuery = cleanQuery.replace(rangeMatch[0], ' ').trim();
+        }
       }
 
-      const minMatch = q.match(/(?:above|over|more\s+than|greater\s+than)\s*(?:rs\.?|₹)?\s*(\d+)/i);
+      // 2. Max Price: e.g. "under 60k", "below 50000", "less than 60,000", "budget 60k", "<= 60k", "upto 60k"
+      const maxMatch = cleanQuery.match(/(?:under|below|less\s+than|within|up\s*to|upto|max(?:imum)?|budget\s*(?:of)?|<=?)\s*(?:rs\.?|inr|₹)?\s*(\d+(?:,\d+)*(?:\.\d+)?)\s*(k|thousand|thousands|lakh|lakhs|lac|lacs|l)?\b/i);
+      if (maxMatch) {
+        const val = parsePriceValue(maxMatch[1], maxMatch[2]);
+        if (val !== null) {
+          maxPrice = val;
+          cleanQuery = cleanQuery.replace(maxMatch[0], ' ').trim();
+        }
+      }
+
+      // 3. Min Price: e.g. "above 40k", "over 50k", "more than 30000", "starting from 20k", ">= 40k"
+      const minMatch = cleanQuery.match(/(?:above|over|more\s+than|greater\s+than|at\s+least|starting\s+(?:from|at)?|from|min(?:imum)?|>=?)\s*(?:rs\.?|inr|₹)?\s*(\d+(?:,\d+)*(?:\.\d+)?)\s*(k|thousand|thousands|lakh|lakhs|lac|lacs|l)?\b/i);
       if (minMatch) {
-        minPrice = parseFloat(minMatch[1]);
-        cleanQuery = cleanQuery.replace(minMatch[0], '').trim();
+        const val = parsePriceValue(minMatch[1], minMatch[2]);
+        if (val !== null) {
+          minPrice = val;
+          cleanQuery = cleanQuery.replace(minMatch[0], ' ').trim();
+        }
+      }
+
+      // 4. Standalone k notation like "laptops 60k" or "phones 20k"
+      const standaloneKMatch = cleanQuery.match(/\b(?:rs\.?|inr|₹)?\s*(\d+(?:\.\d+)?)\s*k\b/i);
+      if (standaloneKMatch && maxPrice === Infinity) {
+        const val = parsePriceValue(standaloneKMatch[1], 'k');
+        if (val !== null) {
+          maxPrice = val;
+          cleanQuery = cleanQuery.replace(standaloneKMatch[0], ' ').trim();
+        }
       }
     }
 

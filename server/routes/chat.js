@@ -132,16 +132,23 @@ router.post('/message', chatLimiter, async (req, res) => {
       'how', 'who', 'why', 'which'
     ]);
 
-    const filteredQuery = message
-      .toLowerCase()
-      .split(/\W+/)
-      .filter(w => w.length > 0 && !policyAndStopWords.has(w))
-      .join(' ');
+    // 1. Try searching with the full message (supports natural language price parsing like 'under 60k', ranges, etc.)
+    let searchRes = SearchEngine.search(allProds, { q: message, limit: 5 });
+    if (searchRes && searchRes.hits && searchRes.hits.length > 0) {
+      matchedProducts = searchRes.hits;
+    } else {
+      // 2. Fallback: search with filtered keywords
+      const filteredQuery = message
+        .toLowerCase()
+        .split(/\W+/)
+        .filter(w => w.length > 0 && !policyAndStopWords.has(w))
+        .join(' ');
 
-    if (filteredQuery.trim().length > 0) {
-      const searchRes = SearchEngine.search(allProds, { q: filteredQuery, limit: 5 });
-      if (searchRes && searchRes.hits && searchRes.hits.length > 0) {
-        matchedProducts = searchRes.hits;
+      if (filteredQuery.trim().length > 0) {
+        const fallbackRes = SearchEngine.search(allProds, { q: filteredQuery, limit: 5 });
+        if (fallbackRes && fallbackRes.hits && fallbackRes.hits.length > 0) {
+          matchedProducts = fallbackRes.hits;
+        }
       }
     }
   } catch (searchErr) {
@@ -311,7 +318,7 @@ Here is the ledger information for the requested item:
 - **Description:** ${p.description || 'No additional details available.'}
 
 You can inspect the product gallery, check specifications, or complete checkout here:
-👉 **[View Product Details](/product/${p.id})**`;
+👉 [View Product Details](/product/${p.id})`;
       } else {
         const prodList = matchedProducts.map(p => {
           const discPrice = p.discount > 0 ? p.price * (1 - p.discount / 100) : p.price;
@@ -319,7 +326,7 @@ You can inspect the product gallery, check specifications, or complete checkout 
           const originalPrice = p.discount > 0 ? `~~₹${p.price.toLocaleString('en-IN')}~~ ` : '';
           const discountBadge = p.discount > 0 ? ` (${p.discount}% OFF)` : '';
           const stockInfo = p.stock > 0 ? `In Stock` : `Out of Stock`;
-          return `• **${p.name}** — ${originalPrice}${formattedPrice}${discountBadge} | *${stockInfo}*\n  ${p.description ? p.description.substring(0, 120) + '...' : ''}\n  👉 **[View Item Details](/product/${p.id})**`;
+          return `• **${p.name}** — ${originalPrice}${formattedPrice}${discountBadge} | *${stockInfo}*\n  ${p.description ? p.description.substring(0, 120) + '...' : ''}\n  👉 [View Item Details](/product/${p.id})`;
         }).join('\n\n');
 
         answer = `Welcome to the Velora Concierge.

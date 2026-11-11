@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, X, Send, Sparkles, AlertCircle, FileText } from 'lucide-react';
+import { MessageSquare, X, Send, Sparkles, AlertCircle, FileText, ArrowRight } from 'lucide-react';
 import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 // Generate session token helper
 const getSessionToken = () => {
@@ -13,13 +14,33 @@ const getSessionToken = () => {
   return token;
 };
 
-// Helper to render markdown bold (**text**) and links ([text](url)) in chat bubbles
-const renderMessage = (text, isUser = false) => {
+// Helper to render markdown bold, links, italics, strikethrough, and code
+const renderMessage = (text, isUser = false, onNavigate = null) => {
   if (!text) return '';
   const lines = text.split('\n');
   
+  const handleLinkClick = (e, url) => {
+    e.preventDefault();
+    if (url.startsWith('/')) {
+      if (onNavigate) {
+        onNavigate(url);
+      } else {
+        window.location.href = url;
+      }
+    } else {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+  };
+
   return lines.map((line, lineIdx) => {
-    const mdRegex = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*/g;
+    // Regex matching:
+    // 1 & 2: **[text](url)** (Bold link)
+    // 3 & 4: [text](url) (Link)
+    // 5: **bold**
+    // 6: ~~strikethrough~~
+    // 7: *italic*
+    // 8: `code`
+    const mdRegex = /\*\*\[([^\]]+)\]\(([^)]+)\)\*\*|\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*|~~([^~]+)~~|\*([^*]+)\*|`([^`]+)`/g;
     const parts = [];
     let lastIndex = 0;
     let match;
@@ -30,33 +51,65 @@ const renderMessage = (text, isUser = false) => {
         parts.push(line.substring(lastIndex, matchIndex));
       }
       
-      if (match[1] && match[2]) {
-        const linkText = match[1];
-        const linkUrl = match[2];
-        const isInternal = linkUrl.startsWith('/');
+      const linkText = match[1] || match[3];
+      const linkUrl = match[2] || match[4];
+      
+      if (linkText && linkUrl) {
+        const isProduct = linkUrl.startsWith('/product/');
         parts.push(
           <a
             key={matchIndex}
             href={linkUrl}
-            target={isInternal ? "_self" : "_blank"}
-            rel="noopener noreferrer"
-            className={`underline font-bold transition-colors ${
-              isUser 
-                ? 'text-white hover:text-white/80' 
-                : 'text-[#8B5E3C] hover:text-[#6C4E31]'
-            }`}
+            onClick={(e) => handleLinkClick(e, linkUrl)}
+            className={
+              isProduct
+                ? "inline-flex items-center gap-1 font-bold text-[#8B5E3C] hover:text-[#FAF8F3] bg-[#8B5E3C]/10 hover:bg-[#8B5E3C] px-2.5 py-1 rounded text-xs transition-all cursor-pointer border border-[#8B5E3C]/30 my-0.5 no-underline"
+                : `underline font-bold transition-colors cursor-pointer ${
+                    isUser 
+                      ? 'text-white hover:text-white/80' 
+                      : 'text-[#8B5E3C] hover:text-[#6C4E31]'
+                  }`
+            }
           >
-            {linkText}
+            <span>{linkText}</span>
+            {isProduct && <ArrowRight size={11} className="inline ml-0.5" />}
           </a>
         );
-      } else if (match[3]) {
+      } else if (match[5]) {
         parts.push(
           <strong 
             key={matchIndex} 
             className={`font-extrabold ${isUser ? 'text-white' : 'text-[#2F2F2F]'}`}
           >
-            {match[3]}
+            {match[5]}
           </strong>
+        );
+      } else if (match[6]) {
+        parts.push(
+          <del 
+            key={matchIndex} 
+            className={`line-through ${isUser ? 'text-white/60' : 'text-[#7A756B]'}`}
+          >
+            {match[6]}
+          </del>
+        );
+      } else if (match[7]) {
+        parts.push(
+          <em 
+            key={matchIndex} 
+            className={`italic font-medium ${isUser ? 'text-white/80' : 'text-[#8B5E3C]'}`}
+          >
+            {match[7]}
+          </em>
+        );
+      } else if (match[8]) {
+        parts.push(
+          <code 
+            key={matchIndex} 
+            className="px-1 py-0.5 rounded bg-black/10 font-mono text-[11px]"
+          >
+            {match[8]}
+          </code>
         );
       }
       
@@ -76,6 +129,7 @@ const renderMessage = (text, isUser = false) => {
 };
 
 export default function ChatWidget() {
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState('');
@@ -236,7 +290,7 @@ export default function ChatWidget() {
                         : 'bg-[#FAF8F3] text-[#2F2F2F] border-[#2F2F2F]/20'
                     }`}
                   >
-                    <div>{renderMessage(msg.message, msg.sender === 'user')}</div>
+                    <div>{renderMessage(msg.message, msg.sender === 'user', navigate)}</div>
                     
                     {/* Render citations if matching found */}
                     {msg.sources && msg.sources.length > 0 && (
@@ -245,10 +299,17 @@ export default function ChatWidget() {
                         {msg.sources.map((src, sIdx) => (
                           <span 
                             key={sIdx}
-                            className="bg-[#F5F1E8] border border-[#2F2F2F]/15 px-1.5 py-0.5 font-mono text-[10px] text-[#8B5E3C]"
-                            title={`Relevance score: ${(src.score * 100).toFixed(0)}%`}
+                            onClick={() => {
+                              if (src.id && String(src.id).startsWith('m-')) {
+                                navigate(`/product/${src.id}`);
+                              } else if (src.title) {
+                                navigate(`/?search=${encodeURIComponent(src.title)}`);
+                              }
+                            }}
+                            className="bg-[#F5F1E8] border border-[#2F2F2F]/15 px-1.5 py-0.5 font-mono text-[10px] text-[#8B5E3C] hover:bg-[#8B5E3C]/10 hover:border-[#8B5E3C] transition-colors cursor-pointer"
+                            title={`Click to view — Relevance: ${(src.score * 100).toFixed(0)}%`}
                           >
-                            {src.title}
+                            {src.title} ↗
                           </span>
                         ))}
                       </div>
