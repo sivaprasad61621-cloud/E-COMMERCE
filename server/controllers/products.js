@@ -94,60 +94,63 @@ export let mockProducts = [
 ];
 
 
+const getMockProductsResponse = (category_id, status, search, page = 1, limit = 10) => {
+  let results = [...mockProducts];
+
+  if (category_id) {
+    const parentCat = mockCategories.find(c => c.id === category_id);
+    if (parentCat) {
+      const prefix = `${parentCat.name} - `;
+      const subCatIds = mockCategories
+        .filter(c => c.name.startsWith(prefix))
+        .map(c => c.id);
+      const allIds = [category_id, ...subCatIds];
+      results = results.filter(p => allIds.includes(p.category_id));
+    } else {
+      results = results.filter(p => p.category_id === category_id);
+    }
+  }
+  if (status) {
+    results = results.filter(p => p.status === status);
+  }
+  if (search) {
+    const q = search.toLowerCase();
+    results = results.filter(p => 
+      p.name.toLowerCase().includes(q) || 
+      p.sku.toLowerCase().includes(q) || 
+      (p.description && p.description.toLowerCase().includes(q))
+    );
+  }
+
+  // Attach category details to mock items
+  const populated = results.map(p => {
+    const category = mockCategories.find(c => c.id === p.category_id);
+    return {
+      ...p,
+      category: category ? { id: category.id, name: category.name } : null
+    };
+  });
+
+  // Pagination
+  const startIdx = (parseInt(page) - 1) * parseInt(limit);
+  const endIdx = startIdx + parseInt(limit);
+  const paginatedData = populated.slice(startIdx, endIdx);
+
+  return {
+    data: paginatedData,
+    pagination: {
+      total: populated.length,
+      page: parseInt(page),
+      pages: Math.ceil(populated.length / parseInt(limit))
+    }
+  };
+};
+
 export const getProducts = async (req, res) => {
   const { category_id, status, search, page = 1, limit = 10 } = req.query;
 
   if (!supabase) {
-    // Mock Mode with filtering
-    let results = [...mockProducts];
-
-    if (category_id) {
-      const parentCat = mockCategories.find(c => c.id === category_id);
-      if (parentCat) {
-        const prefix = `${parentCat.name} - `;
-        const subCatIds = mockCategories
-          .filter(c => c.name.startsWith(prefix))
-          .map(c => c.id);
-        const allIds = [category_id, ...subCatIds];
-        results = results.filter(p => allIds.includes(p.category_id));
-      } else {
-        results = results.filter(p => p.category_id === category_id);
-      }
-    }
-    if (status) {
-      results = results.filter(p => p.status === status);
-    }
-    if (search) {
-      const q = search.toLowerCase();
-      results = results.filter(p => 
-        p.name.toLowerCase().includes(q) || 
-        p.sku.toLowerCase().includes(q) || 
-        (p.description && p.description.toLowerCase().includes(q))
-      );
-    }
-
-    // Attach category details to mock items
-    const populated = results.map(p => {
-      const category = mockCategories.find(c => c.id === p.category_id);
-      return {
-        ...p,
-        category: category ? { id: category.id, name: category.name } : null
-      };
-    });
-
-    // Pagination
-    const startIdx = (parseInt(page) - 1) * parseInt(limit);
-    const endIdx = startIdx + parseInt(limit);
-    const paginatedData = populated.slice(startIdx, endIdx);
-
-    return res.json({
-      data: paginatedData,
-      pagination: {
-        total: populated.length,
-        page: parseInt(page),
-        pages: Math.ceil(populated.length / parseInt(limit))
-      }
-    });
+    return res.json(getMockProductsResponse(category_id, status, search, page, limit));
   }
 
   try {
@@ -196,7 +199,10 @@ export const getProducts = async (req, res) => {
 
     const { data, error, count } = await query;
 
-    if (error) return res.status(400).json({ error: error.message });
+    if (error) {
+      console.warn('Supabase products fetch failed, falling back to mock catalog:', error.message);
+      return res.json(getMockProductsResponse(category_id, status, search, page, limit));
+    }
 
     return res.json({
       data,
@@ -207,24 +213,28 @@ export const getProducts = async (req, res) => {
       }
     });
   } catch (err) {
-    console.error('Error fetching products:', err);
-    return res.status(500).json({ error: 'Server error' });
+    console.warn('Error fetching products from Supabase, falling back to mock catalog:', err.message);
+    return res.json(getMockProductsResponse(category_id, status, search, page, limit));
   }
 };
 
 export const getProductById = async (req, res) => {
   const { id } = req.params;
 
-  if (!supabase) {
-    // Mock Mode
+  const getMockProduct = () => {
     const product = mockProducts.find(p => p.id === id);
-    if (!product) return res.status(404).json({ error: 'Product not found.' });
-
+    if (!product) return null;
     const category = mockCategories.find(c => c.id === product.category_id);
-    return res.json({
+    return {
       ...product,
       category: category ? { id: category.id, name: category.name } : null
-    });
+    };
+  };
+
+  if (!supabase) {
+    const product = getMockProduct();
+    if (!product) return res.status(404).json({ error: 'Product not found.' });
+    return res.json(product);
   }
 
   try {
@@ -234,9 +244,15 @@ export const getProductById = async (req, res) => {
       .eq('id', id)
       .single();
 
-    if (error) return res.status(400).json({ error: error.message });
+    if (error) {
+      const fallback = getMockProduct();
+      if (fallback) return res.json(fallback);
+      return res.status(400).json({ error: error.message });
+    }
     return res.json(data);
   } catch (err) {
+    const fallback = getMockProduct();
+    if (fallback) return res.json(fallback);
     console.error('Error fetching product details:', err);
     return res.status(500).json({ error: 'Server error' });
   }

@@ -30,7 +30,11 @@ export const getCategories = async (req, res) => {
       .from('categories')
       .select('*, products(id)');
 
-    if (error) return res.status(400).json({ error: error.message });
+    if (error) {
+      console.warn('Supabase categories error, falling back to mock:', error.message);
+      const categoriesWithCount = mockCategories.map(cat => ({ ...cat, product_count: 3 }));
+      return res.json(categoriesWithCount);
+    }
 
     const categoriesWithCount = categories.map(cat => ({
       id: cat.id,
@@ -43,8 +47,9 @@ export const getCategories = async (req, res) => {
 
     return res.json(categoriesWithCount);
   } catch (err) {
-    console.error('Error fetching categories:', err);
-    return res.status(500).json({ error: 'Server error' });
+    console.warn('Supabase categories threw error, falling back to mock:', err.message);
+    const categoriesWithCount = mockCategories.map(cat => ({ ...cat, product_count: 3 }));
+    return res.json(categoriesWithCount);
   }
 };
 
