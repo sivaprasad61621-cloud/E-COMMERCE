@@ -106,11 +106,11 @@ router.post('/message', chatLimiter, async (req, res) => {
 
   // 2b. Live product catalog search matching
   let matchedProducts = [];
-  try {
-    let allProds = [...mockProducts];
-    if (supabase) {
-      const { data } = await supabase.from('products').select('*');
-      if (data && data.length > 0) {
+  let allProds = [...mockProducts];
+  if (supabase) {
+    try {
+      const { data, error } = await supabase.from('products').select('*');
+      if (!error && data && data.length > 0) {
         const existingSkus = new Set(data.map(p => p.sku));
         mockProducts.forEach(mP => {
           if (!existingSkus.has(mP.sku)) {
@@ -119,8 +119,12 @@ router.post('/message', chatLimiter, async (req, res) => {
         });
         allProds = data;
       }
+    } catch (dbErr) {
+      console.warn('[Chat Router] Supabase products fetch failed, using fallback mockProducts:', dbErr.message);
     }
+  }
 
+  try {
     // Filter message to avoid false positive product search matches on policy/FAQ questions
     const policyAndStopWords = new Set([
       'ship', 'shipping', 'delivery', 'deliver', 'dispatch', 'return', 'returns', 'refund', 'refunds',
@@ -360,6 +364,20 @@ Feel free to ask for details on any specific item, or view them using the links 
         answer = `Thank you for contacting the Velora Concierge. I searched our website archives and product catalog but could not locate specific details for your query.\n\nYou can browse our catalog categories in the top navigation bar or contact our team at support@velora.in for personalized assistance!`;
       }
     }
+  }
+
+  // If we found matched catalog products but the LLM answer did not include product links, append them cleanly
+  if (matchedProducts.length > 0 && answer && !answer.includes('/product/')) {
+    const prodList = matchedProducts.map(p => {
+      const discPrice = p.discount > 0 ? p.price * (1 - p.discount / 100) : p.price;
+      const formattedPrice = `₹${Math.round(discPrice).toLocaleString('en-IN')}`;
+      const originalPrice = p.discount > 0 ? `~~₹${p.price.toLocaleString('en-IN')}~~ ` : '';
+      const discountBadge = p.discount > 0 ? ` (${p.discount}% OFF)` : '';
+      const stockInfo = p.stock > 0 ? `In Stock` : `Out of Stock`;
+      return `• **${p.name}** — ${originalPrice}${formattedPrice}${discountBadge} | *${stockInfo}*\n  👉 [View Item Details](/product/${p.id})`;
+    }).join('\n\n');
+
+    answer = `${answer.trim()}\n\nHere are the matching items from our catalog:\n\n${prodList}`;
   }
 
   // 5. Store conversation log
